@@ -33,10 +33,8 @@ Flattening unmatched subcell sky130_fd_pr__pfet_01v8_ZLZ7XS in circuit opamp_cas
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_7DHACV in circuit opamp_cascode (1)(4 instances)
 Flattening unmatched subcell sky130_fd_pr__nfet_01v8_MHE452 in circuit opamp_cascode (1)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_P2UXFR in circuit opamp_cascode (1)(4 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_MGA63L in circuit opamp_cascode (1)(8 instances)
 Flattening unmatched subcell sky130_fd_pr__nfet_01v8_VT3ZQW in circuit opamp_cascode (1)(8 instances)
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_RRUZAE in circuit opamp_cascode (1)(2 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_8DHNHY in circuit opamp_cascode (1)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_F76D73 in circuit opamp_cascode (1)(10 instances)
 Flattening unmatched subcell sky130_fd_pr__nfet_01v8_WK8VRD in circuit opamp_cascode (1)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__nfet_01v8_AH5E2K in circuit opamp_cascode (1)(8 instances)
@@ -50,15 +48,15 @@ Flattening unmatched subcell sky130_fd_pr__pfet_01v8_UDMRD5 in circuit opamp_cas
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_RRU5GE in circuit opamp_cascode (1)(2 instances)
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_SLZ774 in circuit opamp_cascode (1)(1 instance)
 
-Class opamp_cascode (0):  Merged 88 parallel devices.
-Class opamp_cascode (1):  Merged 1570 parallel devices.
+Class opamp_cascode (0):  Merged 79 parallel devices.
+Class opamp_cascode (1):  Merged 1529 parallel devices.
 Subcircuit summary:
 Circuit 1: opamp_cascode                   |Circuit 2: opamp_cascode                   
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__pfet_01v8 (1458->12)         |sky130_fd_pr__pfet_01v8 (1458->12)         
+sky130_fd_pr__pfet_01v8 (1416->11)         |sky130_fd_pr__pfet_01v8 (1416->11)         
 sky130_fd_pr__nfet_01v8 (132->8)           |sky130_fd_pr__nfet_01v8 (132->8)           
-Number of devices: 20                      |Number of devices: 20                      
-Number of nets: 22                         |Number of nets: 22                         
+Number of devices: 19                      |Number of devices: 19                      
+Number of nets: 21                         |Number of nets: 21                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
@@ -67,9 +65,9 @@ Circuit 1: opamp_cascode                   |Circuit 2: opamp_cascode
 -------------------------------------------|-------------------------------------------
 VSS                                        |VSS                                        
 IN_M                                       |IN_M                                       
+IN_P                                       |IN_P                                       
 VB_B                                       |VB_B                                       
 VB_A                                       |VB_A                                       
-IN_P                                       |IN_P                                       
 OUT                                        |OUT                                        
 VCC                                        |VCC                                        
 IB                                         |IB                                         

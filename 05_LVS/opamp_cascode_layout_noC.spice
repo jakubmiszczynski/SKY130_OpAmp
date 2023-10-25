@@ -79,12 +79,6 @@ X1 a_300_n1118# a_n300_n1215# a_n358_n1118# w_n394_n1218# sky130_fd_pr__pfet_01v
 **devattr s=58000,2116 d=58000,2116
 .ends
 
-.subckt sky130_fd_pr__pfet_01v8_MGA63L a_18_n500# a_n33_n597# w_n112_n600# a_n76_n500#
-+ VSUBS
-X0 a_18_n500# a_n33_n597# a_n76_n500# w_n112_n600# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-.ends
-
 .subckt sky130_fd_pr__nfet_01v8_VT3ZQW a_n158_n125# a_n100_n213# a_100_n125# VSUBS
 X0 a_100_n125# a_n100_n213# a_n158_n125# VSUBS sky130_fd_pr__nfet_01v8 ad=0.363 pd=3.08 as=0.363 ps=3.08 w=1.25 l=1
 **devattr s=14500,616 d=14500,616
@@ -103,53 +97,6 @@ X2 a_300_n2972# a_n300_n3069# a_n358_n2972# w_n394_n3072# sky130_fd_pr__pfet_01v
 X3 a_300_1972# a_n300_1875# a_n358_1972# w_n394_1872# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=3
 **devattr s=58000,2116 d=58000,2116
 X4 a_300_n1736# a_n300_n1833# a_n358_n1736# w_n394_n1836# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=3
-**devattr s=58000,2116 d=58000,2116
-.ends
-
-.subckt sky130_fd_pr__pfet_01v8_8DHNHY w_n112_636# a_n33_n5541# a_n33_n8013# a_n76_736#
-+ a_n33_9291# w_n112_1872# a_18_9388# w_n112_4344# a_18_n500# a_18_n2972# a_18_n5444#
-+ a_n76_n1736# a_n33_3111# a_n76_n4208# a_18_3208# w_n112_9288# a_n76_n7916# a_n33_n1833#
-+ a_18_6916# a_n76_5680# w_n112_n3072# a_n76_n10388# a_n33_n4305# a_n33_5583# a_n76_8152#
-+ w_n112_n6780# a_n33_8055# a_n33_n3069# a_n33_639# w_n112_n9252# w_n112_3108# a_18_n10388#
-+ w_n112_6816# a_n33_n6777# a_n33_n597# w_n112_n10488# a_n33_n9249# a_18_n1736# a_18_n4208#
-+ a_18_n7916# a_n76_1972# a_n33_1875# w_n112_n600# a_n76_n6680# a_18_736# a_n76_4444#
-+ a_18_5680# a_n33_4347# w_n112_n5544# a_n76_n9152# a_18_8152# w_n112_n8016# a_n76_n500#
-+ a_n76_9388# w_n112_5580# w_n112_8052# a_18_n6680# a_n76_n2972# a_18_1972# a_n76_3208#
-+ a_n76_n5444# a_18_4444# a_n76_6916# w_n112_n1836# a_n33_n10485# a_18_n9152# a_n33_6819#
-+ w_n112_n4308# VSUBS
-X0 a_18_3208# a_n33_3111# a_n76_3208# w_n112_3108# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X1 a_18_n6680# a_n33_n6777# a_n76_n6680# w_n112_n6780# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X2 a_18_9388# a_n33_9291# a_n76_9388# w_n112_9288# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X3 a_18_n500# a_n33_n597# a_n76_n500# w_n112_n600# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X4 a_18_n9152# a_n33_n9249# a_n76_n9152# w_n112_n9252# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X5 a_18_736# a_n33_639# a_n76_736# w_n112_636# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X6 a_18_n2972# a_n33_n3069# a_n76_n2972# w_n112_n3072# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X7 a_18_n7916# a_n33_n8013# a_n76_n7916# w_n112_n8016# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X8 a_18_5680# a_n33_5583# a_n76_5680# w_n112_5580# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X9 a_18_n5444# a_n33_n5541# a_n76_n5444# w_n112_n5544# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X10 a_18_8152# a_n33_8055# a_n76_8152# w_n112_8052# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X11 a_18_n1736# a_n33_n1833# a_n76_n1736# w_n112_n1836# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X12 a_18_6916# a_n33_6819# a_n76_6916# w_n112_6816# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X13 a_18_1972# a_n33_1875# a_n76_1972# w_n112_1872# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X14 a_18_n4208# a_n33_n4305# a_n76_n4208# w_n112_n4308# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X15 a_18_4444# a_n33_4347# a_n76_4444# w_n112_4344# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
-**devattr s=58000,2116 d=58000,2116
-X16 a_18_n10388# a_n33_n10485# a_n76_n10388# w_n112_n10488# sky130_fd_pr__pfet_01v8 ad=1.45 pd=10.6 as=1.45 ps=10.6 w=5 l=0.18
 **devattr s=58000,2116 d=58000,2116
 .ends
 
@@ -926,7 +873,6 @@ XXM9_dummy_16 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM100_4 IB VCC IB IB VCC VCC VCC IB VSS sky130_fd_pr__pfet_01v8_P2UXFR
 XXM4_dummy_3 dummy_4 bias3 dummy_4 VSS sky130_fd_pr__nfet_01v8_SCE452
 XXM9_dummy_17 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM5_dummy_10 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
 XXM9_dummy_18 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 Xsky130_fd_pr__nfet_01v8_VT3ZQW_0 dummy_4 bias3 dummy_4 VSS sky130_fd_pr__nfet_01v8_VT3ZQW
 XXM9_dummy_19 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
@@ -936,12 +882,6 @@ Xsky130_fd_pr__pfet_01v8_RRUZAE_0 dummy_100 IB IB VCC VCC dummy_100 dummy_100 du
 Xsky130_fd_pr__pfet_01v8_P2UXFR_0 IB VCC VCC IB IB VCC IB VCC VSS sky130_fd_pr__pfet_01v8_P2UXFR
 XXM4_dummy_7 dummy_4 bias3 dummy_4 VSS sky130_fd_pr__nfet_01v8_SCE452
 Xsky130_fd_pr__pfet_01v8_ZLZ7XS_0 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-Xsky130_fd_pr__pfet_01v8_8DHNHY_0 VCC IN_P IN_P dummy_5 IN_P VCC dummy_5 VCC dummy_5
-+ dummy_5 dummy_5 dummy_5 IN_P dummy_5 dummy_5 VCC dummy_5 IN_P dummy_5 dummy_5 VCC
-+ dummy_5 IN_P IN_P dummy_5 VCC IN_P IN_P IN_P VCC VCC dummy_5 VCC IN_P IN_P VCC IN_P
-+ dummy_5 dummy_5 dummy_5 dummy_5 IN_P VCC dummy_5 dummy_5 dummy_5 dummy_5 IN_P VCC
-+ dummy_5 dummy_5 VCC dummy_5 dummy_5 VCC VCC dummy_5 dummy_5 dummy_5 dummy_5 dummy_5
-+ dummy_5 dummy_5 VCC IN_P dummy_5 IN_P VCC VSS sky130_fd_pr__pfet_01v8_8DHNHY
 XXM100_dummy_1 dummy_100 IB IB VCC VCC dummy_100 dummy_100 dummy_100 dummy_100 VCC
 + VCC IB dummy_100 IB dummy_100 IB VCC dummy_100 dummy_100 dummy_100 VSS sky130_fd_pr__pfet_01v8_RRUZAE
 XXM1_1 m1m2 m1m2 bias1 VCC bias1 m1m2 VCC bias1 VCC VCC VCC bias1 m1m2 VCC VCC m1m2
@@ -1024,7 +964,6 @@ XXM1_3 m1m2 m1m2 bias1 VCC bias1 m1m2 VCC bias1 VCC VCC VCC bias1 m1m2 VCC VCC m
 + VCC VCC VCC VCC VCC VCC bias1 VCC VCC m1m2 bias1 VCC VCC bias1 VCC m1m2 m1m2 VCC
 + m1m2 VCC VCC VSS VCC m1m2 sky130_fd_pr__pfet_01v8_F76D73
 XXM100_dummy_4 IB VCC dummy_100 IB dummy_100 VCC dummy_100 dummy_100 VSS sky130_fd_pr__pfet_01v8_P2UXFR
-Xsky130_fd_pr__pfet_01v8_MGA63L_0 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
 XXM3_dummy_3 dummy_3 dummy_3 VB_B VSS sky130_fd_pr__nfet_01v8_AH5E2K
 XXM100_dummy_5 IB dummy_100 VCC dummy_100 VSS sky130_fd_pr__pfet_01v8_C2U9V5
 XXM1 m1m2 m1m2 bias1 VCC bias1 m1m2 VCC bias1 VCC VCC VCC bias1 m1m2 VCC VCC m1m2
@@ -1238,16 +1177,8 @@ XXM9_dummy_1 dummy_9 dummy_9 bias1 VCC bias1 dummy_9 dummy_9 bias1 VCC VCC dummy
 + dummy_9 dummy_9 dummy_9 bias1 VCC VCC bias1 dummy_9 dummy_9 dummy_9 VCC dummy_9
 + VCC VCC VSS dummy_9 dummy_9 sky130_fd_pr__pfet_01v8_E769TZ
 XXM2_dummy_9 VB_A dummy_2 VCC dummy_2 VSS sky130_fd_pr__pfet_01v8_SKU9VM
-XXM5_dummy_1 VCC IN_P IN_P dummy_5 IN_P VCC dummy_5 VCC dummy_5 dummy_5 dummy_5 dummy_5
-+ IN_P dummy_5 dummy_5 VCC dummy_5 IN_P dummy_5 dummy_5 VCC dummy_5 IN_P IN_P dummy_5
-+ VCC IN_P IN_P IN_P VCC VCC dummy_5 VCC IN_P IN_P VCC IN_P dummy_5 dummy_5 dummy_5
-+ dummy_5 IN_P VCC dummy_5 dummy_5 dummy_5 dummy_5 IN_P VCC dummy_5 dummy_5 VCC dummy_5
-+ dummy_5 VCC VCC dummy_5 dummy_5 dummy_5 dummy_5 dummy_5 dummy_5 dummy_5 VCC IN_P
-+ dummy_5 IN_P VCC VSS sky130_fd_pr__pfet_01v8_8DHNHY
 XXM9_dummy_3 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_SLZ774
-XXM5_dummy_3 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
 XXM9_dummy_4 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM5_dummy_4 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
 Xsky130_fd_pr__pfet_01v8_UDMRD5_0 dummy_2 dummy_2 VB_A VB_A dummy_2 dummy_2 VB_A dummy_2
 + VCC VCC dummy_2 dummy_2 dummy_2 VB_A VCC dummy_2 dummy_2 VCC dummy_2 VCC VCC VB_A
 + dummy_2 VCC VB_A dummy_2 VCC dummy_2 VB_A VB_A dummy_2 VB_A dummy_2 dummy_2 dummy_2
@@ -1255,6 +1186,7 @@ Xsky130_fd_pr__pfet_01v8_UDMRD5_0 dummy_2 dummy_2 VB_A VB_A dummy_2 dummy_2 VB_A
 + VB_A VB_A VB_A VCC dummy_2 VB_A VB_A VCC VB_A dummy_2 VCC VB_A dummy_2 VCC dummy_2
 + VB_A dummy_2 dummy_2 VCC dummy_2 dummy_2 VSS sky130_fd_pr__pfet_01v8_UDMRD5
 XXM9_dummy_5 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
+XXM9_dummy_20 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM9_1 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10 VCC
 + m9m10 bias1 bias1 VCC VCC m9m10 bias1 VCC VCC VCC VCC bias1 VCC VCC m9m10 bias1
 + VCC m9m10 m9m10 VCC VCC VCC bias1 VCC bias1 VCC bias1 m9m10 VCC m9m10 bias1 VCC
@@ -1280,10 +1212,7 @@ XXM9_1 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10
 + VCC m9m10 bias1 m9m10 bias1 VCC m9m10 VCC m9m10 VCC VCC VCC m9m10 bias1 m9m10 bias1
 + bias1 VCC bias1 m9m10 m9m10 VCC VCC VCC m9m10 m9m10 m9m10 bias1 m9m10 m9m10 VCC
 + bias1 VCC VCC bias1 m9m10 VCC VCC VCC VCC VCC VCC VSS m9m10 VCC sky130_fd_pr__pfet_01v8_F76D73
-XXM9_dummy_20 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM5_dummy_5 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
 XXM9_dummy_6 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM9_dummy_10 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM9_2 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10 VCC
 + m9m10 bias1 bias1 VCC VCC m9m10 bias1 VCC VCC VCC VCC bias1 VCC VCC m9m10 bias1
 + VCC m9m10 m9m10 VCC VCC VCC bias1 VCC bias1 VCC bias1 m9m10 VCC m9m10 bias1 VCC
@@ -1309,10 +1238,8 @@ XXM9_2 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10
 + VCC m9m10 bias1 m9m10 bias1 VCC m9m10 VCC m9m10 VCC VCC VCC m9m10 bias1 m9m10 bias1
 + bias1 VCC bias1 m9m10 m9m10 VCC VCC VCC m9m10 m9m10 m9m10 bias1 m9m10 m9m10 VCC
 + bias1 VCC VCC bias1 m9m10 VCC VCC VCC VCC VCC VCC VSS m9m10 VCC sky130_fd_pr__pfet_01v8_F76D73
-XXM5_dummy_6 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
+XXM9_dummy_10 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM9_dummy_7 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM9_dummy_22 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM9_dummy_11 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM9_3 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10 VCC
 + m9m10 bias1 bias1 VCC VCC m9m10 bias1 VCC VCC VCC VCC bias1 VCC VCC m9m10 bias1
 + VCC m9m10 m9m10 VCC VCC VCC bias1 VCC bias1 VCC bias1 m9m10 VCC m9m10 bias1 VCC
@@ -1338,11 +1265,12 @@ XXM9_3 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10
 + VCC m9m10 bias1 m9m10 bias1 VCC m9m10 VCC m9m10 VCC VCC VCC m9m10 bias1 m9m10 bias1
 + bias1 VCC bias1 m9m10 m9m10 VCC VCC VCC m9m10 m9m10 m9m10 bias1 m9m10 m9m10 VCC
 + bias1 VCC VCC bias1 m9m10 VCC VCC VCC VCC VCC VCC VSS m9m10 VCC sky130_fd_pr__pfet_01v8_F76D73
+XXM9_dummy_11 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
+XXM9_dummy_22 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM11_1 OUT OUT VB_B OUT VB_B VB_B VB_B VB_B m11m12 m11m12 m11m12 m11m12 OUT OUT VB_B
 + OUT OUT VB_B OUT OUT m11m12 VB_B m11m12 m11m12 m11m12 m11m12 m11m12 VB_B VB_B OUT
 + OUT VB_B OUT VB_B OUT VB_B VB_B m11m12 VB_B m11m12 m11m12 m11m12 m11m12 OUT OUT
 + VSS sky130_fd_pr__nfet_01v8_QP5WRD
-XXM5_dummy_7 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
 XXM9_dummy_8 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 Xsky130_fd_pr__nfet_01v8_SCE452_0 dummy_4 bias3 dummy_4 VSS sky130_fd_pr__nfet_01v8_SCE452
 XXM9_4 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10 VCC
@@ -1371,8 +1299,6 @@ XXM9_4 VCC VCC bias1 VCC bias1 VCC m9m10 bias1 VCC VCC m9m10 bias1 VCC VCC m9m10
 + bias1 VCC bias1 m9m10 m9m10 VCC VCC VCC m9m10 m9m10 m9m10 bias1 m9m10 m9m10 VCC
 + bias1 VCC VCC bias1 m9m10 VCC VCC VCC VCC VCC VCC VSS m9m10 VCC sky130_fd_pr__pfet_01v8_F76D73
 XXM9_dummy_12 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
-XXM5_dummy_8 dummy_5 IN_P VCC dummy_5 VSS sky130_fd_pr__pfet_01v8_MGA63L
-XXM9_dummy_9 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM10 OUT VB_A m9m10 OUT VB_A m9m10 VCC VCC m9m10 m9m10 m9m10 VB_A VCC m9m10 VCC OUT
 + VCC VCC VB_A OUT VCC VB_A OUT OUT VB_A VB_A m9m10 VB_A m9m10 m9m10 OUT m9m10 VCC
 + m9m10 VCC VCC OUT OUT VCC OUT OUT OUT VB_A VB_A VB_A VCC m9m10 VB_A VCC VB_A m9m10
@@ -1385,6 +1311,7 @@ Xsky130_fd_pr__pfet_01v8_7DHACV_0 VCC IN_P IN_P m1_44990_37960# VCC VCC bias21 b
 + IN_P VCC m1_44990_37960# bias21 VCC m1_44990_37960# VCC VCC bias21 m1_44990_37960#
 + bias21 m1_44990_37960# m1_44990_37960# bias21 m1_44990_37960# VCC bias21 IN_P VCC
 + VSS sky130_fd_pr__pfet_01v8_7DHACV
+XXM9_dummy_9 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM9_dummy_13 VCC bias1 dummy_9 dummy_9 VSS sky130_fd_pr__pfet_01v8_ZLZ7XS
 XXM100_1 IB VCC VCC m1_44990_37960# VCC IB m1_44990_37960# IB VCC m1_44990_37960#
 + VCC VCC VSS sky130_fd_pr__pfet_01v8_RRU5GE
