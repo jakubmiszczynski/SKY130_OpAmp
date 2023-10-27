@@ -1,4 +1,4 @@
-v {xschem version=3.4.1 file_version=1.2
+v {xschem version=3.1.0 file_version=1.2
 }
 G {}
 K {}
@@ -134,4 +134,4 @@ C {devices/gnd.sym} -400 -460 0 0 {name=l10 lab=GND}
 C {devices/lab_pin.sym} -400 -560 3 1 {name=p17 lab=IBIAS}
 C {../design/opamp_cascode.sym} -100 -80 0 0 {name=x1}
 C {../design/opamp_cascode.sym} -100 -460 0 0 {name=x2}
-C {corner.sym} 210 -600 0 0 {name=CORNER only_toplevel=true corner=tt_mm}
+C {corner.sym} 210 -600 0 0 {name=CORNER only_toplevel=true corner=ff_mm}

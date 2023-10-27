@@ -1,4 +1,4 @@
-v {xschem version=3.4.1 file_version=1.2
+v {xschem version=3.1.0 file_version=1.2
 }
 G {}
 K {}
@@ -40,12 +40,12 @@ VbiasA VB_A GND 0.2
 VbiasB VB_B GND 1.1
 Vpos Vp GND 0
 .control
-  alter Vpos AC = 1
+  alter Vpos AC = 0.001
   alter Vpos DC = 0.9
   save all
   ac dec 10 1 1G
   plot v(out)
-  meas ac freq when v(out)=0.707 fall=1
+  meas ac freq when v(out)=0.000707 fall=1
   echo bandwidth = $&freq Hz
 .endc
 "}

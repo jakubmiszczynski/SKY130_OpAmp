@@ -1,0 +1,16292 @@
+%!PS-Adobe-3.0
+%%DocumentMedia: a4 842 595 80 () ()
+%%PageOrientation: Landscape
+%%Title: xschem plot
+%%Creator: xschem
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+
+/recodedict 24 dict def
+/recode {recodedict begin /nco&na exch def
+/nfnam exch def /basefontname exch def /basefontdict basefontname findfont def
+/newfont basefontdict maxlength dict def basefontdict {exch dup /FID ne
+{dup /Encoding eq {exch dup length array copy newfont 3 1 roll put} {exch
+newfont 3 1 roll put} ifelse} {pop pop} ifelse } forall newfont
+/FontName nfnam put nco&na aload pop nco&na length 2 idiv {newfont
+/Encoding get 3 1 roll put} repeat nfnam newfont definefont pop end } def
+/chararr [
+ 161 /exclamdown
+ 162 /cent
+ 163 /sterling
+ 164 /currency
+ 165 /yen
+ 166 /bar
+ 167 /section
+ 168 /dieresis
+ 169 /copyright
+ 170 /ordfeminine
+ 171 /guillemotleft
+ 172 /logicalnot
+ 173 /emdash
+ 174 /registered
+ 175 /macron
+ 176 /degree
+ 177 /plusminus
+ 178 /twosuperior
+ 179 /threesuperior
+ 180 /acute
+ 181 /mu
+ 182 /paragraph
+ 183 /periodcentered
+ 184 /cedilla
+ 185 /onesuperior
+ 186 /ordmasculine
+ 187 /guillemotright
+ 188 /onequarter
+ 189 /onehalf
+ 190 /threequarters
+ 191 /questiondown
+ 192 /Agrave
+ 193 /Aacute
+ 194 /Acircumflex
+ 195 /Atilde
+ 196 /Adieresis
+ 197 /Aring
+ 198 /AE
+ 199 /Ccedilla
+ 200 /Egrave
+ 201 /Eacute
+ 202 /Ecircumflex
+ 203 /Edieresis
+ 204 /Igrave
+ 205 /Iacute
+ 206 /Icircumflex
+ 207 /Idieresis
+ 208 /Eth
+ 209 /Ntilde
+ 210 /Ograve
+ 211 /Oacute
+ 212 /Ocircumflex
+ 213 /Otilde
+ 214 /Odieresis
+ 215 /multiply
+ 216 /Oslash
+ 217 /Ugrave
+ 218 /Uacute
+ 219 /Ucircumflex
+ 220 /Udieresis
+ 221 /Yacute
+ 222 /Thorn
+ 223 /germandbls
+ 224 /agrave
+ 225 /aacute
+ 226 /acircumflex
+ 227 /atilde
+ 228 /adieresis
+ 229 /aring
+ 230 /ae
+ 231 /ccedilla
+ 232 /egrave
+ 233 /eacute
+ 234 /ecircumflex
+ 235 /edieresis
+ 236 /igrave
+ 237 /iacute
+ 238 /icircumflex
+ 239 /idieresis
+ 240 /eth
+ 241 /ntilde
+ 242 /ograve
+ 243 /oacute
+ 244 /ocircumflex
+ 245 /otilde
+ 246 /odieresis
+ 247 /divide
+ 248 /oslash
+ 249 /ugrave
+ 250 /uacute
+ 251 /ucircumflex
+ 252 /udieresis
+ 253 /yacute
+ 254 /thorn
+ 255 /ydieresis
+ ] def
+/Times /Times chararr recode
+/Times-Bold /Times-Bold chararr recode
+/Times-Oblique /Times-Oblique chararr recode
+/Times-BoldOblique /Times-BoldOblique chararr recode
+/Helvetica /Helvetica chararr recode
+/Helvetica-Bold /Helvetica-Bold chararr recode
+/Helvetica-Oblique /Helvetica-Oblique chararr recode
+/Helvetica-BoldOblique /Helvetica-BoldOblique chararr recode
+/Courier /Courier chararr recode
+/Courier-Bold /Courier-Bold chararr recode
+/Courier-Oblique /Courier-Oblique chararr recode
+/Courier-BoldOblique /Courier-BoldOblique chararr recode
+/cm {28.346457 mul} bind def
+/LT {lineto} bind def
+/MT {moveto} bind def
+/RMT {rmoveto} bind def
+/L {moveto lineto stroke} bind def
+/RGB {setrgbcolor} bind def
+/FF {findfont} bind def
+/SF {setfont} bind def
+/SCF {scalefont} bind def
+/SW {stringwidth} bind def
+/GS {gsave} bind def
+/GR {grestore} bind def
+/NP {newpath} bind def
+/A {arcn} bind def
+/R {rectstroke} bind def
+/S {stroke} bind def
+/C {closepath} bind def
+/F {fill} bind def
+/RF {rectfill} bind def
+%%EndProlog
+%%BeginSetup
+<< /PageSize [842 595] /Orientation 0 >> setpagedevice
+%%Page: 1 1
+
+%%BeginPageSetup
+%%EndPageSetup
+/Helvetica FF 10 SCF SF NP 20 575 MT (/home/kuba/project/SKY130_OpAmp/03_Layout/opamp_cascode.sch) show
+[ /Dest /opamp_cascode.sch /DEST pdfmark
+10.4873 328.421 translate
+0.243628 -0.243628 scale
+1 setlinejoin 1 setlinecap
+0.362337 setlinewidth
+0.996094 0.996094 0.996094 RGB
+0 0.265625 0.929688 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 752.143 MT
+1 -1 scale
+(IN_P)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 761.806 MT
+1 -1 scale
+(IN_M)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 665.183 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 679.676 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1300.87 576.682 MT
+1 -1 scale
+(IN_P)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1139.02 576.682 MT
+1 -1 scale
+(IN_M)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1216.32 708.965 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1216.32 322.472 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1659.58 790.793 MT
+1 -1 scale
+(OUT)
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1436.14 578.524 MT
+1 -1 scale
+(OUT)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1168.01 525.381 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1148.68 607.511 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+932.977 390.83 MT
+270 rotate
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 713.494 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 723.156 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1669.85 703.832 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1182.5 356.29 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1336.95 668.621 MT
+270 rotate
+1 -1 scale
+(bias21)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1100.23 668.621 MT
+270 rotate
+1 -1 scale
+(bias3)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1061.72 576.682 MT
+1 -1 scale
+(IN_M)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1387.83 576.682 MT
+1 -1 scale
+(IN_P)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1452.9 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1520.54 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1583.34 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1650.98 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1303.14 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+969.785 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+911.811 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+853.837 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+795.863 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1085.88 356.29 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1443.39 539.874 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+950.607 539.874 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+955.438 617.173 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1443.39 607.511 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1124.53 795.926 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1100.23 736.258 MT
+270 rotate
+1 -1 scale
+(bias3)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1327.44 795.926 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1361.11 736.258 MT
+270 rotate
+1 -1 scale
+(bias21)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1124.53 882.887 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1100.23 823.219 MT
+270 rotate
+1 -1 scale
+(bias3)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1124.53 979.51 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1100.23 919.842 MT
+270 rotate
+1 -1 scale
+(bias3)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1781.42 320.778 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1781.42 378.752 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1892.54 320.778 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1892.54 378.752 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1892.54 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1892.54 494.7 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1892.54 552.674 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 320.778 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 378.752 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 436.726 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 494.7 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 552.674 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2124.58 327.303 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2124.58 385.277 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2124.58 443.251 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2124.58 501.225 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2124.58 559.199 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2230.86 327.303 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2230.86 385.277 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2230.86 443.251 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2230.86 501.225 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2230.86 559.199 MT
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2380.63 327.303 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2380.63 385.277 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2380.63 443.251 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2380.63 501.225 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2380.63 559.199 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2506.24 327.303 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2506.24 385.277 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2506.24 443.251 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2506.24 501.225 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2506.24 559.199 MT
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2129.41 670.316 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2129.41 728.29 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2129.41 786.263 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2129.41 844.237 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2129.41 902.211 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2250.19 670.316 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2250.19 728.29 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2250.19 786.263 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2250.19 844.237 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2250.19 902.211 MT
+1 -1 scale
+(bias3)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1327.44 882.887 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1361.11 823.219 MT
+270 rotate
+1 -1 scale
+(bias21)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1327.44 979.51 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1361.11 919.842 MT
+270 rotate
+1 -1 scale
+(bias21)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+865.341 390.83 MT
+270 rotate
+1 -1 scale
+(IB)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2370.97 786.263 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2375.8 728.29 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2366.14 670.316 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2370.97 844.237 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2370.97 902.211 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2496.58 902.211 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2501.41 844.237 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2501.41 786.263 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2496.58 728.29 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2496.58 670.316 MT
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1902.2 663.79 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1902.2 721.764 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1902.2 779.738 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1902.2 837.712 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1902.2 895.686 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 663.79 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 721.764 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 779.738 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 837.712 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2003.65 895.686 MT
+270 rotate
+1 -1 scale
+(bias1)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1858.72 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_9)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1960.17 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_9)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.12 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_9)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1974.67 639.634 MT
+270 rotate
+1 -1 scale
+(dummy_9)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2066.46 639.634 MT
+270 rotate
+1 -1 scale
+(dummy_9)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2192.07 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_100)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2288.69 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_100)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2443.29 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_2)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.73 296.622 MT
+270 rotate
+1 -1 scale
+(dummy_2)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2177.58 639.634 MT
+270 rotate
+1 -1 scale
+(dummy_4)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2308.02 639.634 MT
+270 rotate
+1 -1 scale
+(dummy_4)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2452.95 639.634 MT
+270 rotate
+1 -1 scale
+(dummy_3)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.73 639.634 MT
+270 rotate
+1 -1 scale
+(dummy_3)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+994.088 617.173 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+873.309 617.173 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1414.4 617.173 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1515.85 617.173 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+994.088 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+931.283 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+873.309 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+815.335 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+757.361 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1419.23 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1491.7 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1559.33 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1626.97 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1689.77 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1520.68 539.874 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1419.23 539.874 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+998.919 539.874 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+878.14 539.874 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1110.04 578.524 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1206.66 578.524 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1341.93 578.524 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1003.75 486.732 MT
+1 -1 scale
+(m1m2)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1003.75 650.991 MT
+1 -1 scale
+(m3m4)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1416.81 649.15 MT
+1 -1 scale
+(m11m12)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1416.81 494.553 MT
+1 -1 scale
+(m9m10)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1223.57 480.059 MT
+1 -1 scale
+(m100m5)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1965.15 559.199 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1965.15 501.225 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1965.15 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1965.15 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1854.03 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1854.03 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1965.15 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 501.225 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 559.199 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1974.81 902.211 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1974.81 844.237 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1974.81 786.263 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1974.81 728.29 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+1974.81 670.316 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 670.316 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 728.29 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 786.263 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 844.237 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2076.27 902.211 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2192.22 559.199 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2192.22 501.225 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2192.22 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2192.22 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2192.22 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2298.5 559.199 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2298.5 501.225 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2298.5 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2298.5 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2298.5 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2448.27 559.199 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2448.27 501.225 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2443.44 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2448.27 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2443.44 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.88 559.199 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.88 501.225 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.88 443.251 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.88 385.277 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2573.88 327.303 MT
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2197.05 670.316 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2197.05 728.29 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2197.05 786.263 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2197.05 844.237 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2197.05 902.211 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2317.83 670.316 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2317.83 728.29 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2317.83 786.263 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2317.83 844.237 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2317.83 902.211 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2453.1 670.316 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2453.1 728.29 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2453.1 786.263 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2453.1 844.237 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2453.1 902.211 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2578.71 670.316 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2578.71 728.29 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2578.71 786.263 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2578.71 844.237 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+8.4497 SCF
+SF
+NP
+2578.71 902.211 MT
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0.664062 0.664062 0.664062 RGB
+0.132812 0.132812 0.132812 RGB
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+937.322 343.032 MT
+1 -1 scale
+(M100_3)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+928.867 364.946 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+928.867 343.632 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+930.075 351.66 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+944.568 351.66 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+925.244 347.425 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+924.64 364.169 MT
+1 -1 scale
+(2 x 5 / 3)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+924.64 358.13 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1405.94 526.617 MT
+1 -1 scale
+(M10)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 548.53 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 527.216 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1413.19 535.244 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1398.7 535.244 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.02 531.009 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 547.753 MT
+1 -1 scale
+(15 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 541.714 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1014.62 526.617 MT
+1 -1 scale
+(M2)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 548.53 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 527.216 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1007.37 535.244 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1021.87 535.244 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1002.54 531.009 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 547.753 MT
+1 -1 scale
+(15 x 5 / 5)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 541.714 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1174.05 565.266 MT
+1 -1 scale
+(M5)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1182.5 587.179 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1182.5 565.865 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1181.3 573.894 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1166.8 573.894 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1186.13 569.658 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1186.73 586.402 MT
+1 -1 scale
+(15 x 5 / 0.18)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1186.73 580.363 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1265.84 565.266 MT
+1 -1 scale
+(M7)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1257.39 587.179 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1257.39 565.865 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1258.59 573.894 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1273.09 573.894 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1253.76 569.658 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1253.16 586.402 MT
+1 -1 scale
+(15 x 5 / 0.18)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1253.16 580.363 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1174.05 661.889 MT
+1 -1 scale
+(M6)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1182.5 683.803 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1182.5 662.488 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1181.3 670.517 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1166.8 670.517 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1186.13 666.281 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1186.73 683.025 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1186.73 676.986 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1265.84 661.889 MT
+1 -1 scale
+(M8)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1257.39 683.803 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1257.39 662.488 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1258.59 670.517 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1273.09 670.517 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1253.76 666.281 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1253.16 683.025 MT
+1 -1 scale
+(1 x 1.25 / 1)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1253.16 676.986 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1405.94 661.889 MT
+1 -1 scale
+(M12)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 683.803 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 662.488 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1413.19 670.517 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1398.7 670.517 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.02 666.281 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 683.025 MT
+1 -1 scale
+(1 x 5 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 676.986 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1405.94 603.915 MT
+1 -1 scale
+(M11)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 625.829 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 604.514 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1413.19 612.543 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1398.7 612.543 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.02 608.308 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 625.051 MT
+1 -1 scale
+(15 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 619.013 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1014.62 603.915 MT
+1 -1 scale
+(M3)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 625.829 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 604.514 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1007.37 612.543 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1021.87 612.543 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1002.54 608.308 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 625.051 MT
+1 -1 scale
+(15 x 5 / 5)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 619.013 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1212.7 343.032 MT
+1 -1 scale
+(M100_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1221.15 364.946 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1221.15 343.632 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1219.94 351.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1205.45 351.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1224.78 347.425 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1225.38 364.169 MT
+1 -1 scale
+(3 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1225.38 358.13 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1096.75 565.266 MT
+1 -1 scale
+(M5_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1105.2 587.179 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1105.2 565.865 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1104 573.894 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1089.5 573.894 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1108.83 569.658 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1109.43 586.402 MT
+1 -1 scale
+(15 x 5 / 0.18)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1109.43 580.363 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1367.29 565.266 MT
+1 -1 scale
+(M7_1)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1358.84 587.179 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1358.84 565.865 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1360.05 573.894 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1374.54 573.894 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1355.22 569.658 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1354.61 586.402 MT
+1 -1 scale
+(15 x 5 / 0.18)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1354.61 580.363 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1405.94 429.993 MT
+1 -1 scale
+(M9)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1414.4 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1413.19 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1398.7 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.02 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1418.63 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1473.58 429.993 MT
+1 -1 scale
+(M9_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1482.03 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1482.03 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1480.83 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1466.33 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1485.66 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1486.26 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1486.26 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1541.22 429.993 MT
+1 -1 scale
+(M9_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1549.67 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1549.67 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1548.46 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1533.97 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1553.29 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1553.9 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1553.9 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1608.85 429.993 MT
+1 -1 scale
+(M9_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1617.31 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1617.31 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1616.1 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1601.61 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1620.93 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1621.53 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1621.53 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1671.66 429.993 MT
+1 -1 scale
+(M9_4)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1680.11 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1680.11 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1678.9 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1664.41 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1683.74 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1684.34 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1684.34 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1014.62 429.993 MT
+1 -1 scale
+(M1)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 451.907 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 430.592 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1007.37 438.621 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1021.87 438.621 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1002.54 434.386 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 445.091 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+951.815 429.993 MT
+1 -1 scale
+(M1_1)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+943.36 451.907 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+943.36 430.592 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+944.568 438.621 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+959.062 438.621 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+939.737 434.386 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+939.133 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+939.133 445.091 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+893.841 429.993 MT
+1 -1 scale
+(M1_2)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+885.387 451.907 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+885.387 430.592 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+886.594 438.621 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+901.088 438.621 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+881.763 434.386 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+881.159 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+881.159 445.091 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+835.867 429.993 MT
+1 -1 scale
+(M1_3)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+827.413 451.907 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+827.413 430.592 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+828.62 438.621 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+843.114 438.621 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+823.789 434.386 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+823.185 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+823.185 445.091 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+777.893 429.993 MT
+1 -1 scale
+(M1_4)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+769.439 451.907 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+769.439 430.592 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+770.646 438.621 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+785.14 438.621 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+765.815 434.386 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+765.211 451.13 MT
+1 -1 scale
+(100 x 5 / 15)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+765.211 445.091 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1116.07 343.032 MT
+1 -1 scale
+(M100_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1124.53 364.946 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1124.53 343.632 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1123.32 351.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1108.83 351.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1128.15 347.425 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1128.76 364.169 MT
+1 -1 scale
+(3 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1128.76 358.13 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1473.58 526.617 MT
+1 -1 scale
+(M10_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1482.03 548.53 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1482.03 527.216 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1480.83 535.244 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1466.33 535.244 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1485.66 531.009 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1486.26 547.753 MT
+1 -1 scale
+(15 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1486.26 541.714 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+908.335 526.617 MT
+1 -1 scale
+(M2_1)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+899.88 548.53 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+899.88 527.216 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+901.088 535.244 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+915.581 535.244 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+896.257 531.009 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+895.653 547.753 MT
+1 -1 scale
+(15 x 5 / 5)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+895.653 541.714 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+913.166 603.915 MT
+1 -1 scale
+(M3_1)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+904.711 625.829 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+904.711 604.514 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+905.919 612.543 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+920.412 612.543 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+901.088 608.308 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+900.484 625.051 MT
+1 -1 scale
+(15 x 5 / 5)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+900.484 619.013 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1473.58 603.915 MT
+1 -1 scale
+(M11_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1482.03 625.829 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1482.03 604.514 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1480.83 612.543 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1466.33 612.543 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1485.66 608.308 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1486.26 625.051 MT
+1 -1 scale
+(15 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1486.26 619.013 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1014.62 661.889 MT
+1 -1 scale
+(M4)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 683.803 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1006.17 662.488 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1007.37 670.517 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1021.87 670.517 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1002.54 666.281 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 683.025 MT
+1 -1 scale
+(1 x 5 / 1)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1001.94 676.986 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1120.91 753.681 MT
+1 -1 scale
+(M6_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1129.36 775.595 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1129.36 754.28 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1128.15 762.309 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1113.66 762.309 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1132.98 758.074 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1133.59 774.817 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1133.59 768.778 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1338.31 753.681 MT
+1 -1 scale
+(M8_1)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1329.85 775.595 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1329.85 754.28 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1331.06 762.309 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1345.55 762.309 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1326.23 758.074 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1325.63 774.817 MT
+1 -1 scale
+(1 x 1.25 / 1)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1325.63 768.778 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1120.91 840.642 MT
+1 -1 scale
+(M6_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1129.36 862.556 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1129.36 841.241 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1128.15 849.27 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1113.66 849.27 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1132.98 845.034 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1133.59 861.778 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1133.59 855.739 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1120.91 937.265 MT
+1 -1 scale
+(M6_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1129.36 959.179 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1129.36 937.864 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1128.15 945.893 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1113.66 945.893 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1132.98 941.658 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1133.59 958.402 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1133.59 952.363 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1821.42 314.045 MT
+1 -1 scale
+(M9_dummy_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1829.88 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1829.88 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1828.67 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1814.18 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1833.5 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1834.11 335.182 MT
+1 -1 scale
+(102 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1834.11 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1821.42 372.019 MT
+1 -1 scale
+(M9_dummy_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1829.88 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1829.88 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1828.67 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1814.18 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1833.5 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1834.11 393.156 MT
+1 -1 scale
+(102 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1834.11 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1932.54 314.045 MT
+1 -1 scale
+(M9_dummy_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1939.79 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1925.29 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1944.62 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 335.182 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1932.54 372.019 MT
+1 -1 scale
+(M9_dummy_4)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1939.79 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1925.29 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1944.62 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 393.156 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1932.54 429.993 MT
+1 -1 scale
+(M9_dummy_5)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1939.79 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1925.29 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1944.62 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 451.13 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1932.54 487.967 MT
+1 -1 scale
+(M9_dummy_6)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 509.881 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 488.566 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1939.79 496.595 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1925.29 496.595 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1944.62 492.36 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 509.104 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 503.065 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1932.54 545.941 MT
+1 -1 scale
+(M9_dummy_7)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 567.855 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1941 546.54 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1939.79 554.569 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1925.29 554.569 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1944.62 550.334 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 567.078 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1945.22 561.039 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 314.045 MT
+1 -1 scale
+(M9_dummy_8)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 335.182 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 372.019 MT
+1 -1 scale
+(M9_dummy_9)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 393.156 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 429.993 MT
+1 -1 scale
+(M9_dummy_10)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 451.13 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 487.967 MT
+1 -1 scale
+(M9_dummy_11)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 509.881 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 488.566 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 496.595 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 496.595 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 492.36 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 509.104 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 503.065 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 545.941 MT
+1 -1 scale
+(M9_dummy_12)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 567.855 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 546.54 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 554.569 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 554.569 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 550.334 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 567.078 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 561.039 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2159.61 314.045 MT
+1 -1 scale
+(M100_dummy_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2166.85 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2152.36 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2171.68 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 335.182 MT
+1 -1 scale
+(5 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2159.61 372.019 MT
+1 -1 scale
+(M100_dummy_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2166.85 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2152.36 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2171.68 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 393.156 MT
+1 -1 scale
+(5 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2159.61 429.993 MT
+1 -1 scale
+(M100_dummy_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2166.85 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2152.36 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2171.68 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 451.13 MT
+1 -1 scale
+(2 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2159.61 487.967 MT
+1 -1 scale
+(M100_dummy_4)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 509.881 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 488.566 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2166.85 496.595 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2152.36 496.595 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2171.68 492.36 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 509.104 MT
+1 -1 scale
+(2 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 503.065 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2159.61 545.941 MT
+1 -1 scale
+(M100_dummy_5)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 567.855 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2168.06 546.54 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2166.85 554.569 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2152.36 554.569 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2171.68 550.334 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 567.078 MT
+1 -1 scale
+(1 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2172.29 561.039 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2265.89 314.045 MT
+1 -1 scale
+(M100_dummy_6)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2273.14 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2258.64 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2277.97 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 335.182 MT
+1 -1 scale
+(1 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2265.89 372.019 MT
+1 -1 scale
+(M100_dummy_7)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2273.14 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2258.64 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2277.97 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 393.156 MT
+1 -1 scale
+(1 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2265.89 429.993 MT
+1 -1 scale
+(M100_dummy_8)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2273.14 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2258.64 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2277.97 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 451.13 MT
+1 -1 scale
+(1 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2265.89 487.967 MT
+1 -1 scale
+(M100_dummy_9)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 509.881 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 488.566 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2273.14 496.595 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2258.64 496.595 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2277.97 492.36 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 509.104 MT
+1 -1 scale
+(1 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 503.065 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2265.89 545.941 MT
+1 -1 scale
+(M100_dummy_10)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 567.855 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2274.35 546.54 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2273.14 554.569 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2258.64 554.569 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2277.97 550.334 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 567.078 MT
+1 -1 scale
+(1 x 5 / 3)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2278.57 561.039 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2415.66 314.045 MT
+1 -1 scale
+(M2_dummy_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2422.9 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2408.41 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2427.73 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 335.182 MT
+1 -1 scale
+(17 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2415.66 372.019 MT
+1 -1 scale
+(M2_dummy_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2422.9 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2408.41 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2427.73 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 393.156 MT
+1 -1 scale
+(17 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2415.66 429.993 MT
+1 -1 scale
+(M2_dummy_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2422.9 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2408.41 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2427.73 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 451.13 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2415.66 487.967 MT
+1 -1 scale
+(M2_dummy_4)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 509.881 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 488.566 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2422.9 496.595 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2408.41 496.595 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2427.73 492.36 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 509.104 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 503.065 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2415.66 545.941 MT
+1 -1 scale
+(M2_dummy_5)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 567.855 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2424.11 546.54 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2422.9 554.569 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2408.41 554.569 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2427.73 550.334 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 567.078 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2428.34 561.039 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2541.27 314.045 MT
+1 -1 scale
+(M2_dummy_6)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 335.959 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 314.645 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2548.51 322.673 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2534.02 322.673 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.34 318.438 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 335.182 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 329.143 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2541.27 372.019 MT
+1 -1 scale
+(M2_dummy_7)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 393.933 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 372.619 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2548.51 380.647 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2534.02 380.647 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.34 376.412 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 393.156 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 387.117 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2541.27 429.993 MT
+1 -1 scale
+(M2_dummy_8)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 451.907 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 430.592 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2548.51 438.621 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2534.02 438.621 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.34 434.386 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 451.13 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 445.091 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2541.27 487.967 MT
+1 -1 scale
+(M2_dummy_9)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 509.881 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 488.566 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2548.51 496.595 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2534.02 496.595 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.34 492.36 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 509.104 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 503.065 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2541.27 545.941 MT
+1 -1 scale
+(M2_dummy_10)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 567.855 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2549.72 546.54 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2548.51 554.569 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2534.02 554.569 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.34 550.334 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 567.078 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2553.95 561.039 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2164.44 657.058 MT
+1 -1 scale
+(M4_dummy_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 678.971 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 657.657 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2171.68 665.686 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2157.19 665.686 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2176.51 661.45 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 678.194 MT
+1 -1 scale
+(6 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 672.155 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2164.44 715.032 MT
+1 -1 scale
+(M4_dummy_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 736.945 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 715.631 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2171.68 723.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2157.19 723.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2176.51 719.424 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 736.168 MT
+1 -1 scale
+(6 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 730.129 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2164.44 773.006 MT
+1 -1 scale
+(M4_dummy_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 794.919 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 773.605 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2171.68 781.634 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2157.19 781.634 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2176.51 777.398 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 794.142 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 788.103 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2164.44 830.98 MT
+1 -1 scale
+(M4_dummy_4)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 852.893 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 831.579 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2171.68 839.608 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2157.19 839.608 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2176.51 835.372 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 852.116 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 846.077 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2164.44 888.954 MT
+1 -1 scale
+(M4_dummy_5)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 910.867 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2172.89 889.553 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2171.68 897.581 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2157.19 897.581 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2176.51 893.346 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 910.09 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2177.12 904.051 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2285.22 657.058 MT
+1 -1 scale
+(M4_dummy_6)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 678.971 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 657.657 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2292.46 665.686 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2277.97 665.686 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.29 661.45 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 678.194 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 672.155 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2285.22 715.032 MT
+1 -1 scale
+(M4_dummy_7)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 736.945 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 715.631 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2292.46 723.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2277.97 723.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.29 719.424 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 736.168 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 730.129 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2285.22 773.006 MT
+1 -1 scale
+(M4_dummy_8)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 794.919 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 773.605 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2292.46 781.634 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2277.97 781.634 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.29 777.398 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 794.142 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 788.103 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2285.22 830.98 MT
+1 -1 scale
+(M4_dummy_9)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 852.893 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 831.579 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2292.46 839.608 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2277.97 839.608 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.29 835.372 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 852.116 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 846.077 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2285.22 888.954 MT
+1 -1 scale
+(M4_dummy_10)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 910.867 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2293.67 889.553 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2292.46 897.581 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2277.97 897.581 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.29 893.346 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 910.09 MT
+1 -1 scale
+(1 x 1.25 / 1)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2297.9 904.051 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1338.31 840.642 MT
+1 -1 scale
+(M8_2)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1329.85 862.556 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1329.85 841.241 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1331.06 849.27 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1345.55 849.27 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1326.23 845.034 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1325.63 861.778 MT
+1 -1 scale
+(1 x 1.25 / 1)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1325.63 855.739 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1338.31 937.265 MT
+1 -1 scale
+(M8_3)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1329.85 959.179 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1329.85 937.864 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1331.06 945.893 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1345.55 945.893 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1326.23 941.658 MT
+1 -1 scale
+(nfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1325.63 958.402 MT
+1 -1 scale
+(1 x 1.25 / 1)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1325.63 952.363 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+869.685 343.032 MT
+1 -1 scale
+(M100_4)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+861.231 364.946 MT
+1 -1 scale
+(D)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+861.231 343.632 MT
+1 -1 scale
+(S)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+862.439 351.66 MT
+1 -1 scale
+(B)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+876.932 351.66 MT
+1 -1 scale
+(G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+857.607 347.425 MT
+1 -1 scale
+(pfet_01v8)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+857.003 364.169 MT
+1 -1 scale
+(2 x 5 / 3)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+857.003 358.13 MT
+1 -1 scale
+(nf=1)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2420.49 657.058 MT
+1 -1 scale
+(M3_dummy_1)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 678.971 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 657.657 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2427.73 665.686 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2413.24 665.686 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2432.57 661.45 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 678.194 MT
+1 -1 scale
+(17 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 672.155 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2420.49 715.032 MT
+1 -1 scale
+(M3_dummy_2)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 736.945 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 715.631 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2427.73 723.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2413.24 723.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2432.57 719.424 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 736.168 MT
+1 -1 scale
+(17 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 730.129 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2420.49 773.006 MT
+1 -1 scale
+(M3_dummy_3)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 794.919 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 773.605 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2427.73 781.634 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2413.24 781.634 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2432.57 777.398 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 794.142 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 788.103 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2420.49 830.98 MT
+1 -1 scale
+(M3_dummy_4)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 852.893 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 831.579 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2427.73 839.608 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2413.24 839.608 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2432.57 835.372 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 852.116 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 846.077 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2420.49 888.954 MT
+1 -1 scale
+(M3_dummy_5)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 910.867 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2428.94 889.553 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2427.73 897.581 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2413.24 897.581 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2432.57 893.346 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 910.09 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2433.17 904.051 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2546.1 657.058 MT
+1 -1 scale
+(M3_dummy_6)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 678.971 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 657.657 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2553.34 665.686 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2538.85 665.686 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.18 661.45 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 678.194 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 672.155 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2546.1 715.032 MT
+1 -1 scale
+(M3_dummy_7)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 736.945 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 715.631 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2553.34 723.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2538.85 723.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.18 719.424 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 736.168 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 730.129 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2546.1 773.006 MT
+1 -1 scale
+(M3_dummy_8)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 794.919 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 773.605 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2553.34 781.634 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2538.85 781.634 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.18 777.398 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 794.142 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 788.103 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2546.1 830.98 MT
+1 -1 scale
+(M3_dummy_9)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 852.893 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 831.579 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2553.34 839.608 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2538.85 839.608 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.18 835.372 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 852.116 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 846.077 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2546.1 888.954 MT
+1 -1 scale
+(M3_dummy_10)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 910.867 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2554.55 889.553 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2553.34 897.581 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2538.85 897.581 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.18 893.346 MT
+1 -1 scale
+(nfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 910.09 MT
+1 -1 scale
+(1 x 5 / 5)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2558.78 904.051 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1942.2 657.058 MT
+1 -1 scale
+(M9_dummy_13)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 678.971 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 657.657 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1949.45 665.686 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1934.96 665.686 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.28 661.45 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 678.194 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 672.155 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1942.2 715.032 MT
+1 -1 scale
+(M9_dummy_14)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 736.945 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 715.631 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1949.45 723.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1934.96 723.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.28 719.424 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 736.168 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 730.129 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1942.2 773.006 MT
+1 -1 scale
+(M9_dummy_15)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 794.919 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 773.605 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1949.45 781.634 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1934.96 781.634 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.28 777.398 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 794.142 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 788.103 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1942.2 830.98 MT
+1 -1 scale
+(M9_dummy_16)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 852.893 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 831.579 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1949.45 839.608 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1934.96 839.608 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.28 835.372 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 852.116 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 846.077 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1942.2 888.954 MT
+1 -1 scale
+(M9_dummy_17)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 910.867 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1950.66 889.553 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1949.45 897.581 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+1934.96 897.581 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.28 893.346 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 910.09 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+1954.88 904.051 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 657.058 MT
+1 -1 scale
+(M9_dummy_18)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 678.971 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 657.657 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 665.686 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 665.686 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 661.45 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 678.194 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 672.155 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 715.032 MT
+1 -1 scale
+(M9_dummy_19)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 736.945 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 715.631 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 723.66 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 723.66 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 719.424 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 736.168 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 730.129 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 773.006 MT
+1 -1 scale
+(M9_dummy_20)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 794.919 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 773.605 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 781.634 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 781.634 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 777.398 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 794.142 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 788.103 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 830.98 MT
+1 -1 scale
+(M9_dummy_21)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 852.893 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 831.579 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 839.608 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 839.608 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 835.372 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 852.116 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 846.077 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2043.66 888.954 MT
+1 -1 scale
+(M9_dummy_22)
+dup SW pop neg 0 RMT
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 910.867 MT
+1 -1 scale
+(D)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2052.11 889.553 MT
+1 -1 scale
+(S)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2050.9 897.581 MT
+1 -1 scale
+(B)
+show
+GR
+0.996094 0 0 RGB
+GS
+/Helvetica FF
+3.84077 SCF
+SF
+NP
+2036.41 897.581 MT
+1 -1 scale
+(G)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2055.74 893.346 MT
+1 -1 scale
+(pfet_01v8)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 910.09 MT
+1 -1 scale
+(1 x 5 / 15)
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+5.12103 SCF
+SF
+NP
+2056.34 904.051 MT
+1 -1 scale
+(nf=1)
+show
+GR
+0.132812 0.597656 0 RGB
+936.114 364.258 936.114 342.518 L
+930.075 344.934 930.075 338.895 L
+930.075 367.882 930.075 361.843 L
+938.529 360.635 938.529 346.141 L
+936.114 361.843 930.075 361.843 L
+933.698 344.934 930.075 344.934 L
+949.399 353.388 943.36 353.388 L
+NP
+933.698 343.726 MT
+936.114 344.934 LT
+933.698 346.141 LT
+933.698 343.726 LT
+C F S
+940.945 353.388 2.41558 0 -360 A S
+1407.15 547.842 1407.15 526.102 L
+1413.19 528.518 1413.19 522.479 L
+1413.19 551.466 1413.19 545.427 L
+1404.74 544.219 1404.74 529.725 L
+1413.19 545.427 1407.15 545.427 L
+1413.19 528.518 1409.57 528.518 L
+1399.91 536.972 1393.87 536.972 L
+NP
+1409.57 527.31 MT
+1407.15 528.518 LT
+1409.57 529.725 LT
+1409.57 527.31 LT
+C F S
+1402.32 536.972 2.41558 -180 -540 A S
+1013.41 547.842 1013.41 526.102 L
+1007.37 528.518 1007.37 522.479 L
+1007.37 551.466 1007.37 545.427 L
+1015.83 544.219 1015.83 529.725 L
+1013.41 545.427 1007.37 545.427 L
+1011 528.518 1007.37 528.518 L
+1026.7 536.972 1020.66 536.972 L
+NP
+1011 527.31 MT
+1013.41 528.518 LT
+1011 529.725 LT
+1011 527.31 LT
+C F S
+1018.24 536.972 2.41558 0 -360 A S
+1175.26 586.492 1175.26 564.751 L
+1181.3 567.167 1181.3 561.128 L
+1181.3 590.115 1181.3 584.076 L
+1172.84 582.868 1172.84 568.375 L
+1181.3 584.076 1175.26 584.076 L
+1181.3 567.167 1177.67 567.167 L
+1168.01 575.622 1161.97 575.622 L
+NP
+1177.67 565.959 MT
+1175.26 567.167 LT
+1177.67 568.375 LT
+1177.67 565.959 LT
+C F S
+1170.43 575.622 2.41558 -180 -540 A S
+1264.63 586.492 1264.63 564.751 L
+1258.59 567.167 1258.59 561.128 L
+1258.59 590.115 1258.59 584.076 L
+1267.05 582.868 1267.05 568.375 L
+1264.63 584.076 1258.59 584.076 L
+1262.22 567.167 1258.59 567.167 L
+1277.92 575.622 1271.88 575.622 L
+NP
+1262.22 565.959 MT
+1264.63 567.167 LT
+1262.22 568.375 LT
+1262.22 565.959 LT
+C F S
+1269.46 575.622 2.41558 0 -360 A S
+1175.26 683.115 1175.26 661.375 L
+1172.84 672.245 1161.97 672.245 L
+1181.3 663.79 1181.3 657.751 L
+1181.3 686.738 1181.3 680.699 L
+1172.84 679.491 1172.84 664.998 L
+1181.3 663.79 1175.26 663.79 L
+1178.88 680.699 1175.26 680.699 L
+NP
+1178.88 679.491 MT
+1181.3 680.699 LT
+1178.88 681.907 LT
+1178.88 679.491 LT
+C F S
+1264.63 683.115 1264.63 661.375 L
+1277.92 672.245 1267.05 672.245 L
+1258.59 663.79 1258.59 657.751 L
+1258.59 686.738 1258.59 680.699 L
+1267.05 679.491 1267.05 664.998 L
+1264.63 663.79 1258.59 663.79 L
+1264.63 680.699 1261.01 680.699 L
+NP
+1261.01 679.491 MT
+1258.59 680.699 LT
+1261.01 681.907 LT
+1261.01 679.491 LT
+C F S
+1407.15 683.115 1407.15 661.375 L
+1404.74 672.245 1393.87 672.245 L
+1413.19 663.79 1413.19 657.751 L
+1413.19 686.738 1413.19 680.699 L
+1404.74 679.491 1404.74 664.998 L
+1413.19 663.79 1407.15 663.79 L
+1410.78 680.699 1407.15 680.699 L
+NP
+1410.78 679.491 MT
+1413.19 680.699 LT
+1410.78 681.907 LT
+1410.78 679.491 LT
+C F S
+1407.15 625.141 1407.15 603.401 L
+1404.74 614.271 1393.87 614.271 L
+1413.19 605.816 1413.19 599.777 L
+1413.19 628.764 1413.19 622.725 L
+1404.74 621.518 1404.74 607.024 L
+1413.19 605.816 1407.15 605.816 L
+1410.78 622.725 1407.15 622.725 L
+NP
+1410.78 621.518 MT
+1413.19 622.725 LT
+1410.78 623.933 LT
+1410.78 621.518 LT
+C F S
+1013.41 625.141 1013.41 603.401 L
+1026.7 614.271 1015.83 614.271 L
+1007.37 605.816 1007.37 599.777 L
+1007.37 628.764 1007.37 622.725 L
+1015.83 621.518 1015.83 607.024 L
+1013.41 605.816 1007.37 605.816 L
+1013.41 622.725 1009.79 622.725 L
+NP
+1009.79 621.518 MT
+1007.37 622.725 LT
+1009.79 623.933 LT
+1009.79 621.518 LT
+C F S
+1213.91 364.258 1213.91 342.518 L
+1219.94 344.934 1219.94 338.895 L
+1219.94 367.882 1219.94 361.843 L
+1211.49 360.635 1211.49 346.141 L
+1219.94 361.843 1213.91 361.843 L
+1219.94 344.934 1216.32 344.934 L
+1206.66 353.388 1200.62 353.388 L
+NP
+1216.32 343.726 MT
+1213.91 344.934 LT
+1216.32 346.141 LT
+1216.32 343.726 LT
+C F S
+1209.07 353.388 2.41558 -180 -540 A S
+1097.96 586.492 1097.96 564.751 L
+1104 567.167 1104 561.128 L
+1104 590.115 1104 584.076 L
+1095.54 582.868 1095.54 568.375 L
+1104 584.076 1097.96 584.076 L
+1104 567.167 1100.37 567.167 L
+1090.71 575.622 1084.67 575.622 L
+NP
+1100.37 565.959 MT
+1097.96 567.167 LT
+1100.37 568.375 LT
+1100.37 565.959 LT
+C F S
+1093.13 575.622 2.41558 -180 -540 A S
+1366.09 586.492 1366.09 564.751 L
+1360.05 567.167 1360.05 561.128 L
+1360.05 590.115 1360.05 584.076 L
+1368.5 582.868 1368.5 568.375 L
+1366.09 584.076 1360.05 584.076 L
+1363.67 567.167 1360.05 567.167 L
+1379.37 575.622 1373.33 575.622 L
+NP
+1363.67 565.959 MT
+1366.09 567.167 LT
+1363.67 568.375 LT
+1363.67 565.959 LT
+C F S
+1370.92 575.622 2.41558 0 -360 A S
+1407.15 451.219 1407.15 429.479 L
+1413.19 431.894 1413.19 425.856 L
+1413.19 454.843 1413.19 448.804 L
+1404.74 447.596 1404.74 433.102 L
+1413.19 448.804 1407.15 448.804 L
+1413.19 431.894 1409.57 431.894 L
+1399.91 440.349 1393.87 440.349 L
+NP
+1409.57 430.687 MT
+1407.15 431.894 LT
+1409.57 433.102 LT
+1409.57 430.687 LT
+C F S
+1402.32 440.349 2.41558 -180 -540 A S
+1474.79 451.219 1474.79 429.479 L
+1480.83 431.894 1480.83 425.856 L
+1480.83 454.843 1480.83 448.804 L
+1472.37 447.596 1472.37 433.102 L
+1480.83 448.804 1474.79 448.804 L
+1480.83 431.894 1477.2 431.894 L
+1467.54 440.349 1461.5 440.349 L
+NP
+1477.2 430.687 MT
+1474.79 431.894 LT
+1477.2 433.102 LT
+1477.2 430.687 LT
+C F S
+1469.96 440.349 2.41558 -180 -540 A S
+1542.42 451.219 1542.42 429.479 L
+1548.46 431.894 1548.46 425.856 L
+1548.46 454.843 1548.46 448.804 L
+1540.01 447.596 1540.01 433.102 L
+1548.46 448.804 1542.42 448.804 L
+1548.46 431.894 1544.84 431.894 L
+1535.18 440.349 1529.14 440.349 L
+NP
+1544.84 430.687 MT
+1542.42 431.894 LT
+1544.84 433.102 LT
+1544.84 430.687 LT
+C F S
+1537.59 440.349 2.41558 -180 -540 A S
+1610.06 451.219 1610.06 429.479 L
+1616.1 431.894 1616.1 425.856 L
+1616.1 454.843 1616.1 448.804 L
+1607.65 447.596 1607.65 433.102 L
+1616.1 448.804 1610.06 448.804 L
+1616.1 431.894 1612.48 431.894 L
+1602.81 440.349 1596.78 440.349 L
+NP
+1612.48 430.687 MT
+1610.06 431.894 LT
+1612.48 433.102 LT
+1612.48 430.687 LT
+C F S
+1605.23 440.349 2.41558 -180 -540 A S
+1672.87 451.219 1672.87 429.479 L
+1678.9 431.894 1678.9 425.856 L
+1678.9 454.843 1678.9 448.804 L
+1670.45 447.596 1670.45 433.102 L
+1678.9 448.804 1672.87 448.804 L
+1678.9 431.894 1675.28 431.894 L
+1665.62 440.349 1659.58 440.349 L
+NP
+1675.28 430.687 MT
+1672.87 431.894 LT
+1675.28 433.102 LT
+1675.28 430.687 LT
+C F S
+1668.03 440.349 2.41558 -180 -540 A S
+1013.41 451.219 1013.41 429.479 L
+1007.37 431.894 1007.37 425.856 L
+1007.37 454.843 1007.37 448.804 L
+1015.83 447.596 1015.83 433.102 L
+1013.41 448.804 1007.37 448.804 L
+1011 431.894 1007.37 431.894 L
+1026.7 440.349 1020.66 440.349 L
+NP
+1011 430.687 MT
+1013.41 431.894 LT
+1011 433.102 LT
+1011 430.687 LT
+C F S
+1018.24 440.349 2.41558 0 -360 A S
+950.607 451.219 950.607 429.479 L
+944.568 431.894 944.568 425.856 L
+944.568 454.843 944.568 448.804 L
+953.023 447.596 953.023 433.102 L
+950.607 448.804 944.568 448.804 L
+948.192 431.894 944.568 431.894 L
+963.893 440.349 957.854 440.349 L
+NP
+948.192 430.687 MT
+950.607 431.894 LT
+948.192 433.102 LT
+948.192 430.687 LT
+C F S
+955.438 440.349 2.41558 0 -360 A S
+892.633 451.219 892.633 429.479 L
+886.594 431.894 886.594 425.856 L
+886.594 454.843 886.594 448.804 L
+895.049 447.596 895.049 433.102 L
+892.633 448.804 886.594 448.804 L
+890.218 431.894 886.594 431.894 L
+905.919 440.349 899.88 440.349 L
+NP
+890.218 430.687 MT
+892.633 431.894 LT
+890.218 433.102 LT
+890.218 430.687 LT
+C F S
+897.464 440.349 2.41558 0 -360 A S
+834.659 451.219 834.659 429.479 L
+828.62 431.894 828.62 425.856 L
+828.62 454.843 828.62 448.804 L
+837.075 447.596 837.075 433.102 L
+834.659 448.804 828.62 448.804 L
+832.244 431.894 828.62 431.894 L
+847.945 440.349 841.906 440.349 L
+NP
+832.244 430.687 MT
+834.659 431.894 LT
+832.244 433.102 LT
+832.244 430.687 LT
+C F S
+839.491 440.349 2.41558 0 -360 A S
+776.685 451.219 776.685 429.479 L
+770.646 431.894 770.646 425.856 L
+770.646 454.843 770.646 448.804 L
+779.101 447.596 779.101 433.102 L
+776.685 448.804 770.646 448.804 L
+774.27 431.894 770.646 431.894 L
+789.971 440.349 783.932 440.349 L
+NP
+774.27 430.687 MT
+776.685 431.894 LT
+774.27 433.102 LT
+774.27 430.687 LT
+C F S
+781.517 440.349 2.41558 0 -360 A S
+1117.28 364.258 1117.28 342.518 L
+1123.32 344.934 1123.32 338.895 L
+1123.32 367.882 1123.32 361.843 L
+1114.87 360.635 1114.87 346.141 L
+1123.32 361.843 1117.28 361.843 L
+1123.32 344.934 1119.7 344.934 L
+1110.04 353.388 1104 353.388 L
+NP
+1119.7 343.726 MT
+1117.28 344.934 LT
+1119.7 346.141 LT
+1119.7 343.726 LT
+C F S
+1112.45 353.388 2.41558 -180 -540 A S
+1474.79 547.842 1474.79 526.102 L
+1480.83 528.518 1480.83 522.479 L
+1480.83 551.466 1480.83 545.427 L
+1472.37 544.219 1472.37 529.725 L
+1480.83 545.427 1474.79 545.427 L
+1480.83 528.518 1477.2 528.518 L
+1467.54 536.972 1461.5 536.972 L
+NP
+1477.2 527.31 MT
+1474.79 528.518 LT
+1477.2 529.725 LT
+1477.2 527.31 LT
+C F S
+1469.96 536.972 2.41558 -180 -540 A S
+907.127 547.842 907.127 526.102 L
+901.088 528.518 901.088 522.479 L
+901.088 551.466 901.088 545.427 L
+909.542 544.219 909.542 529.725 L
+907.127 545.427 901.088 545.427 L
+904.711 528.518 901.088 528.518 L
+920.412 536.972 914.374 536.972 L
+NP
+904.711 527.31 MT
+907.127 528.518 LT
+904.711 529.725 LT
+904.711 527.31 LT
+C F S
+911.958 536.972 2.41558 0 -360 A S
+911.958 625.141 911.958 603.401 L
+925.244 614.271 914.374 614.271 L
+905.919 605.816 905.919 599.777 L
+905.919 628.764 905.919 622.725 L
+914.374 621.518 914.374 607.024 L
+911.958 605.816 905.919 605.816 L
+911.958 622.725 908.335 622.725 L
+NP
+908.335 621.518 MT
+905.919 622.725 LT
+908.335 623.933 LT
+908.335 621.518 LT
+C F S
+1474.79 625.141 1474.79 603.401 L
+1472.37 614.271 1461.5 614.271 L
+1480.83 605.816 1480.83 599.777 L
+1480.83 628.764 1480.83 622.725 L
+1472.37 621.518 1472.37 607.024 L
+1480.83 605.816 1474.79 605.816 L
+1478.41 622.725 1474.79 622.725 L
+NP
+1478.41 621.518 MT
+1480.83 622.725 LT
+1478.41 623.933 LT
+1478.41 621.518 LT
+C F S
+1013.41 683.115 1013.41 661.375 L
+1026.7 672.245 1015.83 672.245 L
+1007.37 663.79 1007.37 657.751 L
+1007.37 686.738 1007.37 680.699 L
+1015.83 679.491 1015.83 664.998 L
+1013.41 663.79 1007.37 663.79 L
+1013.41 680.699 1009.79 680.699 L
+NP
+1009.79 679.491 MT
+1007.37 680.699 LT
+1009.79 681.907 LT
+1009.79 679.491 LT
+C F S
+1122.11 774.907 1122.11 753.167 L
+1119.7 764.037 1108.83 764.037 L
+1128.15 755.582 1128.15 749.543 L
+1128.15 778.53 1128.15 772.491 L
+1119.7 771.284 1119.7 756.79 L
+1128.15 755.582 1122.11 755.582 L
+1125.74 772.491 1122.11 772.491 L
+NP
+1125.74 771.284 MT
+1128.15 772.491 LT
+1125.74 773.699 LT
+1125.74 771.284 LT
+C F S
+1337.1 774.907 1337.1 753.167 L
+1350.39 764.037 1339.52 764.037 L
+1331.06 755.582 1331.06 749.543 L
+1331.06 778.53 1331.06 772.491 L
+1339.52 771.284 1339.52 756.79 L
+1337.1 755.582 1331.06 755.582 L
+1337.1 772.491 1333.48 772.491 L
+NP
+1333.48 771.284 MT
+1331.06 772.491 LT
+1333.48 773.699 LT
+1333.48 771.284 LT
+C F S
+1122.11 861.868 1122.11 840.128 L
+1119.7 850.998 1108.83 850.998 L
+1128.15 842.543 1128.15 836.504 L
+1128.15 865.491 1128.15 859.452 L
+1119.7 858.244 1119.7 843.751 L
+1128.15 842.543 1122.11 842.543 L
+1125.74 859.452 1122.11 859.452 L
+NP
+1125.74 858.244 MT
+1128.15 859.452 LT
+1125.74 860.66 LT
+1125.74 858.244 LT
+C F S
+1122.11 958.491 1122.11 936.751 L
+1119.7 947.621 1108.83 947.621 L
+1128.15 939.166 1128.15 933.127 L
+1128.15 962.114 1128.15 956.075 L
+1119.7 954.868 1119.7 940.374 L
+1128.15 939.166 1122.11 939.166 L
+1125.74 956.075 1122.11 956.075 L
+NP
+1125.74 954.868 MT
+1128.15 956.075 LT
+1125.74 957.283 LT
+1125.74 954.868 LT
+C F S
+1822.63 335.271 1822.63 313.531 L
+1828.67 315.947 1828.67 309.908 L
+1828.67 338.895 1828.67 332.856 L
+1820.22 331.648 1820.22 317.154 L
+1828.67 332.856 1822.63 332.856 L
+1828.67 315.947 1825.05 315.947 L
+1815.39 324.401 1809.35 324.401 L
+NP
+1825.05 314.739 MT
+1822.63 315.947 LT
+1825.05 317.154 LT
+1825.05 314.739 LT
+C F S
+1817.8 324.401 2.41558 -180 -540 A S
+1822.63 393.245 1822.63 371.505 L
+1828.67 373.921 1828.67 367.882 L
+1828.67 396.869 1828.67 390.83 L
+1820.22 389.622 1820.22 375.128 L
+1828.67 390.83 1822.63 390.83 L
+1828.67 373.921 1825.05 373.921 L
+1815.39 382.375 1809.35 382.375 L
+NP
+1825.05 372.713 MT
+1822.63 373.921 LT
+1825.05 375.128 LT
+1825.05 372.713 LT
+C F S
+1817.8 382.375 2.41558 -180 -540 A S
+1933.75 335.271 1933.75 313.531 L
+1939.79 315.947 1939.79 309.908 L
+1939.79 338.895 1939.79 332.856 L
+1931.33 331.648 1931.33 317.154 L
+1939.79 332.856 1933.75 332.856 L
+1939.79 315.947 1936.16 315.947 L
+1926.5 324.401 1920.46 324.401 L
+NP
+1936.16 314.739 MT
+1933.75 315.947 LT
+1936.16 317.154 LT
+1936.16 314.739 LT
+C F S
+1928.92 324.401 2.41558 -180 -540 A S
+1933.75 393.245 1933.75 371.505 L
+1939.79 373.921 1939.79 367.882 L
+1939.79 396.869 1939.79 390.83 L
+1931.33 389.622 1931.33 375.128 L
+1939.79 390.83 1933.75 390.83 L
+1939.79 373.921 1936.16 373.921 L
+1926.5 382.375 1920.46 382.375 L
+NP
+1936.16 372.713 MT
+1933.75 373.921 LT
+1936.16 375.128 LT
+1936.16 372.713 LT
+C F S
+1928.92 382.375 2.41558 -180 -540 A S
+1933.75 451.219 1933.75 429.479 L
+1939.79 431.894 1939.79 425.856 L
+1939.79 454.843 1939.79 448.804 L
+1931.33 447.596 1931.33 433.102 L
+1939.79 448.804 1933.75 448.804 L
+1939.79 431.894 1936.16 431.894 L
+1926.5 440.349 1920.46 440.349 L
+NP
+1936.16 430.687 MT
+1933.75 431.894 LT
+1936.16 433.102 LT
+1936.16 430.687 LT
+C F S
+1928.92 440.349 2.41558 -180 -540 A S
+1933.75 509.193 1933.75 487.453 L
+1939.79 489.868 1939.79 483.829 L
+1939.79 512.816 1939.79 506.777 L
+1931.33 505.57 1931.33 491.076 L
+1939.79 506.777 1933.75 506.777 L
+1939.79 489.868 1936.16 489.868 L
+1926.5 498.323 1920.46 498.323 L
+NP
+1936.16 488.661 MT
+1933.75 489.868 LT
+1936.16 491.076 LT
+1936.16 488.661 LT
+C F S
+1928.92 498.323 2.41558 -180 -540 A S
+1933.75 567.167 1933.75 545.427 L
+1939.79 547.842 1939.79 541.803 L
+1939.79 570.79 1939.79 564.751 L
+1931.33 563.544 1931.33 549.05 L
+1939.79 564.751 1933.75 564.751 L
+1939.79 547.842 1936.16 547.842 L
+1926.5 556.297 1920.46 556.297 L
+NP
+1936.16 546.635 MT
+1933.75 547.842 LT
+1936.16 549.05 LT
+1936.16 546.635 LT
+C F S
+1928.92 556.297 2.41558 -180 -540 A S
+2044.87 335.271 2044.87 313.531 L
+2050.9 315.947 2050.9 309.908 L
+2050.9 338.895 2050.9 332.856 L
+2042.45 331.648 2042.45 317.154 L
+2050.9 332.856 2044.87 332.856 L
+2050.9 315.947 2047.28 315.947 L
+2037.62 324.401 2031.58 324.401 L
+NP
+2047.28 314.739 MT
+2044.87 315.947 LT
+2047.28 317.154 LT
+2047.28 314.739 LT
+C F S
+2040.03 324.401 2.41558 -180 -540 A S
+2044.87 393.245 2044.87 371.505 L
+2050.9 373.921 2050.9 367.882 L
+2050.9 396.869 2050.9 390.83 L
+2042.45 389.622 2042.45 375.128 L
+2050.9 390.83 2044.87 390.83 L
+2050.9 373.921 2047.28 373.921 L
+2037.62 382.375 2031.58 382.375 L
+NP
+2047.28 372.713 MT
+2044.87 373.921 LT
+2047.28 375.128 LT
+2047.28 372.713 LT
+C F S
+2040.03 382.375 2.41558 -180 -540 A S
+2044.87 451.219 2044.87 429.479 L
+2050.9 431.894 2050.9 425.856 L
+2050.9 454.843 2050.9 448.804 L
+2042.45 447.596 2042.45 433.102 L
+2050.9 448.804 2044.87 448.804 L
+2050.9 431.894 2047.28 431.894 L
+2037.62 440.349 2031.58 440.349 L
+NP
+2047.28 430.687 MT
+2044.87 431.894 LT
+2047.28 433.102 LT
+2047.28 430.687 LT
+C F S
+2040.03 440.349 2.41558 -180 -540 A S
+2044.87 509.193 2044.87 487.453 L
+2050.9 489.868 2050.9 483.829 L
+2050.9 512.816 2050.9 506.777 L
+2042.45 505.57 2042.45 491.076 L
+2050.9 506.777 2044.87 506.777 L
+2050.9 489.868 2047.28 489.868 L
+2037.62 498.323 2031.58 498.323 L
+NP
+2047.28 488.661 MT
+2044.87 489.868 LT
+2047.28 491.076 LT
+2047.28 488.661 LT
+C F S
+2040.03 498.323 2.41558 -180 -540 A S
+2044.87 567.167 2044.87 545.427 L
+2050.9 547.842 2050.9 541.803 L
+2050.9 570.79 2050.9 564.751 L
+2042.45 563.544 2042.45 549.05 L
+2050.9 564.751 2044.87 564.751 L
+2050.9 547.842 2047.28 547.842 L
+2037.62 556.297 2031.58 556.297 L
+NP
+2047.28 546.635 MT
+2044.87 547.842 LT
+2047.28 549.05 LT
+2047.28 546.635 LT
+C F S
+2040.03 556.297 2.41558 -180 -540 A S
+2160.81 335.271 2160.81 313.531 L
+2166.85 315.947 2166.85 309.908 L
+2166.85 338.895 2166.85 332.856 L
+2158.4 331.648 2158.4 317.154 L
+2166.85 332.856 2160.81 332.856 L
+2166.85 315.947 2163.23 315.947 L
+2153.57 324.401 2147.53 324.401 L
+NP
+2163.23 314.739 MT
+2160.81 315.947 LT
+2163.23 317.154 LT
+2163.23 314.739 LT
+C F S
+2155.98 324.401 2.41558 -180 -540 A S
+2160.81 393.245 2160.81 371.505 L
+2166.85 373.921 2166.85 367.882 L
+2166.85 396.869 2166.85 390.83 L
+2158.4 389.622 2158.4 375.128 L
+2166.85 390.83 2160.81 390.83 L
+2166.85 373.921 2163.23 373.921 L
+2153.57 382.375 2147.53 382.375 L
+NP
+2163.23 372.713 MT
+2160.81 373.921 LT
+2163.23 375.128 LT
+2163.23 372.713 LT
+C F S
+2155.98 382.375 2.41558 -180 -540 A S
+2160.81 451.219 2160.81 429.479 L
+2166.85 431.894 2166.85 425.856 L
+2166.85 454.843 2166.85 448.804 L
+2158.4 447.596 2158.4 433.102 L
+2166.85 448.804 2160.81 448.804 L
+2166.85 431.894 2163.23 431.894 L
+2153.57 440.349 2147.53 440.349 L
+NP
+2163.23 430.687 MT
+2160.81 431.894 LT
+2163.23 433.102 LT
+2163.23 430.687 LT
+C F S
+2155.98 440.349 2.41558 -180 -540 A S
+2160.81 509.193 2160.81 487.453 L
+2166.85 489.868 2166.85 483.829 L
+2166.85 512.816 2166.85 506.777 L
+2158.4 505.57 2158.4 491.076 L
+2166.85 506.777 2160.81 506.777 L
+2166.85 489.868 2163.23 489.868 L
+2153.57 498.323 2147.53 498.323 L
+NP
+2163.23 488.661 MT
+2160.81 489.868 LT
+2163.23 491.076 LT
+2163.23 488.661 LT
+C F S
+2155.98 498.323 2.41558 -180 -540 A S
+2160.81 567.167 2160.81 545.427 L
+2166.85 547.842 2166.85 541.803 L
+2166.85 570.79 2166.85 564.751 L
+2158.4 563.544 2158.4 549.05 L
+2166.85 564.751 2160.81 564.751 L
+2166.85 547.842 2163.23 547.842 L
+2153.57 556.297 2147.53 556.297 L
+NP
+2163.23 546.635 MT
+2160.81 547.842 LT
+2163.23 549.05 LT
+2163.23 546.635 LT
+C F S
+2155.98 556.297 2.41558 -180 -540 A S
+2267.1 335.271 2267.1 313.531 L
+2273.14 315.947 2273.14 309.908 L
+2273.14 338.895 2273.14 332.856 L
+2264.68 331.648 2264.68 317.154 L
+2273.14 332.856 2267.1 332.856 L
+2273.14 315.947 2269.51 315.947 L
+2259.85 324.401 2253.81 324.401 L
+NP
+2269.51 314.739 MT
+2267.1 315.947 LT
+2269.51 317.154 LT
+2269.51 314.739 LT
+C F S
+2262.27 324.401 2.41558 -180 -540 A S
+2267.1 393.245 2267.1 371.505 L
+2273.14 373.921 2273.14 367.882 L
+2273.14 396.869 2273.14 390.83 L
+2264.68 389.622 2264.68 375.128 L
+2273.14 390.83 2267.1 390.83 L
+2273.14 373.921 2269.51 373.921 L
+2259.85 382.375 2253.81 382.375 L
+NP
+2269.51 372.713 MT
+2267.1 373.921 LT
+2269.51 375.128 LT
+2269.51 372.713 LT
+C F S
+2262.27 382.375 2.41558 -180 -540 A S
+2267.1 451.219 2267.1 429.479 L
+2273.14 431.894 2273.14 425.856 L
+2273.14 454.843 2273.14 448.804 L
+2264.68 447.596 2264.68 433.102 L
+2273.14 448.804 2267.1 448.804 L
+2273.14 431.894 2269.51 431.894 L
+2259.85 440.349 2253.81 440.349 L
+NP
+2269.51 430.687 MT
+2267.1 431.894 LT
+2269.51 433.102 LT
+2269.51 430.687 LT
+C F S
+2262.27 440.349 2.41558 -180 -540 A S
+2267.1 509.193 2267.1 487.453 L
+2273.14 489.868 2273.14 483.829 L
+2273.14 512.816 2273.14 506.777 L
+2264.68 505.57 2264.68 491.076 L
+2273.14 506.777 2267.1 506.777 L
+2273.14 489.868 2269.51 489.868 L
+2259.85 498.323 2253.81 498.323 L
+NP
+2269.51 488.661 MT
+2267.1 489.868 LT
+2269.51 491.076 LT
+2269.51 488.661 LT
+C F S
+2262.27 498.323 2.41558 -180 -540 A S
+2267.1 567.167 2267.1 545.427 L
+2273.14 547.842 2273.14 541.803 L
+2273.14 570.79 2273.14 564.751 L
+2264.68 563.544 2264.68 549.05 L
+2273.14 564.751 2267.1 564.751 L
+2273.14 547.842 2269.51 547.842 L
+2259.85 556.297 2253.81 556.297 L
+NP
+2269.51 546.635 MT
+2267.1 547.842 LT
+2269.51 549.05 LT
+2269.51 546.635 LT
+C F S
+2262.27 556.297 2.41558 -180 -540 A S
+2416.86 335.271 2416.86 313.531 L
+2422.9 315.947 2422.9 309.908 L
+2422.9 338.895 2422.9 332.856 L
+2414.45 331.648 2414.45 317.154 L
+2422.9 332.856 2416.86 332.856 L
+2422.9 315.947 2419.28 315.947 L
+2409.62 324.401 2403.58 324.401 L
+NP
+2419.28 314.739 MT
+2416.86 315.947 LT
+2419.28 317.154 LT
+2419.28 314.739 LT
+C F S
+2412.03 324.401 2.41558 -180 -540 A S
+2416.86 393.245 2416.86 371.505 L
+2422.9 373.921 2422.9 367.882 L
+2422.9 396.869 2422.9 390.83 L
+2414.45 389.622 2414.45 375.128 L
+2422.9 390.83 2416.86 390.83 L
+2422.9 373.921 2419.28 373.921 L
+2409.62 382.375 2403.58 382.375 L
+NP
+2419.28 372.713 MT
+2416.86 373.921 LT
+2419.28 375.128 LT
+2419.28 372.713 LT
+C F S
+2412.03 382.375 2.41558 -180 -540 A S
+2416.86 451.219 2416.86 429.479 L
+2422.9 431.894 2422.9 425.856 L
+2422.9 454.843 2422.9 448.804 L
+2414.45 447.596 2414.45 433.102 L
+2422.9 448.804 2416.86 448.804 L
+2422.9 431.894 2419.28 431.894 L
+2409.62 440.349 2403.58 440.349 L
+NP
+2419.28 430.687 MT
+2416.86 431.894 LT
+2419.28 433.102 LT
+2419.28 430.687 LT
+C F S
+2412.03 440.349 2.41558 -180 -540 A S
+2416.86 509.193 2416.86 487.453 L
+2422.9 489.868 2422.9 483.829 L
+2422.9 512.816 2422.9 506.777 L
+2414.45 505.57 2414.45 491.076 L
+2422.9 506.777 2416.86 506.777 L
+2422.9 489.868 2419.28 489.868 L
+2409.62 498.323 2403.58 498.323 L
+NP
+2419.28 488.661 MT
+2416.86 489.868 LT
+2419.28 491.076 LT
+2419.28 488.661 LT
+C F S
+2412.03 498.323 2.41558 -180 -540 A S
+2416.86 567.167 2416.86 545.427 L
+2422.9 547.842 2422.9 541.803 L
+2422.9 570.79 2422.9 564.751 L
+2414.45 563.544 2414.45 549.05 L
+2422.9 564.751 2416.86 564.751 L
+2422.9 547.842 2419.28 547.842 L
+2409.62 556.297 2403.58 556.297 L
+NP
+2419.28 546.635 MT
+2416.86 547.842 LT
+2419.28 549.05 LT
+2419.28 546.635 LT
+C F S
+2412.03 556.297 2.41558 -180 -540 A S
+2542.47 335.271 2542.47 313.531 L
+2548.51 315.947 2548.51 309.908 L
+2548.51 338.895 2548.51 332.856 L
+2540.06 331.648 2540.06 317.154 L
+2548.51 332.856 2542.47 332.856 L
+2548.51 315.947 2544.89 315.947 L
+2535.23 324.401 2529.19 324.401 L
+NP
+2544.89 314.739 MT
+2542.47 315.947 LT
+2544.89 317.154 LT
+2544.89 314.739 LT
+C F S
+2537.64 324.401 2.41558 -180 -540 A S
+2542.47 393.245 2542.47 371.505 L
+2548.51 373.921 2548.51 367.882 L
+2548.51 396.869 2548.51 390.83 L
+2540.06 389.622 2540.06 375.128 L
+2548.51 390.83 2542.47 390.83 L
+2548.51 373.921 2544.89 373.921 L
+2535.23 382.375 2529.19 382.375 L
+NP
+2544.89 372.713 MT
+2542.47 373.921 LT
+2544.89 375.128 LT
+2544.89 372.713 LT
+C F S
+2537.64 382.375 2.41558 -180 -540 A S
+2542.47 451.219 2542.47 429.479 L
+2548.51 431.894 2548.51 425.856 L
+2548.51 454.843 2548.51 448.804 L
+2540.06 447.596 2540.06 433.102 L
+2548.51 448.804 2542.47 448.804 L
+2548.51 431.894 2544.89 431.894 L
+2535.23 440.349 2529.19 440.349 L
+NP
+2544.89 430.687 MT
+2542.47 431.894 LT
+2544.89 433.102 LT
+2544.89 430.687 LT
+C F S
+2537.64 440.349 2.41558 -180 -540 A S
+2542.47 509.193 2542.47 487.453 L
+2548.51 489.868 2548.51 483.829 L
+2548.51 512.816 2548.51 506.777 L
+2540.06 505.57 2540.06 491.076 L
+2548.51 506.777 2542.47 506.777 L
+2548.51 489.868 2544.89 489.868 L
+2535.23 498.323 2529.19 498.323 L
+NP
+2544.89 488.661 MT
+2542.47 489.868 LT
+2544.89 491.076 LT
+2544.89 488.661 LT
+C F S
+2537.64 498.323 2.41558 -180 -540 A S
+2542.47 567.167 2542.47 545.427 L
+2548.51 547.842 2548.51 541.803 L
+2548.51 570.79 2548.51 564.751 L
+2540.06 563.544 2540.06 549.05 L
+2548.51 564.751 2542.47 564.751 L
+2548.51 547.842 2544.89 547.842 L
+2535.23 556.297 2529.19 556.297 L
+NP
+2544.89 546.635 MT
+2542.47 547.842 LT
+2544.89 549.05 LT
+2544.89 546.635 LT
+C F S
+2537.64 556.297 2.41558 -180 -540 A S
+2165.64 678.284 2165.64 656.543 L
+2163.23 667.414 2152.36 667.414 L
+2171.68 658.959 2171.68 652.92 L
+2171.68 681.907 2171.68 675.868 L
+2163.23 674.66 2163.23 660.167 L
+2171.68 658.959 2165.64 658.959 L
+2169.27 675.868 2165.64 675.868 L
+NP
+2169.27 674.66 MT
+2171.68 675.868 LT
+2169.27 677.076 LT
+2169.27 674.66 LT
+C F S
+2165.64 736.258 2165.64 714.517 L
+2163.23 725.388 2152.36 725.388 L
+2171.68 716.933 2171.68 710.894 L
+2171.68 739.881 2171.68 733.842 L
+2163.23 732.634 2163.23 718.141 L
+2171.68 716.933 2165.64 716.933 L
+2169.27 733.842 2165.64 733.842 L
+NP
+2169.27 732.634 MT
+2171.68 733.842 LT
+2169.27 735.05 LT
+2169.27 732.634 LT
+C F S
+2165.64 794.232 2165.64 772.491 L
+2163.23 783.361 2152.36 783.361 L
+2171.68 774.907 2171.68 768.868 L
+2171.68 797.855 2171.68 791.816 L
+2163.23 790.608 2163.23 776.115 L
+2171.68 774.907 2165.64 774.907 L
+2169.27 791.816 2165.64 791.816 L
+NP
+2169.27 790.608 MT
+2171.68 791.816 LT
+2169.27 793.024 LT
+2169.27 790.608 LT
+C F S
+2165.64 852.205 2165.64 830.465 L
+2163.23 841.335 2152.36 841.335 L
+2171.68 832.881 2171.68 826.842 L
+2171.68 855.829 2171.68 849.79 L
+2163.23 848.582 2163.23 834.089 L
+2171.68 832.881 2165.64 832.881 L
+2169.27 849.79 2165.64 849.79 L
+NP
+2169.27 848.582 MT
+2171.68 849.79 LT
+2169.27 850.998 LT
+2169.27 848.582 LT
+C F S
+2165.64 910.179 2165.64 888.439 L
+2163.23 899.309 2152.36 899.309 L
+2171.68 890.855 2171.68 884.816 L
+2171.68 913.803 2171.68 907.764 L
+2163.23 906.556 2163.23 892.063 L
+2171.68 890.855 2165.64 890.855 L
+2169.27 907.764 2165.64 907.764 L
+NP
+2169.27 906.556 MT
+2171.68 907.764 LT
+2169.27 908.972 LT
+2169.27 906.556 LT
+C F S
+2286.42 678.284 2286.42 656.543 L
+2284.01 667.414 2273.14 667.414 L
+2292.46 658.959 2292.46 652.92 L
+2292.46 681.907 2292.46 675.868 L
+2284.01 674.66 2284.01 660.167 L
+2292.46 658.959 2286.42 658.959 L
+2290.05 675.868 2286.42 675.868 L
+NP
+2290.05 674.66 MT
+2292.46 675.868 LT
+2290.05 677.076 LT
+2290.05 674.66 LT
+C F S
+2286.42 736.258 2286.42 714.517 L
+2284.01 725.388 2273.14 725.388 L
+2292.46 716.933 2292.46 710.894 L
+2292.46 739.881 2292.46 733.842 L
+2284.01 732.634 2284.01 718.141 L
+2292.46 716.933 2286.42 716.933 L
+2290.05 733.842 2286.42 733.842 L
+NP
+2290.05 732.634 MT
+2292.46 733.842 LT
+2290.05 735.05 LT
+2290.05 732.634 LT
+C F S
+2286.42 794.232 2286.42 772.491 L
+2284.01 783.361 2273.14 783.361 L
+2292.46 774.907 2292.46 768.868 L
+2292.46 797.855 2292.46 791.816 L
+2284.01 790.608 2284.01 776.115 L
+2292.46 774.907 2286.42 774.907 L
+2290.05 791.816 2286.42 791.816 L
+NP
+2290.05 790.608 MT
+2292.46 791.816 LT
+2290.05 793.024 LT
+2290.05 790.608 LT
+C F S
+2286.42 852.205 2286.42 830.465 L
+2284.01 841.335 2273.14 841.335 L
+2292.46 832.881 2292.46 826.842 L
+2292.46 855.829 2292.46 849.79 L
+2284.01 848.582 2284.01 834.089 L
+2292.46 832.881 2286.42 832.881 L
+2290.05 849.79 2286.42 849.79 L
+NP
+2290.05 848.582 MT
+2292.46 849.79 LT
+2290.05 850.998 LT
+2290.05 848.582 LT
+C F S
+2286.42 910.179 2286.42 888.439 L
+2284.01 899.309 2273.14 899.309 L
+2292.46 890.855 2292.46 884.816 L
+2292.46 913.803 2292.46 907.764 L
+2284.01 906.556 2284.01 892.063 L
+2292.46 890.855 2286.42 890.855 L
+2290.05 907.764 2286.42 907.764 L
+NP
+2290.05 906.556 MT
+2292.46 907.764 LT
+2290.05 908.972 LT
+2290.05 906.556 LT
+C F S
+1337.1 861.868 1337.1 840.128 L
+1350.39 850.998 1339.52 850.998 L
+1331.06 842.543 1331.06 836.504 L
+1331.06 865.491 1331.06 859.452 L
+1339.52 858.244 1339.52 843.751 L
+1337.1 842.543 1331.06 842.543 L
+1337.1 859.452 1333.48 859.452 L
+NP
+1333.48 858.244 MT
+1331.06 859.452 LT
+1333.48 860.66 LT
+1333.48 858.244 LT
+C F S
+1337.1 958.491 1337.1 936.751 L
+1350.39 947.621 1339.52 947.621 L
+1331.06 939.166 1331.06 933.127 L
+1331.06 962.114 1331.06 956.075 L
+1339.52 954.868 1339.52 940.374 L
+1337.1 939.166 1331.06 939.166 L
+1337.1 956.075 1333.48 956.075 L
+NP
+1333.48 954.868 MT
+1331.06 956.075 LT
+1333.48 957.283 LT
+1333.48 954.868 LT
+C F S
+868.477 364.258 868.477 342.518 L
+862.439 344.934 862.439 338.895 L
+862.439 367.882 862.439 361.843 L
+870.893 360.635 870.893 346.141 L
+868.477 361.843 862.439 361.843 L
+866.062 344.934 862.439 344.934 L
+881.763 353.388 875.724 353.388 L
+NP
+866.062 343.726 MT
+868.477 344.934 LT
+866.062 346.141 LT
+866.062 343.726 LT
+C F S
+873.309 353.388 2.41558 0 -360 A S
+2421.7 678.284 2421.7 656.543 L
+2419.28 667.414 2408.41 667.414 L
+2427.73 658.959 2427.73 652.92 L
+2427.73 681.907 2427.73 675.868 L
+2419.28 674.66 2419.28 660.167 L
+2427.73 658.959 2421.7 658.959 L
+2425.32 675.868 2421.7 675.868 L
+NP
+2425.32 674.66 MT
+2427.73 675.868 LT
+2425.32 677.076 LT
+2425.32 674.66 LT
+C F S
+2421.7 736.258 2421.7 714.517 L
+2419.28 725.388 2408.41 725.388 L
+2427.73 716.933 2427.73 710.894 L
+2427.73 739.881 2427.73 733.842 L
+2419.28 732.634 2419.28 718.141 L
+2427.73 716.933 2421.7 716.933 L
+2425.32 733.842 2421.7 733.842 L
+NP
+2425.32 732.634 MT
+2427.73 733.842 LT
+2425.32 735.05 LT
+2425.32 732.634 LT
+C F S
+2421.7 794.232 2421.7 772.491 L
+2419.28 783.361 2408.41 783.361 L
+2427.73 774.907 2427.73 768.868 L
+2427.73 797.855 2427.73 791.816 L
+2419.28 790.608 2419.28 776.115 L
+2427.73 774.907 2421.7 774.907 L
+2425.32 791.816 2421.7 791.816 L
+NP
+2425.32 790.608 MT
+2427.73 791.816 LT
+2425.32 793.024 LT
+2425.32 790.608 LT
+C F S
+2421.7 852.205 2421.7 830.465 L
+2419.28 841.335 2408.41 841.335 L
+2427.73 832.881 2427.73 826.842 L
+2427.73 855.829 2427.73 849.79 L
+2419.28 848.582 2419.28 834.089 L
+2427.73 832.881 2421.7 832.881 L
+2425.32 849.79 2421.7 849.79 L
+NP
+2425.32 848.582 MT
+2427.73 849.79 LT
+2425.32 850.998 LT
+2425.32 848.582 LT
+C F S
+2421.7 910.179 2421.7 888.439 L
+2419.28 899.309 2408.41 899.309 L
+2427.73 890.855 2427.73 884.816 L
+2427.73 913.803 2427.73 907.764 L
+2419.28 906.556 2419.28 892.063 L
+2427.73 890.855 2421.7 890.855 L
+2425.32 907.764 2421.7 907.764 L
+NP
+2425.32 906.556 MT
+2427.73 907.764 LT
+2425.32 908.972 LT
+2425.32 906.556 LT
+C F S
+2547.31 678.284 2547.31 656.543 L
+2544.89 667.414 2534.02 667.414 L
+2553.34 658.959 2553.34 652.92 L
+2553.34 681.907 2553.34 675.868 L
+2544.89 674.66 2544.89 660.167 L
+2553.34 658.959 2547.31 658.959 L
+2550.93 675.868 2547.31 675.868 L
+NP
+2550.93 674.66 MT
+2553.34 675.868 LT
+2550.93 677.076 LT
+2550.93 674.66 LT
+C F S
+2547.31 736.258 2547.31 714.517 L
+2544.89 725.388 2534.02 725.388 L
+2553.34 716.933 2553.34 710.894 L
+2553.34 739.881 2553.34 733.842 L
+2544.89 732.634 2544.89 718.141 L
+2553.34 716.933 2547.31 716.933 L
+2550.93 733.842 2547.31 733.842 L
+NP
+2550.93 732.634 MT
+2553.34 733.842 LT
+2550.93 735.05 LT
+2550.93 732.634 LT
+C F S
+2547.31 794.232 2547.31 772.491 L
+2544.89 783.361 2534.02 783.361 L
+2553.34 774.907 2553.34 768.868 L
+2553.34 797.855 2553.34 791.816 L
+2544.89 790.608 2544.89 776.115 L
+2553.34 774.907 2547.31 774.907 L
+2550.93 791.816 2547.31 791.816 L
+NP
+2550.93 790.608 MT
+2553.34 791.816 LT
+2550.93 793.024 LT
+2550.93 790.608 LT
+C F S
+2547.31 852.205 2547.31 830.465 L
+2544.89 841.335 2534.02 841.335 L
+2553.34 832.881 2553.34 826.842 L
+2553.34 855.829 2553.34 849.79 L
+2544.89 848.582 2544.89 834.089 L
+2553.34 832.881 2547.31 832.881 L
+2550.93 849.79 2547.31 849.79 L
+NP
+2550.93 848.582 MT
+2553.34 849.79 LT
+2550.93 850.998 LT
+2550.93 848.582 LT
+C F S
+2547.31 910.179 2547.31 888.439 L
+2544.89 899.309 2534.02 899.309 L
+2553.34 890.855 2553.34 884.816 L
+2553.34 913.803 2553.34 907.764 L
+2544.89 906.556 2544.89 892.063 L
+2553.34 890.855 2547.31 890.855 L
+2550.93 907.764 2547.31 907.764 L
+NP
+2550.93 906.556 MT
+2553.34 907.764 LT
+2550.93 908.972 LT
+2550.93 906.556 LT
+C F S
+1943.41 678.284 1943.41 656.543 L
+1949.45 658.959 1949.45 652.92 L
+1949.45 681.907 1949.45 675.868 L
+1941 674.66 1941 660.167 L
+1949.45 675.868 1943.41 675.868 L
+1949.45 658.959 1945.83 658.959 L
+1936.16 667.414 1930.13 667.414 L
+NP
+1945.83 657.751 MT
+1943.41 658.959 LT
+1945.83 660.167 LT
+1945.83 657.751 LT
+C F S
+1938.58 667.414 2.41558 -180 -540 A S
+1943.41 736.258 1943.41 714.517 L
+1949.45 716.933 1949.45 710.894 L
+1949.45 739.881 1949.45 733.842 L
+1941 732.634 1941 718.141 L
+1949.45 733.842 1943.41 733.842 L
+1949.45 716.933 1945.83 716.933 L
+1936.16 725.388 1930.13 725.388 L
+NP
+1945.83 715.725 MT
+1943.41 716.933 LT
+1945.83 718.141 LT
+1945.83 715.725 LT
+C F S
+1938.58 725.388 2.41558 -180 -540 A S
+1943.41 794.232 1943.41 772.491 L
+1949.45 774.907 1949.45 768.868 L
+1949.45 797.855 1949.45 791.816 L
+1941 790.608 1941 776.115 L
+1949.45 791.816 1943.41 791.816 L
+1949.45 774.907 1945.83 774.907 L
+1936.16 783.361 1930.13 783.361 L
+NP
+1945.83 773.699 MT
+1943.41 774.907 LT
+1945.83 776.115 LT
+1945.83 773.699 LT
+C F S
+1938.58 783.361 2.41558 -180 -540 A S
+1943.41 852.205 1943.41 830.465 L
+1949.45 832.881 1949.45 826.842 L
+1949.45 855.829 1949.45 849.79 L
+1941 848.582 1941 834.089 L
+1949.45 849.79 1943.41 849.79 L
+1949.45 832.881 1945.83 832.881 L
+1936.16 841.335 1930.13 841.335 L
+NP
+1945.83 831.673 MT
+1943.41 832.881 LT
+1945.83 834.089 LT
+1945.83 831.673 LT
+C F S
+1938.58 841.335 2.41558 -180 -540 A S
+1943.41 910.179 1943.41 888.439 L
+1949.45 890.855 1949.45 884.816 L
+1949.45 913.803 1949.45 907.764 L
+1941 906.556 1941 892.063 L
+1949.45 907.764 1943.41 907.764 L
+1949.45 890.855 1945.83 890.855 L
+1936.16 899.309 1930.13 899.309 L
+NP
+1945.83 889.647 MT
+1943.41 890.855 LT
+1945.83 892.063 LT
+1945.83 889.647 LT
+C F S
+1938.58 899.309 2.41558 -180 -540 A S
+2044.87 678.284 2044.87 656.543 L
+2050.9 658.959 2050.9 652.92 L
+2050.9 681.907 2050.9 675.868 L
+2042.45 674.66 2042.45 660.167 L
+2050.9 675.868 2044.87 675.868 L
+2050.9 658.959 2047.28 658.959 L
+2037.62 667.414 2031.58 667.414 L
+NP
+2047.28 657.751 MT
+2044.87 658.959 LT
+2047.28 660.167 LT
+2047.28 657.751 LT
+C F S
+2040.03 667.414 2.41558 -180 -540 A S
+2044.87 736.258 2044.87 714.517 L
+2050.9 716.933 2050.9 710.894 L
+2050.9 739.881 2050.9 733.842 L
+2042.45 732.634 2042.45 718.141 L
+2050.9 733.842 2044.87 733.842 L
+2050.9 716.933 2047.28 716.933 L
+2037.62 725.388 2031.58 725.388 L
+NP
+2047.28 715.725 MT
+2044.87 716.933 LT
+2047.28 718.141 LT
+2047.28 715.725 LT
+C F S
+2040.03 725.388 2.41558 -180 -540 A S
+2044.87 794.232 2044.87 772.491 L
+2050.9 774.907 2050.9 768.868 L
+2050.9 797.855 2050.9 791.816 L
+2042.45 790.608 2042.45 776.115 L
+2050.9 791.816 2044.87 791.816 L
+2050.9 774.907 2047.28 774.907 L
+2037.62 783.361 2031.58 783.361 L
+NP
+2047.28 773.699 MT
+2044.87 774.907 LT
+2047.28 776.115 LT
+2047.28 773.699 LT
+C F S
+2040.03 783.361 2.41558 -180 -540 A S
+2044.87 852.205 2044.87 830.465 L
+2050.9 832.881 2050.9 826.842 L
+2050.9 855.829 2050.9 849.79 L
+2042.45 848.582 2042.45 834.089 L
+2050.9 849.79 2044.87 849.79 L
+2050.9 832.881 2047.28 832.881 L
+2037.62 841.335 2031.58 841.335 L
+NP
+2047.28 831.673 MT
+2044.87 832.881 LT
+2047.28 834.089 LT
+2047.28 831.673 LT
+C F S
+2040.03 841.335 2.41558 -180 -540 A S
+2044.87 910.179 2044.87 888.439 L
+2050.9 890.855 2050.9 884.816 L
+2050.9 913.803 2050.9 907.764 L
+2042.45 906.556 2042.45 892.063 L
+2050.9 907.764 2044.87 907.764 L
+2050.9 890.855 2047.28 890.855 L
+2037.62 899.309 2031.58 899.309 L
+NP
+2047.28 889.647 MT
+2044.87 890.855 LT
+2047.28 892.063 LT
+2047.28 889.647 LT
+C F S
+2040.03 899.309 2.41558 -180 -540 A S
+0.730469 0.132812 0 RGB
+NP
+932.49 352.18 MT
+930.075 353.388 LT
+932.49 354.596 LT
+932.49 352.18 LT
+C F S
+928.867 366.674 2.41558 2.41558 R
+928.867 366.674 2.41558 2.41558 RF
+948.192 352.18 2.41558 2.41558 R
+948.192 352.18 2.41558 2.41558 RF
+928.867 337.687 2.41558 2.41558 R
+928.867 337.687 2.41558 2.41558 RF
+930.037 353.35 0.0754869 0.0754869 R
+930.037 353.35 0.0754869 0.0754869 RF
+1678.9 749.543 1676.49 749.543 L
+NP
+1676.49 749.543 MT
+1674.68 747.128 LT
+1670.45 747.128 LT
+1672.26 749.543 LT
+1670.45 751.959 LT
+1674.68 751.959 LT
+1676.49 749.543 LT
+C F S
+1678.3 748.939 1.20779 1.20779 R
+1678.3 748.939 1.20779 1.20779 RF
+1678.9 759.206 1676.49 759.206 L
+NP
+1676.49 759.206 MT
+1674.68 756.79 LT
+1670.45 756.79 LT
+1672.26 759.206 LT
+1670.45 761.621 LT
+1674.68 761.621 LT
+1676.49 759.206 LT
+C F S
+1678.3 758.602 1.20779 1.20779 R
+1678.3 758.602 1.20779 1.20779 RF
+1678.9 662.582 1676.49 662.582 L
+NP
+1676.49 662.582 MT
+1674.68 660.167 LT
+1670.45 660.167 LT
+1672.26 662.582 LT
+1670.45 664.998 LT
+1674.68 664.998 LT
+1676.49 662.582 LT
+C F S
+1678.3 661.979 1.20779 1.20779 R
+1678.3 661.979 1.20779 1.20779 RF
+1678.9 677.076 1676.49 677.076 L
+NP
+1676.49 677.076 MT
+1674.68 674.66 LT
+1670.45 674.66 LT
+1672.26 677.076 LT
+1670.45 679.491 LT
+1674.68 679.491 LT
+1676.49 677.076 LT
+C F S
+1678.3 676.472 1.20779 1.20779 R
+1678.3 676.472 1.20779 1.20779 RF
+1296.64 575.018 1.20779 1.20779 R
+1296.64 575.018 1.20779 1.20779 RF
+1142.04 575.018 1.20779 1.20779 R
+1142.04 575.018 1.20779 1.20779 RF
+1219.34 705.459 1.20779 1.20779 R
+1219.34 705.459 1.20779 1.20779 RF
+1219.34 318.966 1.20779 1.20779 R
+1219.34 318.966 1.20779 1.20779 RF
+1654.15 788.193 1649.92 788.193 L
+NP
+1658.37 788.193 MT
+1656.56 785.777 LT
+1652.33 785.777 LT
+1654.15 788.193 LT
+1652.33 790.608 LT
+1656.56 790.608 LT
+1658.37 788.193 LT
+C F S
+1649.31 787.589 1.20779 1.20779 R
+1649.31 787.589 1.20779 1.20779 RF
+1431.91 575.018 1.20779 1.20779 R
+1431.91 575.018 1.20779 1.20779 RF
+NP
+1410.78 535.764 MT
+1413.19 536.972 LT
+1410.78 538.18 LT
+1410.78 535.764 LT
+C F S
+1411.98 550.258 2.41558 2.41558 R
+1411.98 550.258 2.41558 2.41558 RF
+1392.66 535.764 2.41558 2.41558 R
+1392.66 535.764 2.41558 2.41558 RF
+1411.98 521.271 2.41558 2.41558 R
+1411.98 521.271 2.41558 2.41558 RF
+1413.15 536.934 0.0754869 0.0754869 R
+1413.15 536.934 0.0754869 0.0754869 RF
+NP
+1009.79 535.764 MT
+1007.37 536.972 LT
+1009.79 538.18 LT
+1009.79 535.764 LT
+C F S
+1006.17 550.258 2.41558 2.41558 R
+1006.17 550.258 2.41558 2.41558 RF
+1025.49 535.764 2.41558 2.41558 R
+1025.49 535.764 2.41558 2.41558 RF
+1006.17 521.271 2.41558 2.41558 R
+1006.17 521.271 2.41558 2.41558 RF
+1007.34 536.934 0.0754869 0.0754869 R
+1007.34 536.934 0.0754869 0.0754869 RF
+1171.03 521.875 1.20779 1.20779 R
+1171.03 521.875 1.20779 1.20779 RF
+1151.7 604.005 1.20779 1.20779 R
+1151.7 604.005 1.20779 1.20779 RF
+NP
+1178.88 574.414 MT
+1181.3 575.622 LT
+1178.88 576.829 LT
+1178.88 574.414 LT
+C F S
+1180.09 588.907 2.41558 2.41558 R
+1180.09 588.907 2.41558 2.41558 RF
+1160.76 574.414 2.41558 2.41558 R
+1160.76 574.414 2.41558 2.41558 RF
+1180.09 559.92 2.41558 2.41558 R
+1180.09 559.92 2.41558 2.41558 RF
+1181.26 575.584 0.0754869 0.0754869 R
+1181.26 575.584 0.0754869 0.0754869 RF
+NP
+1261.01 574.414 MT
+1258.59 575.622 LT
+1261.01 576.829 LT
+1261.01 574.414 LT
+C F S
+1257.39 588.907 2.41558 2.41558 R
+1257.39 588.907 2.41558 2.41558 RF
+1276.71 574.414 2.41558 2.41558 R
+1276.71 574.414 2.41558 2.41558 RF
+1257.39 559.92 2.41558 2.41558 R
+1257.39 559.92 2.41558 2.41558 RF
+1258.56 575.584 0.0754869 0.0754869 R
+1258.56 575.584 0.0754869 0.0754869 RF
+NP
+1181.3 671.037 MT
+1178.88 672.245 LT
+1181.3 673.453 LT
+1181.3 671.037 LT
+C F S
+1180.09 656.543 2.41558 2.41558 R
+1180.09 656.543 2.41558 2.41558 RF
+1160.76 671.037 2.41558 2.41558 R
+1160.76 671.037 2.41558 2.41558 RF
+1180.09 685.53 2.41558 2.41558 R
+1180.09 685.53 2.41558 2.41558 RF
+1181.26 672.207 0.0754869 0.0754869 R
+1181.26 672.207 0.0754869 0.0754869 RF
+NP
+1258.59 671.037 MT
+1261.01 672.245 LT
+1258.59 673.453 LT
+1258.59 671.037 LT
+C F S
+1257.39 656.543 2.41558 2.41558 R
+1257.39 656.543 2.41558 2.41558 RF
+1276.71 671.037 2.41558 2.41558 R
+1276.71 671.037 2.41558 2.41558 RF
+1257.39 685.53 2.41558 2.41558 R
+1257.39 685.53 2.41558 2.41558 RF
+1258.56 672.207 0.0754869 0.0754869 R
+1258.56 672.207 0.0754869 0.0754869 RF
+NP
+1413.19 671.037 MT
+1410.78 672.245 LT
+1413.19 673.453 LT
+1413.19 671.037 LT
+C F S
+1411.98 656.543 2.41558 2.41558 R
+1411.98 656.543 2.41558 2.41558 RF
+1392.66 671.037 2.41558 2.41558 R
+1392.66 671.037 2.41558 2.41558 RF
+1411.98 685.53 2.41558 2.41558 R
+1411.98 685.53 2.41558 2.41558 RF
+1413.15 672.207 0.0754869 0.0754869 R
+1413.15 672.207 0.0754869 0.0754869 RF
+NP
+1413.19 613.063 MT
+1410.78 614.271 LT
+1413.19 615.479 LT
+1413.19 613.063 LT
+C F S
+1411.98 598.57 2.41558 2.41558 R
+1411.98 598.57 2.41558 2.41558 RF
+1392.66 613.063 2.41558 2.41558 R
+1392.66 613.063 2.41558 2.41558 RF
+1411.98 627.557 2.41558 2.41558 R
+1411.98 627.557 2.41558 2.41558 RF
+1413.15 614.233 0.0754869 0.0754869 R
+1413.15 614.233 0.0754869 0.0754869 RF
+NP
+1007.37 613.063 MT
+1009.79 614.271 LT
+1007.37 615.479 LT
+1007.37 613.063 LT
+C F S
+1006.17 598.57 2.41558 2.41558 R
+1006.17 598.57 2.41558 2.41558 RF
+1025.49 613.063 2.41558 2.41558 R
+1025.49 613.063 2.41558 2.41558 RF
+1006.17 627.557 2.41558 2.41558 R
+1006.17 627.557 2.41558 2.41558 RF
+1007.34 614.233 0.0754869 0.0754869 R
+1007.34 614.233 0.0754869 0.0754869 RF
+929.471 386.602 1.20779 1.20779 R
+929.471 386.602 1.20779 1.20779 RF
+1678.9 710.894 1676.49 710.894 L
+NP
+1676.49 710.894 MT
+1674.68 708.478 LT
+1670.45 708.478 LT
+1672.26 710.894 LT
+1670.45 713.31 LT
+1674.68 713.31 LT
+1676.49 710.894 LT
+C F S
+1678.3 710.29 1.20779 1.20779 R
+1678.3 710.29 1.20779 1.20779 RF
+1678.9 720.556 1676.49 720.556 L
+NP
+1676.49 720.556 MT
+1674.68 718.141 LT
+1670.45 718.141 LT
+1672.26 720.556 LT
+1670.45 722.972 LT
+1674.68 722.972 LT
+1676.49 720.556 LT
+C F S
+1678.3 719.952 1.20779 1.20779 R
+1678.3 719.952 1.20779 1.20779 RF
+1678.9 701.232 1676.49 701.232 L
+NP
+1676.49 701.232 MT
+1674.68 698.816 LT
+1670.45 698.816 LT
+1672.26 701.232 LT
+1670.45 703.647 LT
+1674.68 703.647 LT
+1676.49 701.232 LT
+C F S
+1678.3 700.628 1.20779 1.20779 R
+1678.3 700.628 1.20779 1.20779 RF
+NP
+1217.53 352.18 MT
+1219.94 353.388 LT
+1217.53 354.596 LT
+1217.53 352.18 LT
+C F S
+1218.74 366.674 2.41558 2.41558 R
+1218.74 366.674 2.41558 2.41558 RF
+1199.41 352.18 2.41558 2.41558 R
+1199.41 352.18 2.41558 2.41558 RF
+1218.74 337.687 2.41558 2.41558 R
+1218.74 337.687 2.41558 2.41558 RF
+1219.91 353.35 0.0754869 0.0754869 R
+1219.91 353.35 0.0754869 0.0754869 RF
+1185.52 352.784 1.20779 1.20779 R
+1185.52 352.784 1.20779 1.20779 RF
+1335.29 671.641 1.20779 1.20779 R
+1335.29 671.641 1.20779 1.20779 RF
+1098.56 671.641 1.20779 1.20779 R
+1098.56 671.641 1.20779 1.20779 RF
+1064.74 575.018 1.20779 1.20779 R
+1064.74 575.018 1.20779 1.20779 RF
+NP
+1101.58 574.414 MT
+1104 575.622 LT
+1101.58 576.829 LT
+1101.58 574.414 LT
+C F S
+1102.79 588.907 2.41558 2.41558 R
+1102.79 588.907 2.41558 2.41558 RF
+1083.46 574.414 2.41558 2.41558 R
+1083.46 574.414 2.41558 2.41558 RF
+1102.79 559.92 2.41558 2.41558 R
+1102.79 559.92 2.41558 2.41558 RF
+1103.96 575.584 0.0754869 0.0754869 R
+1103.96 575.584 0.0754869 0.0754869 RF
+NP
+1362.46 574.414 MT
+1360.05 575.622 LT
+1362.46 576.829 LT
+1362.46 574.414 LT
+C F S
+1358.84 588.907 2.41558 2.41558 R
+1358.84 588.907 2.41558 2.41558 RF
+1378.16 574.414 2.41558 2.41558 R
+1378.16 574.414 2.41558 2.41558 RF
+1358.84 559.92 2.41558 2.41558 R
+1358.84 559.92 2.41558 2.41558 RF
+1360.01 575.584 0.0754869 0.0754869 R
+1360.01 575.584 0.0754869 0.0754869 RF
+1383.6 575.018 1.20779 1.20779 R
+1383.6 575.018 1.20779 1.20779 RF
+NP
+1410.78 439.141 MT
+1413.19 440.349 LT
+1410.78 441.557 LT
+1410.78 439.141 LT
+C F S
+1411.98 453.635 2.41558 2.41558 R
+1411.98 453.635 2.41558 2.41558 RF
+1392.66 439.141 2.41558 2.41558 R
+1392.66 439.141 2.41558 2.41558 RF
+1411.98 424.648 2.41558 2.41558 R
+1411.98 424.648 2.41558 2.41558 RF
+1413.15 440.311 0.0754869 0.0754869 R
+1413.15 440.311 0.0754869 0.0754869 RF
+NP
+1478.41 439.141 MT
+1480.83 440.349 LT
+1478.41 441.557 LT
+1478.41 439.141 LT
+C F S
+1479.62 453.635 2.41558 2.41558 R
+1479.62 453.635 2.41558 2.41558 RF
+1460.29 439.141 2.41558 2.41558 R
+1460.29 439.141 2.41558 2.41558 RF
+1479.62 424.648 2.41558 2.41558 R
+1479.62 424.648 2.41558 2.41558 RF
+1480.79 440.311 0.0754869 0.0754869 R
+1480.79 440.311 0.0754869 0.0754869 RF
+NP
+1546.05 439.141 MT
+1548.46 440.349 LT
+1546.05 441.557 LT
+1546.05 439.141 LT
+C F S
+1547.26 453.635 2.41558 2.41558 R
+1547.26 453.635 2.41558 2.41558 RF
+1527.93 439.141 2.41558 2.41558 R
+1527.93 439.141 2.41558 2.41558 RF
+1547.26 424.648 2.41558 2.41558 R
+1547.26 424.648 2.41558 2.41558 RF
+1548.43 440.311 0.0754869 0.0754869 R
+1548.43 440.311 0.0754869 0.0754869 RF
+NP
+1613.68 439.141 MT
+1616.1 440.349 LT
+1613.68 441.557 LT
+1613.68 439.141 LT
+C F S
+1614.89 453.635 2.41558 2.41558 R
+1614.89 453.635 2.41558 2.41558 RF
+1595.57 439.141 2.41558 2.41558 R
+1595.57 439.141 2.41558 2.41558 RF
+1614.89 424.648 2.41558 2.41558 R
+1614.89 424.648 2.41558 2.41558 RF
+1616.06 440.311 0.0754869 0.0754869 R
+1616.06 440.311 0.0754869 0.0754869 RF
+NP
+1676.49 439.141 MT
+1678.9 440.349 LT
+1676.49 441.557 LT
+1676.49 439.141 LT
+C F S
+1677.7 453.635 2.41558 2.41558 R
+1677.7 453.635 2.41558 2.41558 RF
+1658.37 439.141 2.41558 2.41558 R
+1658.37 439.141 2.41558 2.41558 RF
+1677.7 424.648 2.41558 2.41558 R
+1677.7 424.648 2.41558 2.41558 RF
+1678.87 440.311 0.0754869 0.0754869 R
+1678.87 440.311 0.0754869 0.0754869 RF
+1451.24 439.745 1.20779 1.20779 R
+1451.24 439.745 1.20779 1.20779 RF
+1518.87 439.745 1.20779 1.20779 R
+1518.87 439.745 1.20779 1.20779 RF
+1581.68 439.745 1.20779 1.20779 R
+1581.68 439.745 1.20779 1.20779 RF
+1649.31 439.745 1.20779 1.20779 R
+1649.31 439.745 1.20779 1.20779 RF
+1301.47 439.745 1.20779 1.20779 R
+1301.47 439.745 1.20779 1.20779 RF
+NP
+1009.79 439.141 MT
+1007.37 440.349 LT
+1009.79 441.557 LT
+1009.79 439.141 LT
+C F S
+1006.17 453.635 2.41558 2.41558 R
+1006.17 453.635 2.41558 2.41558 RF
+1025.49 439.141 2.41558 2.41558 R
+1025.49 439.141 2.41558 2.41558 RF
+1006.17 424.648 2.41558 2.41558 R
+1006.17 424.648 2.41558 2.41558 RF
+1007.34 440.311 0.0754869 0.0754869 R
+1007.34 440.311 0.0754869 0.0754869 RF
+NP
+946.984 439.141 MT
+944.568 440.349 LT
+946.984 441.557 LT
+946.984 439.141 LT
+C F S
+943.36 453.635 2.41558 2.41558 R
+943.36 453.635 2.41558 2.41558 RF
+962.685 439.141 2.41558 2.41558 R
+962.685 439.141 2.41558 2.41558 RF
+943.36 424.648 2.41558 2.41558 R
+943.36 424.648 2.41558 2.41558 RF
+944.531 440.311 0.0754869 0.0754869 R
+944.531 440.311 0.0754869 0.0754869 RF
+NP
+889.01 439.141 MT
+886.594 440.349 LT
+889.01 441.557 LT
+889.01 439.141 LT
+C F S
+885.387 453.635 2.41558 2.41558 R
+885.387 453.635 2.41558 2.41558 RF
+904.711 439.141 2.41558 2.41558 R
+904.711 439.141 2.41558 2.41558 RF
+885.387 424.648 2.41558 2.41558 R
+885.387 424.648 2.41558 2.41558 RF
+886.557 440.311 0.0754869 0.0754869 R
+886.557 440.311 0.0754869 0.0754869 RF
+NP
+831.036 439.141 MT
+828.62 440.349 LT
+831.036 441.557 LT
+831.036 439.141 LT
+C F S
+827.413 453.635 2.41558 2.41558 R
+827.413 453.635 2.41558 2.41558 RF
+846.737 439.141 2.41558 2.41558 R
+846.737 439.141 2.41558 2.41558 RF
+827.413 424.648 2.41558 2.41558 R
+827.413 424.648 2.41558 2.41558 RF
+828.583 440.311 0.0754869 0.0754869 R
+828.583 440.311 0.0754869 0.0754869 RF
+NP
+773.062 439.141 MT
+770.646 440.349 LT
+773.062 441.557 LT
+773.062 439.141 LT
+C F S
+769.439 453.635 2.41558 2.41558 R
+769.439 453.635 2.41558 2.41558 RF
+788.763 439.141 2.41558 2.41558 R
+788.763 439.141 2.41558 2.41558 RF
+769.439 424.648 2.41558 2.41558 R
+769.439 424.648 2.41558 2.41558 RF
+770.609 440.311 0.0754869 0.0754869 R
+770.609 440.311 0.0754869 0.0754869 RF
+968.12 439.745 1.20779 1.20779 R
+968.12 439.745 1.20779 1.20779 RF
+910.146 439.745 1.20779 1.20779 R
+910.146 439.745 1.20779 1.20779 RF
+852.172 439.745 1.20779 1.20779 R
+852.172 439.745 1.20779 1.20779 RF
+794.198 439.745 1.20779 1.20779 R
+794.198 439.745 1.20779 1.20779 RF
+NP
+1120.91 352.18 MT
+1123.32 353.388 LT
+1120.91 354.596 LT
+1120.91 352.18 LT
+C F S
+1122.11 366.674 2.41558 2.41558 R
+1122.11 366.674 2.41558 2.41558 RF
+1102.79 352.18 2.41558 2.41558 R
+1102.79 352.18 2.41558 2.41558 RF
+1122.11 337.687 2.41558 2.41558 R
+1122.11 337.687 2.41558 2.41558 RF
+1123.28 353.35 0.0754869 0.0754869 R
+1123.28 353.35 0.0754869 0.0754869 RF
+1088.9 352.784 1.20779 1.20779 R
+1088.9 352.784 1.20779 1.20779 RF
+NP
+1478.41 535.764 MT
+1480.83 536.972 LT
+1478.41 538.18 LT
+1478.41 535.764 LT
+C F S
+1479.62 550.258 2.41558 2.41558 R
+1479.62 550.258 2.41558 2.41558 RF
+1460.29 535.764 2.41558 2.41558 R
+1460.29 535.764 2.41558 2.41558 RF
+1479.62 521.271 2.41558 2.41558 R
+1479.62 521.271 2.41558 2.41558 RF
+1480.79 536.934 0.0754869 0.0754869 R
+1480.79 536.934 0.0754869 0.0754869 RF
+1446.41 536.368 1.20779 1.20779 R
+1446.41 536.368 1.20779 1.20779 RF
+NP
+903.503 535.764 MT
+901.088 536.972 LT
+903.503 538.18 LT
+903.503 535.764 LT
+C F S
+899.88 550.258 2.41558 2.41558 R
+899.88 550.258 2.41558 2.41558 RF
+919.205 535.764 2.41558 2.41558 R
+919.205 535.764 2.41558 2.41558 RF
+899.88 521.271 2.41558 2.41558 R
+899.88 521.271 2.41558 2.41558 RF
+901.05 536.934 0.0754869 0.0754869 R
+901.05 536.934 0.0754869 0.0754869 RF
+953.627 536.368 1.20779 1.20779 R
+953.627 536.368 1.20779 1.20779 RF
+NP
+905.919 613.063 MT
+908.335 614.271 LT
+905.919 615.479 LT
+905.919 613.063 LT
+C F S
+904.711 598.57 2.41558 2.41558 R
+904.711 598.57 2.41558 2.41558 RF
+924.036 613.063 2.41558 2.41558 R
+924.036 613.063 2.41558 2.41558 RF
+904.711 627.557 2.41558 2.41558 R
+904.711 627.557 2.41558 2.41558 RF
+905.881 614.233 0.0754869 0.0754869 R
+905.881 614.233 0.0754869 0.0754869 RF
+958.458 613.667 1.20779 1.20779 R
+958.458 613.667 1.20779 1.20779 RF
+NP
+1480.83 613.063 MT
+1478.41 614.271 LT
+1480.83 615.479 LT
+1480.83 613.063 LT
+C F S
+1479.62 598.57 2.41558 2.41558 R
+1479.62 598.57 2.41558 2.41558 RF
+1460.29 613.063 2.41558 2.41558 R
+1460.29 613.063 2.41558 2.41558 RF
+1479.62 627.557 2.41558 2.41558 R
+1479.62 627.557 2.41558 2.41558 RF
+1480.79 614.233 0.0754869 0.0754869 R
+1480.79 614.233 0.0754869 0.0754869 RF
+1446.41 604.005 1.20779 1.20779 R
+1446.41 604.005 1.20779 1.20779 RF
+NP
+1007.37 671.037 MT
+1009.79 672.245 LT
+1007.37 673.453 LT
+1007.37 671.037 LT
+C F S
+1006.17 656.543 2.41558 2.41558 R
+1006.17 656.543 2.41558 2.41558 RF
+1025.49 671.037 2.41558 2.41558 R
+1025.49 671.037 2.41558 2.41558 RF
+1006.17 685.53 2.41558 2.41558 R
+1006.17 685.53 2.41558 2.41558 RF
+1007.34 672.207 0.0754869 0.0754869 R
+1007.34 672.207 0.0754869 0.0754869 RF
+NP
+1128.15 762.829 MT
+1125.74 764.037 LT
+1128.15 765.245 LT
+1128.15 762.829 LT
+C F S
+1126.94 748.336 2.41558 2.41558 R
+1126.94 748.336 2.41558 2.41558 RF
+1107.62 762.829 2.41558 2.41558 R
+1107.62 762.829 2.41558 2.41558 RF
+1126.94 777.322 2.41558 2.41558 R
+1126.94 777.322 2.41558 2.41558 RF
+1128.11 763.999 0.0754869 0.0754869 R
+1128.11 763.999 0.0754869 0.0754869 RF
+1127.55 792.42 1.20779 1.20779 R
+1127.55 792.42 1.20779 1.20779 RF
+1098.56 739.277 1.20779 1.20779 R
+1098.56 739.277 1.20779 1.20779 RF
+NP
+1331.06 762.829 MT
+1333.48 764.037 LT
+1331.06 765.245 LT
+1331.06 762.829 LT
+C F S
+1329.85 748.336 2.41558 2.41558 R
+1329.85 748.336 2.41558 2.41558 RF
+1349.18 762.829 2.41558 2.41558 R
+1349.18 762.829 2.41558 2.41558 RF
+1329.85 777.322 2.41558 2.41558 R
+1329.85 777.322 2.41558 2.41558 RF
+1331.02 763.999 0.0754869 0.0754869 R
+1331.02 763.999 0.0754869 0.0754869 RF
+1330.46 792.42 1.20779 1.20779 R
+1330.46 792.42 1.20779 1.20779 RF
+1359.44 739.277 1.20779 1.20779 R
+1359.44 739.277 1.20779 1.20779 RF
+NP
+1128.15 849.79 MT
+1125.74 850.998 LT
+1128.15 852.205 LT
+1128.15 849.79 LT
+C F S
+1126.94 835.296 2.41558 2.41558 R
+1126.94 835.296 2.41558 2.41558 RF
+1107.62 849.79 2.41558 2.41558 R
+1107.62 849.79 2.41558 2.41558 RF
+1126.94 864.283 2.41558 2.41558 R
+1126.94 864.283 2.41558 2.41558 RF
+1128.11 850.96 0.0754869 0.0754869 R
+1128.11 850.96 0.0754869 0.0754869 RF
+1127.55 879.381 1.20779 1.20779 R
+1127.55 879.381 1.20779 1.20779 RF
+1098.56 826.238 1.20779 1.20779 R
+1098.56 826.238 1.20779 1.20779 RF
+NP
+1128.15 946.413 MT
+1125.74 947.621 LT
+1128.15 948.829 LT
+1128.15 946.413 LT
+C F S
+1126.94 931.92 2.41558 2.41558 R
+1126.94 931.92 2.41558 2.41558 RF
+1107.62 946.413 2.41558 2.41558 R
+1107.62 946.413 2.41558 2.41558 RF
+1126.94 960.907 2.41558 2.41558 R
+1126.94 960.907 2.41558 2.41558 RF
+1128.11 947.583 0.0754869 0.0754869 R
+1128.11 947.583 0.0754869 0.0754869 RF
+1127.55 976.004 1.20779 1.20779 R
+1127.55 976.004 1.20779 1.20779 RF
+1098.56 922.861 1.20779 1.20779 R
+1098.56 922.861 1.20779 1.20779 RF
+NP
+1826.26 323.193 MT
+1828.67 324.401 LT
+1826.26 325.609 LT
+1826.26 323.193 LT
+C F S
+1827.46 337.687 2.41558 2.41558 R
+1827.46 337.687 2.41558 2.41558 RF
+1808.14 323.193 2.41558 2.41558 R
+1808.14 323.193 2.41558 2.41558 RF
+1827.46 308.7 2.41558 2.41558 R
+1827.46 308.7 2.41558 2.41558 RF
+1828.63 324.363 0.0754869 0.0754869 R
+1828.63 324.363 0.0754869 0.0754869 RF
+NP
+1826.26 381.167 MT
+1828.67 382.375 LT
+1826.26 383.583 LT
+1826.26 381.167 LT
+C F S
+1827.46 395.661 2.41558 2.41558 R
+1827.46 395.661 2.41558 2.41558 RF
+1808.14 381.167 2.41558 2.41558 R
+1808.14 381.167 2.41558 2.41558 RF
+1827.46 366.674 2.41558 2.41558 R
+1827.46 366.674 2.41558 2.41558 RF
+1828.63 382.337 0.0754869 0.0754869 R
+1828.63 382.337 0.0754869 0.0754869 RF
+NP
+1937.37 323.193 MT
+1939.79 324.401 LT
+1937.37 325.609 LT
+1937.37 323.193 LT
+C F S
+1938.58 337.687 2.41558 2.41558 R
+1938.58 337.687 2.41558 2.41558 RF
+1919.26 323.193 2.41558 2.41558 R
+1919.26 323.193 2.41558 2.41558 RF
+1938.58 308.7 2.41558 2.41558 R
+1938.58 308.7 2.41558 2.41558 RF
+1939.75 324.363 0.0754869 0.0754869 R
+1939.75 324.363 0.0754869 0.0754869 RF
+NP
+1937.37 381.167 MT
+1939.79 382.375 LT
+1937.37 383.583 LT
+1937.37 381.167 LT
+C F S
+1938.58 395.661 2.41558 2.41558 R
+1938.58 395.661 2.41558 2.41558 RF
+1919.26 381.167 2.41558 2.41558 R
+1919.26 381.167 2.41558 2.41558 RF
+1938.58 366.674 2.41558 2.41558 R
+1938.58 366.674 2.41558 2.41558 RF
+1939.75 382.337 0.0754869 0.0754869 R
+1939.75 382.337 0.0754869 0.0754869 RF
+NP
+1937.37 439.141 MT
+1939.79 440.349 LT
+1937.37 441.557 LT
+1937.37 439.141 LT
+C F S
+1938.58 453.635 2.41558 2.41558 R
+1938.58 453.635 2.41558 2.41558 RF
+1919.26 439.141 2.41558 2.41558 R
+1919.26 439.141 2.41558 2.41558 RF
+1938.58 424.648 2.41558 2.41558 R
+1938.58 424.648 2.41558 2.41558 RF
+1939.75 440.311 0.0754869 0.0754869 R
+1939.75 440.311 0.0754869 0.0754869 RF
+NP
+1937.37 497.115 MT
+1939.79 498.323 LT
+1937.37 499.531 LT
+1937.37 497.115 LT
+C F S
+1938.58 511.609 2.41558 2.41558 R
+1938.58 511.609 2.41558 2.41558 RF
+1919.26 497.115 2.41558 2.41558 R
+1919.26 497.115 2.41558 2.41558 RF
+1938.58 482.622 2.41558 2.41558 R
+1938.58 482.622 2.41558 2.41558 RF
+1939.75 498.285 0.0754869 0.0754869 R
+1939.75 498.285 0.0754869 0.0754869 RF
+NP
+1937.37 555.089 MT
+1939.79 556.297 LT
+1937.37 557.505 LT
+1937.37 555.089 LT
+C F S
+1938.58 569.583 2.41558 2.41558 R
+1938.58 569.583 2.41558 2.41558 RF
+1919.26 555.089 2.41558 2.41558 R
+1919.26 555.089 2.41558 2.41558 RF
+1938.58 540.596 2.41558 2.41558 R
+1938.58 540.596 2.41558 2.41558 RF
+1939.75 556.259 0.0754869 0.0754869 R
+1939.75 556.259 0.0754869 0.0754869 RF
+1779.76 323.797 1.20779 1.20779 R
+1779.76 323.797 1.20779 1.20779 RF
+1779.76 381.771 1.20779 1.20779 R
+1779.76 381.771 1.20779 1.20779 RF
+1890.87 323.797 1.20779 1.20779 R
+1890.87 323.797 1.20779 1.20779 RF
+1890.87 381.771 1.20779 1.20779 R
+1890.87 381.771 1.20779 1.20779 RF
+1890.87 439.745 1.20779 1.20779 R
+1890.87 439.745 1.20779 1.20779 RF
+1890.87 497.719 1.20779 1.20779 R
+1890.87 497.719 1.20779 1.20779 RF
+1890.87 555.693 1.20779 1.20779 R
+1890.87 555.693 1.20779 1.20779 RF
+NP
+2048.49 323.193 MT
+2050.9 324.401 LT
+2048.49 325.609 LT
+2048.49 323.193 LT
+C F S
+2049.7 337.687 2.41558 2.41558 R
+2049.7 337.687 2.41558 2.41558 RF
+2030.37 323.193 2.41558 2.41558 R
+2030.37 323.193 2.41558 2.41558 RF
+2049.7 308.7 2.41558 2.41558 R
+2049.7 308.7 2.41558 2.41558 RF
+2050.87 324.363 0.0754869 0.0754869 R
+2050.87 324.363 0.0754869 0.0754869 RF
+NP
+2048.49 381.167 MT
+2050.9 382.375 LT
+2048.49 383.583 LT
+2048.49 381.167 LT
+C F S
+2049.7 395.661 2.41558 2.41558 R
+2049.7 395.661 2.41558 2.41558 RF
+2030.37 381.167 2.41558 2.41558 R
+2030.37 381.167 2.41558 2.41558 RF
+2049.7 366.674 2.41558 2.41558 R
+2049.7 366.674 2.41558 2.41558 RF
+2050.87 382.337 0.0754869 0.0754869 R
+2050.87 382.337 0.0754869 0.0754869 RF
+NP
+2048.49 439.141 MT
+2050.9 440.349 LT
+2048.49 441.557 LT
+2048.49 439.141 LT
+C F S
+2049.7 453.635 2.41558 2.41558 R
+2049.7 453.635 2.41558 2.41558 RF
+2030.37 439.141 2.41558 2.41558 R
+2030.37 439.141 2.41558 2.41558 RF
+2049.7 424.648 2.41558 2.41558 R
+2049.7 424.648 2.41558 2.41558 RF
+2050.87 440.311 0.0754869 0.0754869 R
+2050.87 440.311 0.0754869 0.0754869 RF
+NP
+2048.49 497.115 MT
+2050.9 498.323 LT
+2048.49 499.531 LT
+2048.49 497.115 LT
+C F S
+2049.7 511.609 2.41558 2.41558 R
+2049.7 511.609 2.41558 2.41558 RF
+2030.37 497.115 2.41558 2.41558 R
+2030.37 497.115 2.41558 2.41558 RF
+2049.7 482.622 2.41558 2.41558 R
+2049.7 482.622 2.41558 2.41558 RF
+2050.87 498.285 0.0754869 0.0754869 R
+2050.87 498.285 0.0754869 0.0754869 RF
+NP
+2048.49 555.089 MT
+2050.9 556.297 LT
+2048.49 557.505 LT
+2048.49 555.089 LT
+C F S
+2049.7 569.583 2.41558 2.41558 R
+2049.7 569.583 2.41558 2.41558 RF
+2030.37 555.089 2.41558 2.41558 R
+2030.37 555.089 2.41558 2.41558 RF
+2049.7 540.596 2.41558 2.41558 R
+2049.7 540.596 2.41558 2.41558 RF
+2050.87 556.259 0.0754869 0.0754869 R
+2050.87 556.259 0.0754869 0.0754869 RF
+2001.99 323.797 1.20779 1.20779 R
+2001.99 323.797 1.20779 1.20779 RF
+2001.99 381.771 1.20779 1.20779 R
+2001.99 381.771 1.20779 1.20779 RF
+2001.99 439.745 1.20779 1.20779 R
+2001.99 439.745 1.20779 1.20779 RF
+2001.99 497.719 1.20779 1.20779 R
+2001.99 497.719 1.20779 1.20779 RF
+2001.99 555.693 1.20779 1.20779 R
+2001.99 555.693 1.20779 1.20779 RF
+NP
+2164.44 323.193 MT
+2166.85 324.401 LT
+2164.44 325.609 LT
+2164.44 323.193 LT
+C F S
+2165.64 337.687 2.41558 2.41558 R
+2165.64 337.687 2.41558 2.41558 RF
+2146.32 323.193 2.41558 2.41558 R
+2146.32 323.193 2.41558 2.41558 RF
+2165.64 308.7 2.41558 2.41558 R
+2165.64 308.7 2.41558 2.41558 RF
+2166.81 324.363 0.0754869 0.0754869 R
+2166.81 324.363 0.0754869 0.0754869 RF
+2127.6 323.797 1.20779 1.20779 R
+2127.6 323.797 1.20779 1.20779 RF
+NP
+2164.44 381.167 MT
+2166.85 382.375 LT
+2164.44 383.583 LT
+2164.44 381.167 LT
+C F S
+2165.64 395.661 2.41558 2.41558 R
+2165.64 395.661 2.41558 2.41558 RF
+2146.32 381.167 2.41558 2.41558 R
+2146.32 381.167 2.41558 2.41558 RF
+2165.64 366.674 2.41558 2.41558 R
+2165.64 366.674 2.41558 2.41558 RF
+2166.81 382.337 0.0754869 0.0754869 R
+2166.81 382.337 0.0754869 0.0754869 RF
+2127.6 381.771 1.20779 1.20779 R
+2127.6 381.771 1.20779 1.20779 RF
+NP
+2164.44 439.141 MT
+2166.85 440.349 LT
+2164.44 441.557 LT
+2164.44 439.141 LT
+C F S
+2165.64 453.635 2.41558 2.41558 R
+2165.64 453.635 2.41558 2.41558 RF
+2146.32 439.141 2.41558 2.41558 R
+2146.32 439.141 2.41558 2.41558 RF
+2165.64 424.648 2.41558 2.41558 R
+2165.64 424.648 2.41558 2.41558 RF
+2166.81 440.311 0.0754869 0.0754869 R
+2166.81 440.311 0.0754869 0.0754869 RF
+2127.6 439.745 1.20779 1.20779 R
+2127.6 439.745 1.20779 1.20779 RF
+NP
+2164.44 497.115 MT
+2166.85 498.323 LT
+2164.44 499.531 LT
+2164.44 497.115 LT
+C F S
+2165.64 511.609 2.41558 2.41558 R
+2165.64 511.609 2.41558 2.41558 RF
+2146.32 497.115 2.41558 2.41558 R
+2146.32 497.115 2.41558 2.41558 RF
+2165.64 482.622 2.41558 2.41558 R
+2165.64 482.622 2.41558 2.41558 RF
+2166.81 498.285 0.0754869 0.0754869 R
+2166.81 498.285 0.0754869 0.0754869 RF
+2127.6 497.719 1.20779 1.20779 R
+2127.6 497.719 1.20779 1.20779 RF
+NP
+2164.44 555.089 MT
+2166.85 556.297 LT
+2164.44 557.505 LT
+2164.44 555.089 LT
+C F S
+2165.64 569.583 2.41558 2.41558 R
+2165.64 569.583 2.41558 2.41558 RF
+2146.32 555.089 2.41558 2.41558 R
+2146.32 555.089 2.41558 2.41558 RF
+2165.64 540.596 2.41558 2.41558 R
+2165.64 540.596 2.41558 2.41558 RF
+2166.81 556.259 0.0754869 0.0754869 R
+2166.81 556.259 0.0754869 0.0754869 RF
+2127.6 555.693 1.20779 1.20779 R
+2127.6 555.693 1.20779 1.20779 RF
+NP
+2270.72 323.193 MT
+2273.14 324.401 LT
+2270.72 325.609 LT
+2270.72 323.193 LT
+C F S
+2271.93 337.687 2.41558 2.41558 R
+2271.93 337.687 2.41558 2.41558 RF
+2252.61 323.193 2.41558 2.41558 R
+2252.61 323.193 2.41558 2.41558 RF
+2271.93 308.7 2.41558 2.41558 R
+2271.93 308.7 2.41558 2.41558 RF
+2273.1 324.363 0.0754869 0.0754869 R
+2273.1 324.363 0.0754869 0.0754869 RF
+2233.88 323.797 1.20779 1.20779 R
+2233.88 323.797 1.20779 1.20779 RF
+NP
+2270.72 381.167 MT
+2273.14 382.375 LT
+2270.72 383.583 LT
+2270.72 381.167 LT
+C F S
+2271.93 395.661 2.41558 2.41558 R
+2271.93 395.661 2.41558 2.41558 RF
+2252.61 381.167 2.41558 2.41558 R
+2252.61 381.167 2.41558 2.41558 RF
+2271.93 366.674 2.41558 2.41558 R
+2271.93 366.674 2.41558 2.41558 RF
+2273.1 382.337 0.0754869 0.0754869 R
+2273.1 382.337 0.0754869 0.0754869 RF
+2233.88 381.771 1.20779 1.20779 R
+2233.88 381.771 1.20779 1.20779 RF
+NP
+2270.72 439.141 MT
+2273.14 440.349 LT
+2270.72 441.557 LT
+2270.72 439.141 LT
+C F S
+2271.93 453.635 2.41558 2.41558 R
+2271.93 453.635 2.41558 2.41558 RF
+2252.61 439.141 2.41558 2.41558 R
+2252.61 439.141 2.41558 2.41558 RF
+2271.93 424.648 2.41558 2.41558 R
+2271.93 424.648 2.41558 2.41558 RF
+2273.1 440.311 0.0754869 0.0754869 R
+2273.1 440.311 0.0754869 0.0754869 RF
+2233.88 439.745 1.20779 1.20779 R
+2233.88 439.745 1.20779 1.20779 RF
+NP
+2270.72 497.115 MT
+2273.14 498.323 LT
+2270.72 499.531 LT
+2270.72 497.115 LT
+C F S
+2271.93 511.609 2.41558 2.41558 R
+2271.93 511.609 2.41558 2.41558 RF
+2252.61 497.115 2.41558 2.41558 R
+2252.61 497.115 2.41558 2.41558 RF
+2271.93 482.622 2.41558 2.41558 R
+2271.93 482.622 2.41558 2.41558 RF
+2273.1 498.285 0.0754869 0.0754869 R
+2273.1 498.285 0.0754869 0.0754869 RF
+2233.88 497.719 1.20779 1.20779 R
+2233.88 497.719 1.20779 1.20779 RF
+NP
+2270.72 555.089 MT
+2273.14 556.297 LT
+2270.72 557.505 LT
+2270.72 555.089 LT
+C F S
+2271.93 569.583 2.41558 2.41558 R
+2271.93 569.583 2.41558 2.41558 RF
+2252.61 555.089 2.41558 2.41558 R
+2252.61 555.089 2.41558 2.41558 RF
+2271.93 540.596 2.41558 2.41558 R
+2271.93 540.596 2.41558 2.41558 RF
+2273.1 556.259 0.0754869 0.0754869 R
+2273.1 556.259 0.0754869 0.0754869 RF
+2233.88 555.693 1.20779 1.20779 R
+2233.88 555.693 1.20779 1.20779 RF
+NP
+2420.49 323.193 MT
+2422.9 324.401 LT
+2420.49 325.609 LT
+2420.49 323.193 LT
+C F S
+2421.7 337.687 2.41558 2.41558 R
+2421.7 337.687 2.41558 2.41558 RF
+2402.37 323.193 2.41558 2.41558 R
+2402.37 323.193 2.41558 2.41558 RF
+2421.7 308.7 2.41558 2.41558 R
+2421.7 308.7 2.41558 2.41558 RF
+2422.87 324.363 0.0754869 0.0754869 R
+2422.87 324.363 0.0754869 0.0754869 RF
+2383.65 323.797 1.20779 1.20779 R
+2383.65 323.797 1.20779 1.20779 RF
+NP
+2420.49 381.167 MT
+2422.9 382.375 LT
+2420.49 383.583 LT
+2420.49 381.167 LT
+C F S
+2421.7 395.661 2.41558 2.41558 R
+2421.7 395.661 2.41558 2.41558 RF
+2402.37 381.167 2.41558 2.41558 R
+2402.37 381.167 2.41558 2.41558 RF
+2421.7 366.674 2.41558 2.41558 R
+2421.7 366.674 2.41558 2.41558 RF
+2422.87 382.337 0.0754869 0.0754869 R
+2422.87 382.337 0.0754869 0.0754869 RF
+2383.65 381.771 1.20779 1.20779 R
+2383.65 381.771 1.20779 1.20779 RF
+NP
+2420.49 439.141 MT
+2422.9 440.349 LT
+2420.49 441.557 LT
+2420.49 439.141 LT
+C F S
+2421.7 453.635 2.41558 2.41558 R
+2421.7 453.635 2.41558 2.41558 RF
+2402.37 439.141 2.41558 2.41558 R
+2402.37 439.141 2.41558 2.41558 RF
+2421.7 424.648 2.41558 2.41558 R
+2421.7 424.648 2.41558 2.41558 RF
+2422.87 440.311 0.0754869 0.0754869 R
+2422.87 440.311 0.0754869 0.0754869 RF
+2383.65 439.745 1.20779 1.20779 R
+2383.65 439.745 1.20779 1.20779 RF
+NP
+2420.49 497.115 MT
+2422.9 498.323 LT
+2420.49 499.531 LT
+2420.49 497.115 LT
+C F S
+2421.7 511.609 2.41558 2.41558 R
+2421.7 511.609 2.41558 2.41558 RF
+2402.37 497.115 2.41558 2.41558 R
+2402.37 497.115 2.41558 2.41558 RF
+2421.7 482.622 2.41558 2.41558 R
+2421.7 482.622 2.41558 2.41558 RF
+2422.87 498.285 0.0754869 0.0754869 R
+2422.87 498.285 0.0754869 0.0754869 RF
+2383.65 497.719 1.20779 1.20779 R
+2383.65 497.719 1.20779 1.20779 RF
+NP
+2420.49 555.089 MT
+2422.9 556.297 LT
+2420.49 557.505 LT
+2420.49 555.089 LT
+C F S
+2421.7 569.583 2.41558 2.41558 R
+2421.7 569.583 2.41558 2.41558 RF
+2402.37 555.089 2.41558 2.41558 R
+2402.37 555.089 2.41558 2.41558 RF
+2421.7 540.596 2.41558 2.41558 R
+2421.7 540.596 2.41558 2.41558 RF
+2422.87 556.259 0.0754869 0.0754869 R
+2422.87 556.259 0.0754869 0.0754869 RF
+2383.65 555.693 1.20779 1.20779 R
+2383.65 555.693 1.20779 1.20779 RF
+NP
+2546.1 323.193 MT
+2548.51 324.401 LT
+2546.1 325.609 LT
+2546.1 323.193 LT
+C F S
+2547.31 337.687 2.41558 2.41558 R
+2547.31 337.687 2.41558 2.41558 RF
+2527.98 323.193 2.41558 2.41558 R
+2527.98 323.193 2.41558 2.41558 RF
+2547.31 308.7 2.41558 2.41558 R
+2547.31 308.7 2.41558 2.41558 RF
+2548.48 324.363 0.0754869 0.0754869 R
+2548.48 324.363 0.0754869 0.0754869 RF
+2509.26 323.797 1.20779 1.20779 R
+2509.26 323.797 1.20779 1.20779 RF
+NP
+2546.1 381.167 MT
+2548.51 382.375 LT
+2546.1 383.583 LT
+2546.1 381.167 LT
+C F S
+2547.31 395.661 2.41558 2.41558 R
+2547.31 395.661 2.41558 2.41558 RF
+2527.98 381.167 2.41558 2.41558 R
+2527.98 381.167 2.41558 2.41558 RF
+2547.31 366.674 2.41558 2.41558 R
+2547.31 366.674 2.41558 2.41558 RF
+2548.48 382.337 0.0754869 0.0754869 R
+2548.48 382.337 0.0754869 0.0754869 RF
+2509.26 381.771 1.20779 1.20779 R
+2509.26 381.771 1.20779 1.20779 RF
+NP
+2546.1 439.141 MT
+2548.51 440.349 LT
+2546.1 441.557 LT
+2546.1 439.141 LT
+C F S
+2547.31 453.635 2.41558 2.41558 R
+2547.31 453.635 2.41558 2.41558 RF
+2527.98 439.141 2.41558 2.41558 R
+2527.98 439.141 2.41558 2.41558 RF
+2547.31 424.648 2.41558 2.41558 R
+2547.31 424.648 2.41558 2.41558 RF
+2548.48 440.311 0.0754869 0.0754869 R
+2548.48 440.311 0.0754869 0.0754869 RF
+2509.26 439.745 1.20779 1.20779 R
+2509.26 439.745 1.20779 1.20779 RF
+NP
+2546.1 497.115 MT
+2548.51 498.323 LT
+2546.1 499.531 LT
+2546.1 497.115 LT
+C F S
+2547.31 511.609 2.41558 2.41558 R
+2547.31 511.609 2.41558 2.41558 RF
+2527.98 497.115 2.41558 2.41558 R
+2527.98 497.115 2.41558 2.41558 RF
+2547.31 482.622 2.41558 2.41558 R
+2547.31 482.622 2.41558 2.41558 RF
+2548.48 498.285 0.0754869 0.0754869 R
+2548.48 498.285 0.0754869 0.0754869 RF
+2509.26 497.719 1.20779 1.20779 R
+2509.26 497.719 1.20779 1.20779 RF
+NP
+2546.1 555.089 MT
+2548.51 556.297 LT
+2546.1 557.505 LT
+2546.1 555.089 LT
+C F S
+2547.31 569.583 2.41558 2.41558 R
+2547.31 569.583 2.41558 2.41558 RF
+2527.98 555.089 2.41558 2.41558 R
+2527.98 555.089 2.41558 2.41558 RF
+2547.31 540.596 2.41558 2.41558 R
+2547.31 540.596 2.41558 2.41558 RF
+2548.48 556.259 0.0754869 0.0754869 R
+2548.48 556.259 0.0754869 0.0754869 RF
+2509.26 555.693 1.20779 1.20779 R
+2509.26 555.693 1.20779 1.20779 RF
+NP
+2171.68 666.206 MT
+2169.27 667.414 LT
+2171.68 668.621 LT
+2171.68 666.206 LT
+C F S
+2170.48 651.712 2.41558 2.41558 R
+2170.48 651.712 2.41558 2.41558 RF
+2151.15 666.206 2.41558 2.41558 R
+2151.15 666.206 2.41558 2.41558 RF
+2170.48 680.699 2.41558 2.41558 R
+2170.48 680.699 2.41558 2.41558 RF
+2171.65 667.376 0.0754869 0.0754869 R
+2171.65 667.376 0.0754869 0.0754869 RF
+2132.43 666.81 1.20779 1.20779 R
+2132.43 666.81 1.20779 1.20779 RF
+NP
+2171.68 724.18 MT
+2169.27 725.388 LT
+2171.68 726.595 LT
+2171.68 724.18 LT
+C F S
+2170.48 709.686 2.41558 2.41558 R
+2170.48 709.686 2.41558 2.41558 RF
+2151.15 724.18 2.41558 2.41558 R
+2151.15 724.18 2.41558 2.41558 RF
+2170.48 738.673 2.41558 2.41558 R
+2170.48 738.673 2.41558 2.41558 RF
+2171.65 725.35 0.0754869 0.0754869 R
+2171.65 725.35 0.0754869 0.0754869 RF
+2132.43 724.784 1.20779 1.20779 R
+2132.43 724.784 1.20779 1.20779 RF
+NP
+2171.68 782.154 MT
+2169.27 783.361 LT
+2171.68 784.569 LT
+2171.68 782.154 LT
+C F S
+2170.48 767.66 2.41558 2.41558 R
+2170.48 767.66 2.41558 2.41558 RF
+2151.15 782.154 2.41558 2.41558 R
+2151.15 782.154 2.41558 2.41558 RF
+2170.48 796.647 2.41558 2.41558 R
+2170.48 796.647 2.41558 2.41558 RF
+2171.65 783.324 0.0754869 0.0754869 R
+2171.65 783.324 0.0754869 0.0754869 RF
+2132.43 782.758 1.20779 1.20779 R
+2132.43 782.758 1.20779 1.20779 RF
+NP
+2171.68 840.128 MT
+2169.27 841.335 LT
+2171.68 842.543 LT
+2171.68 840.128 LT
+C F S
+2170.48 825.634 2.41558 2.41558 R
+2170.48 825.634 2.41558 2.41558 RF
+2151.15 840.128 2.41558 2.41558 R
+2151.15 840.128 2.41558 2.41558 RF
+2170.48 854.621 2.41558 2.41558 R
+2170.48 854.621 2.41558 2.41558 RF
+2171.65 841.298 0.0754869 0.0754869 R
+2171.65 841.298 0.0754869 0.0754869 RF
+2132.43 840.731 1.20779 1.20779 R
+2132.43 840.731 1.20779 1.20779 RF
+NP
+2171.68 898.102 MT
+2169.27 899.309 LT
+2171.68 900.517 LT
+2171.68 898.102 LT
+C F S
+2170.48 883.608 2.41558 2.41558 R
+2170.48 883.608 2.41558 2.41558 RF
+2151.15 898.102 2.41558 2.41558 R
+2151.15 898.102 2.41558 2.41558 RF
+2170.48 912.595 2.41558 2.41558 R
+2170.48 912.595 2.41558 2.41558 RF
+2171.65 899.272 0.0754869 0.0754869 R
+2171.65 899.272 0.0754869 0.0754869 RF
+2132.43 898.705 1.20779 1.20779 R
+2132.43 898.705 1.20779 1.20779 RF
+NP
+2292.46 666.206 MT
+2290.05 667.414 LT
+2292.46 668.621 LT
+2292.46 666.206 LT
+C F S
+2291.25 651.712 2.41558 2.41558 R
+2291.25 651.712 2.41558 2.41558 RF
+2271.93 666.206 2.41558 2.41558 R
+2271.93 666.206 2.41558 2.41558 RF
+2291.25 680.699 2.41558 2.41558 R
+2291.25 680.699 2.41558 2.41558 RF
+2292.42 667.376 0.0754869 0.0754869 R
+2292.42 667.376 0.0754869 0.0754869 RF
+2253.21 666.81 1.20779 1.20779 R
+2253.21 666.81 1.20779 1.20779 RF
+NP
+2292.46 724.18 MT
+2290.05 725.388 LT
+2292.46 726.595 LT
+2292.46 724.18 LT
+C F S
+2291.25 709.686 2.41558 2.41558 R
+2291.25 709.686 2.41558 2.41558 RF
+2271.93 724.18 2.41558 2.41558 R
+2271.93 724.18 2.41558 2.41558 RF
+2291.25 738.673 2.41558 2.41558 R
+2291.25 738.673 2.41558 2.41558 RF
+2292.42 725.35 0.0754869 0.0754869 R
+2292.42 725.35 0.0754869 0.0754869 RF
+2253.21 724.784 1.20779 1.20779 R
+2253.21 724.784 1.20779 1.20779 RF
+NP
+2292.46 782.154 MT
+2290.05 783.361 LT
+2292.46 784.569 LT
+2292.46 782.154 LT
+C F S
+2291.25 767.66 2.41558 2.41558 R
+2291.25 767.66 2.41558 2.41558 RF
+2271.93 782.154 2.41558 2.41558 R
+2271.93 782.154 2.41558 2.41558 RF
+2291.25 796.647 2.41558 2.41558 R
+2291.25 796.647 2.41558 2.41558 RF
+2292.42 783.324 0.0754869 0.0754869 R
+2292.42 783.324 0.0754869 0.0754869 RF
+2253.21 782.758 1.20779 1.20779 R
+2253.21 782.758 1.20779 1.20779 RF
+NP
+2292.46 840.128 MT
+2290.05 841.335 LT
+2292.46 842.543 LT
+2292.46 840.128 LT
+C F S
+2291.25 825.634 2.41558 2.41558 R
+2291.25 825.634 2.41558 2.41558 RF
+2271.93 840.128 2.41558 2.41558 R
+2271.93 840.128 2.41558 2.41558 RF
+2291.25 854.621 2.41558 2.41558 R
+2291.25 854.621 2.41558 2.41558 RF
+2292.42 841.298 0.0754869 0.0754869 R
+2292.42 841.298 0.0754869 0.0754869 RF
+2253.21 840.731 1.20779 1.20779 R
+2253.21 840.731 1.20779 1.20779 RF
+NP
+2292.46 898.102 MT
+2290.05 899.309 LT
+2292.46 900.517 LT
+2292.46 898.102 LT
+C F S
+2291.25 883.608 2.41558 2.41558 R
+2291.25 883.608 2.41558 2.41558 RF
+2271.93 898.102 2.41558 2.41558 R
+2271.93 898.102 2.41558 2.41558 RF
+2291.25 912.595 2.41558 2.41558 R
+2291.25 912.595 2.41558 2.41558 RF
+2292.42 899.272 0.0754869 0.0754869 R
+2292.42 899.272 0.0754869 0.0754869 RF
+2253.21 898.705 1.20779 1.20779 R
+2253.21 898.705 1.20779 1.20779 RF
+NP
+1331.06 849.79 MT
+1333.48 850.998 LT
+1331.06 852.205 LT
+1331.06 849.79 LT
+C F S
+1329.85 835.296 2.41558 2.41558 R
+1329.85 835.296 2.41558 2.41558 RF
+1349.18 849.79 2.41558 2.41558 R
+1349.18 849.79 2.41558 2.41558 RF
+1329.85 864.283 2.41558 2.41558 R
+1329.85 864.283 2.41558 2.41558 RF
+1331.02 850.96 0.0754869 0.0754869 R
+1331.02 850.96 0.0754869 0.0754869 RF
+1330.46 879.381 1.20779 1.20779 R
+1330.46 879.381 1.20779 1.20779 RF
+1359.44 826.238 1.20779 1.20779 R
+1359.44 826.238 1.20779 1.20779 RF
+NP
+1331.06 946.413 MT
+1333.48 947.621 LT
+1331.06 948.829 LT
+1331.06 946.413 LT
+C F S
+1329.85 931.92 2.41558 2.41558 R
+1329.85 931.92 2.41558 2.41558 RF
+1349.18 946.413 2.41558 2.41558 R
+1349.18 946.413 2.41558 2.41558 RF
+1329.85 960.907 2.41558 2.41558 R
+1329.85 960.907 2.41558 2.41558 RF
+1331.02 947.583 0.0754869 0.0754869 R
+1331.02 947.583 0.0754869 0.0754869 RF
+1330.46 976.004 1.20779 1.20779 R
+1330.46 976.004 1.20779 1.20779 RF
+1359.44 922.861 1.20779 1.20779 R
+1359.44 922.861 1.20779 1.20779 RF
+NP
+864.854 352.18 MT
+862.439 353.388 LT
+864.854 354.596 LT
+864.854 352.18 LT
+C F S
+861.231 366.674 2.41558 2.41558 R
+861.231 366.674 2.41558 2.41558 RF
+880.555 352.18 2.41558 2.41558 R
+880.555 352.18 2.41558 2.41558 RF
+861.231 337.687 2.41558 2.41558 R
+861.231 337.687 2.41558 2.41558 RF
+862.401 353.35 0.0754869 0.0754869 R
+862.401 353.35 0.0754869 0.0754869 RF
+861.835 386.602 1.20779 1.20779 R
+861.835 386.602 1.20779 1.20779 RF
+NP
+2427.73 666.206 MT
+2425.32 667.414 LT
+2427.73 668.621 LT
+2427.73 666.206 LT
+C F S
+2426.53 651.712 2.41558 2.41558 R
+2426.53 651.712 2.41558 2.41558 RF
+2407.2 666.206 2.41558 2.41558 R
+2407.2 666.206 2.41558 2.41558 RF
+2426.53 680.699 2.41558 2.41558 R
+2426.53 680.699 2.41558 2.41558 RF
+2427.7 667.376 0.0754869 0.0754869 R
+2427.7 667.376 0.0754869 0.0754869 RF
+2373.99 782.758 1.20779 1.20779 R
+2373.99 782.758 1.20779 1.20779 RF
+NP
+2427.73 724.18 MT
+2425.32 725.388 LT
+2427.73 726.595 LT
+2427.73 724.18 LT
+C F S
+2426.53 709.686 2.41558 2.41558 R
+2426.53 709.686 2.41558 2.41558 RF
+2407.2 724.18 2.41558 2.41558 R
+2407.2 724.18 2.41558 2.41558 RF
+2426.53 738.673 2.41558 2.41558 R
+2426.53 738.673 2.41558 2.41558 RF
+2427.7 725.35 0.0754869 0.0754869 R
+2427.7 725.35 0.0754869 0.0754869 RF
+NP
+2427.73 782.154 MT
+2425.32 783.361 LT
+2427.73 784.569 LT
+2427.73 782.154 LT
+C F S
+2426.53 767.66 2.41558 2.41558 R
+2426.53 767.66 2.41558 2.41558 RF
+2407.2 782.154 2.41558 2.41558 R
+2407.2 782.154 2.41558 2.41558 RF
+2426.53 796.647 2.41558 2.41558 R
+2426.53 796.647 2.41558 2.41558 RF
+2427.7 783.324 0.0754869 0.0754869 R
+2427.7 783.324 0.0754869 0.0754869 RF
+NP
+2427.73 840.128 MT
+2425.32 841.335 LT
+2427.73 842.543 LT
+2427.73 840.128 LT
+C F S
+2426.53 825.634 2.41558 2.41558 R
+2426.53 825.634 2.41558 2.41558 RF
+2407.2 840.128 2.41558 2.41558 R
+2407.2 840.128 2.41558 2.41558 RF
+2426.53 854.621 2.41558 2.41558 R
+2426.53 854.621 2.41558 2.41558 RF
+2427.7 841.298 0.0754869 0.0754869 R
+2427.7 841.298 0.0754869 0.0754869 RF
+NP
+2427.73 898.102 MT
+2425.32 899.309 LT
+2427.73 900.517 LT
+2427.73 898.102 LT
+C F S
+2426.53 883.608 2.41558 2.41558 R
+2426.53 883.608 2.41558 2.41558 RF
+2407.2 898.102 2.41558 2.41558 R
+2407.2 898.102 2.41558 2.41558 RF
+2426.53 912.595 2.41558 2.41558 R
+2426.53 912.595 2.41558 2.41558 RF
+2427.7 899.272 0.0754869 0.0754869 R
+2427.7 899.272 0.0754869 0.0754869 RF
+NP
+2553.34 666.206 MT
+2550.93 667.414 LT
+2553.34 668.621 LT
+2553.34 666.206 LT
+C F S
+2552.14 651.712 2.41558 2.41558 R
+2552.14 651.712 2.41558 2.41558 RF
+2532.81 666.206 2.41558 2.41558 R
+2532.81 666.206 2.41558 2.41558 RF
+2552.14 680.699 2.41558 2.41558 R
+2552.14 680.699 2.41558 2.41558 RF
+2553.31 667.376 0.0754869 0.0754869 R
+2553.31 667.376 0.0754869 0.0754869 RF
+NP
+2553.34 724.18 MT
+2550.93 725.388 LT
+2553.34 726.595 LT
+2553.34 724.18 LT
+C F S
+2552.14 709.686 2.41558 2.41558 R
+2552.14 709.686 2.41558 2.41558 RF
+2532.81 724.18 2.41558 2.41558 R
+2532.81 724.18 2.41558 2.41558 RF
+2552.14 738.673 2.41558 2.41558 R
+2552.14 738.673 2.41558 2.41558 RF
+2553.31 725.35 0.0754869 0.0754869 R
+2553.31 725.35 0.0754869 0.0754869 RF
+NP
+2553.34 782.154 MT
+2550.93 783.361 LT
+2553.34 784.569 LT
+2553.34 782.154 LT
+C F S
+2552.14 767.66 2.41558 2.41558 R
+2552.14 767.66 2.41558 2.41558 RF
+2532.81 782.154 2.41558 2.41558 R
+2532.81 782.154 2.41558 2.41558 RF
+2552.14 796.647 2.41558 2.41558 R
+2552.14 796.647 2.41558 2.41558 RF
+2553.31 783.324 0.0754869 0.0754869 R
+2553.31 783.324 0.0754869 0.0754869 RF
+NP
+2553.34 840.128 MT
+2550.93 841.335 LT
+2553.34 842.543 LT
+2553.34 840.128 LT
+C F S
+2552.14 825.634 2.41558 2.41558 R
+2552.14 825.634 2.41558 2.41558 RF
+2532.81 840.128 2.41558 2.41558 R
+2532.81 840.128 2.41558 2.41558 RF
+2552.14 854.621 2.41558 2.41558 R
+2552.14 854.621 2.41558 2.41558 RF
+2553.31 841.298 0.0754869 0.0754869 R
+2553.31 841.298 0.0754869 0.0754869 RF
+NP
+2553.34 898.102 MT
+2550.93 899.309 LT
+2553.34 900.517 LT
+2553.34 898.102 LT
+C F S
+2552.14 883.608 2.41558 2.41558 R
+2552.14 883.608 2.41558 2.41558 RF
+2532.81 898.102 2.41558 2.41558 R
+2532.81 898.102 2.41558 2.41558 RF
+2552.14 912.595 2.41558 2.41558 R
+2552.14 912.595 2.41558 2.41558 RF
+2553.31 899.272 0.0754869 0.0754869 R
+2553.31 899.272 0.0754869 0.0754869 RF
+2378.82 724.784 1.20779 1.20779 R
+2378.82 724.784 1.20779 1.20779 RF
+2369.16 666.81 1.20779 1.20779 R
+2369.16 666.81 1.20779 1.20779 RF
+2373.99 840.731 1.20779 1.20779 R
+2373.99 840.731 1.20779 1.20779 RF
+2373.99 898.705 1.20779 1.20779 R
+2373.99 898.705 1.20779 1.20779 RF
+2499.6 898.705 1.20779 1.20779 R
+2499.6 898.705 1.20779 1.20779 RF
+2504.43 840.731 1.20779 1.20779 R
+2504.43 840.731 1.20779 1.20779 RF
+2504.43 782.758 1.20779 1.20779 R
+2504.43 782.758 1.20779 1.20779 RF
+2499.6 724.784 1.20779 1.20779 R
+2499.6 724.784 1.20779 1.20779 RF
+2499.6 666.81 1.20779 1.20779 R
+2499.6 666.81 1.20779 1.20779 RF
+NP
+1947.03 666.206 MT
+1949.45 667.414 LT
+1947.03 668.621 LT
+1947.03 666.206 LT
+C F S
+1948.24 680.699 2.41558 2.41558 R
+1948.24 680.699 2.41558 2.41558 RF
+1928.92 666.206 2.41558 2.41558 R
+1928.92 666.206 2.41558 2.41558 RF
+1948.24 651.712 2.41558 2.41558 R
+1948.24 651.712 2.41558 2.41558 RF
+1949.41 667.376 0.0754869 0.0754869 R
+1949.41 667.376 0.0754869 0.0754869 RF
+NP
+1947.03 724.18 MT
+1949.45 725.388 LT
+1947.03 726.595 LT
+1947.03 724.18 LT
+C F S
+1948.24 738.673 2.41558 2.41558 R
+1948.24 738.673 2.41558 2.41558 RF
+1928.92 724.18 2.41558 2.41558 R
+1928.92 724.18 2.41558 2.41558 RF
+1948.24 709.686 2.41558 2.41558 R
+1948.24 709.686 2.41558 2.41558 RF
+1949.41 725.35 0.0754869 0.0754869 R
+1949.41 725.35 0.0754869 0.0754869 RF
+NP
+1947.03 782.154 MT
+1949.45 783.361 LT
+1947.03 784.569 LT
+1947.03 782.154 LT
+C F S
+1948.24 796.647 2.41558 2.41558 R
+1948.24 796.647 2.41558 2.41558 RF
+1928.92 782.154 2.41558 2.41558 R
+1928.92 782.154 2.41558 2.41558 RF
+1948.24 767.66 2.41558 2.41558 R
+1948.24 767.66 2.41558 2.41558 RF
+1949.41 783.324 0.0754869 0.0754869 R
+1949.41 783.324 0.0754869 0.0754869 RF
+NP
+1947.03 840.128 MT
+1949.45 841.335 LT
+1947.03 842.543 LT
+1947.03 840.128 LT
+C F S
+1948.24 854.621 2.41558 2.41558 R
+1948.24 854.621 2.41558 2.41558 RF
+1928.92 840.128 2.41558 2.41558 R
+1928.92 840.128 2.41558 2.41558 RF
+1948.24 825.634 2.41558 2.41558 R
+1948.24 825.634 2.41558 2.41558 RF
+1949.41 841.298 0.0754869 0.0754869 R
+1949.41 841.298 0.0754869 0.0754869 RF
+NP
+1947.03 898.102 MT
+1949.45 899.309 LT
+1947.03 900.517 LT
+1947.03 898.102 LT
+C F S
+1948.24 912.595 2.41558 2.41558 R
+1948.24 912.595 2.41558 2.41558 RF
+1928.92 898.102 2.41558 2.41558 R
+1928.92 898.102 2.41558 2.41558 RF
+1948.24 883.608 2.41558 2.41558 R
+1948.24 883.608 2.41558 2.41558 RF
+1949.41 899.272 0.0754869 0.0754869 R
+1949.41 899.272 0.0754869 0.0754869 RF
+1900.53 666.81 1.20779 1.20779 R
+1900.53 666.81 1.20779 1.20779 RF
+1900.53 724.784 1.20779 1.20779 R
+1900.53 724.784 1.20779 1.20779 RF
+1900.53 782.758 1.20779 1.20779 R
+1900.53 782.758 1.20779 1.20779 RF
+1900.53 840.731 1.20779 1.20779 R
+1900.53 840.731 1.20779 1.20779 RF
+1900.53 898.705 1.20779 1.20779 R
+1900.53 898.705 1.20779 1.20779 RF
+NP
+2048.49 666.206 MT
+2050.9 667.414 LT
+2048.49 668.621 LT
+2048.49 666.206 LT
+C F S
+2049.7 680.699 2.41558 2.41558 R
+2049.7 680.699 2.41558 2.41558 RF
+2030.37 666.206 2.41558 2.41558 R
+2030.37 666.206 2.41558 2.41558 RF
+2049.7 651.712 2.41558 2.41558 R
+2049.7 651.712 2.41558 2.41558 RF
+2050.87 667.376 0.0754869 0.0754869 R
+2050.87 667.376 0.0754869 0.0754869 RF
+NP
+2048.49 724.18 MT
+2050.9 725.388 LT
+2048.49 726.595 LT
+2048.49 724.18 LT
+C F S
+2049.7 738.673 2.41558 2.41558 R
+2049.7 738.673 2.41558 2.41558 RF
+2030.37 724.18 2.41558 2.41558 R
+2030.37 724.18 2.41558 2.41558 RF
+2049.7 709.686 2.41558 2.41558 R
+2049.7 709.686 2.41558 2.41558 RF
+2050.87 725.35 0.0754869 0.0754869 R
+2050.87 725.35 0.0754869 0.0754869 RF
+NP
+2048.49 782.154 MT
+2050.9 783.361 LT
+2048.49 784.569 LT
+2048.49 782.154 LT
+C F S
+2049.7 796.647 2.41558 2.41558 R
+2049.7 796.647 2.41558 2.41558 RF
+2030.37 782.154 2.41558 2.41558 R
+2030.37 782.154 2.41558 2.41558 RF
+2049.7 767.66 2.41558 2.41558 R
+2049.7 767.66 2.41558 2.41558 RF
+2050.87 783.324 0.0754869 0.0754869 R
+2050.87 783.324 0.0754869 0.0754869 RF
+NP
+2048.49 840.128 MT
+2050.9 841.335 LT
+2048.49 842.543 LT
+2048.49 840.128 LT
+C F S
+2049.7 854.621 2.41558 2.41558 R
+2049.7 854.621 2.41558 2.41558 RF
+2030.37 840.128 2.41558 2.41558 R
+2030.37 840.128 2.41558 2.41558 RF
+2049.7 825.634 2.41558 2.41558 R
+2049.7 825.634 2.41558 2.41558 RF
+2050.87 841.298 0.0754869 0.0754869 R
+2050.87 841.298 0.0754869 0.0754869 RF
+NP
+2048.49 898.102 MT
+2050.9 899.309 LT
+2048.49 900.517 LT
+2048.49 898.102 LT
+C F S
+2049.7 912.595 2.41558 2.41558 R
+2049.7 912.595 2.41558 2.41558 RF
+2030.37 898.102 2.41558 2.41558 R
+2030.37 898.102 2.41558 2.41558 RF
+2049.7 883.608 2.41558 2.41558 R
+2049.7 883.608 2.41558 2.41558 RF
+2050.87 899.272 0.0754869 0.0754869 R
+2050.87 899.272 0.0754869 0.0754869 RF
+2001.99 666.81 1.20779 1.20779 R
+2001.99 666.81 1.20779 1.20779 RF
+2001.99 724.784 1.20779 1.20779 R
+2001.99 724.784 1.20779 1.20779 RF
+2001.99 782.758 1.20779 1.20779 R
+2001.99 782.758 1.20779 1.20779 RF
+2001.99 840.731 1.20779 1.20779 R
+2001.99 840.731 1.20779 1.20779 RF
+2001.99 898.705 1.20779 1.20779 R
+2001.99 898.705 1.20779 1.20779 RF
+1857.05 299.641 1.20779 1.20779 R
+1857.05 299.641 1.20779 1.20779 RF
+1958.51 299.641 1.20779 1.20779 R
+1958.51 299.641 1.20779 1.20779 RF
+2074.46 299.641 1.20779 1.20779 R
+2074.46 299.641 1.20779 1.20779 RF
+1973 642.654 1.20779 1.20779 R
+1973 642.654 1.20779 1.20779 RF
+2064.79 642.654 1.20779 1.20779 R
+2064.79 642.654 1.20779 1.20779 RF
+2190.4 299.641 1.20779 1.20779 R
+2190.4 299.641 1.20779 1.20779 RF
+2287.03 299.641 1.20779 1.20779 R
+2287.03 299.641 1.20779 1.20779 RF
+2441.62 299.641 1.20779 1.20779 R
+2441.62 299.641 1.20779 1.20779 RF
+2572.07 299.641 1.20779 1.20779 R
+2572.07 299.641 1.20779 1.20779 RF
+2175.91 642.654 1.20779 1.20779 R
+2175.91 642.654 1.20779 1.20779 RF
+2306.35 642.654 1.20779 1.20779 R
+2306.35 642.654 1.20779 1.20779 RF
+2451.29 642.654 1.20779 1.20779 R
+2451.29 642.654 1.20779 1.20779 RF
+2572.07 642.654 1.20779 1.20779 R
+2572.07 642.654 1.20779 1.20779 RF
+997.107 613.667 1.20779 1.20779 R
+997.107 613.667 1.20779 1.20779 RF
+876.328 613.667 1.20779 1.20779 R
+876.328 613.667 1.20779 1.20779 RF
+1417.42 613.667 1.20779 1.20779 R
+1417.42 613.667 1.20779 1.20779 RF
+1518.87 613.667 1.20779 1.20779 R
+1518.87 613.667 1.20779 1.20779 RF
+997.107 439.745 1.20779 1.20779 R
+997.107 439.745 1.20779 1.20779 RF
+934.302 439.745 1.20779 1.20779 R
+934.302 439.745 1.20779 1.20779 RF
+876.328 439.745 1.20779 1.20779 R
+876.328 439.745 1.20779 1.20779 RF
+818.354 439.745 1.20779 1.20779 R
+818.354 439.745 1.20779 1.20779 RF
+760.38 439.745 1.20779 1.20779 R
+760.38 439.745 1.20779 1.20779 RF
+1422.25 439.745 1.20779 1.20779 R
+1422.25 439.745 1.20779 1.20779 RF
+1494.72 439.745 1.20779 1.20779 R
+1494.72 439.745 1.20779 1.20779 RF
+1562.35 439.745 1.20779 1.20779 R
+1562.35 439.745 1.20779 1.20779 RF
+1629.99 439.745 1.20779 1.20779 R
+1629.99 439.745 1.20779 1.20779 RF
+1692.79 439.745 1.20779 1.20779 R
+1692.79 439.745 1.20779 1.20779 RF
+1523.7 536.368 1.20779 1.20779 R
+1523.7 536.368 1.20779 1.20779 RF
+1422.25 536.368 1.20779 1.20779 R
+1422.25 536.368 1.20779 1.20779 RF
+1001.94 536.368 1.20779 1.20779 R
+1001.94 536.368 1.20779 1.20779 RF
+881.159 536.368 1.20779 1.20779 R
+881.159 536.368 1.20779 1.20779 RF
+1113.06 575.018 1.20779 1.20779 R
+1113.06 575.018 1.20779 1.20779 RF
+1209.68 575.018 1.20779 1.20779 R
+1209.68 575.018 1.20779 1.20779 RF
+1344.95 575.018 1.20779 1.20779 R
+1344.95 575.018 1.20779 1.20779 RF
+1006.77 483.226 1.20779 1.20779 R
+1006.77 483.226 1.20779 1.20779 RF
+1006.77 647.485 1.20779 1.20779 R
+1006.77 647.485 1.20779 1.20779 RF
+1412.59 647.485 1.20779 1.20779 R
+1412.59 647.485 1.20779 1.20779 RF
+1412.59 492.888 1.20779 1.20779 R
+1412.59 492.888 1.20779 1.20779 RF
+1219.34 478.394 1.20779 1.20779 R
+1219.34 478.394 1.20779 1.20779 RF
+1968.17 555.693 1.20779 1.20779 R
+1968.17 555.693 1.20779 1.20779 RF
+1968.17 497.719 1.20779 1.20779 R
+1968.17 497.719 1.20779 1.20779 RF
+1968.17 439.745 1.20779 1.20779 R
+1968.17 439.745 1.20779 1.20779 RF
+1968.17 381.771 1.20779 1.20779 R
+1968.17 381.771 1.20779 1.20779 RF
+1857.05 381.771 1.20779 1.20779 R
+1857.05 381.771 1.20779 1.20779 RF
+1857.05 323.797 1.20779 1.20779 R
+1857.05 323.797 1.20779 1.20779 RF
+1968.17 323.797 1.20779 1.20779 R
+1968.17 323.797 1.20779 1.20779 RF
+2079.29 323.797 1.20779 1.20779 R
+2079.29 323.797 1.20779 1.20779 RF
+2079.29 381.771 1.20779 1.20779 R
+2079.29 381.771 1.20779 1.20779 RF
+2079.29 439.745 1.20779 1.20779 R
+2079.29 439.745 1.20779 1.20779 RF
+2079.29 497.719 1.20779 1.20779 R
+2079.29 497.719 1.20779 1.20779 RF
+2079.29 555.693 1.20779 1.20779 R
+2079.29 555.693 1.20779 1.20779 RF
+1977.83 898.705 1.20779 1.20779 R
+1977.83 898.705 1.20779 1.20779 RF
+1977.83 840.731 1.20779 1.20779 R
+1977.83 840.731 1.20779 1.20779 RF
+1977.83 782.758 1.20779 1.20779 R
+1977.83 782.758 1.20779 1.20779 RF
+1977.83 724.784 1.20779 1.20779 R
+1977.83 724.784 1.20779 1.20779 RF
+1977.83 666.81 1.20779 1.20779 R
+1977.83 666.81 1.20779 1.20779 RF
+2079.29 666.81 1.20779 1.20779 R
+2079.29 666.81 1.20779 1.20779 RF
+2079.29 724.784 1.20779 1.20779 R
+2079.29 724.784 1.20779 1.20779 RF
+2079.29 782.758 1.20779 1.20779 R
+2079.29 782.758 1.20779 1.20779 RF
+2079.29 840.731 1.20779 1.20779 R
+2079.29 840.731 1.20779 1.20779 RF
+2079.29 898.705 1.20779 1.20779 R
+2079.29 898.705 1.20779 1.20779 RF
+2195.24 555.693 1.20779 1.20779 R
+2195.24 555.693 1.20779 1.20779 RF
+2195.24 497.719 1.20779 1.20779 R
+2195.24 497.719 1.20779 1.20779 RF
+2195.24 439.745 1.20779 1.20779 R
+2195.24 439.745 1.20779 1.20779 RF
+2195.24 381.771 1.20779 1.20779 R
+2195.24 381.771 1.20779 1.20779 RF
+2195.24 323.797 1.20779 1.20779 R
+2195.24 323.797 1.20779 1.20779 RF
+2301.52 555.693 1.20779 1.20779 R
+2301.52 555.693 1.20779 1.20779 RF
+2301.52 497.719 1.20779 1.20779 R
+2301.52 497.719 1.20779 1.20779 RF
+2301.52 439.745 1.20779 1.20779 R
+2301.52 439.745 1.20779 1.20779 RF
+2301.52 381.771 1.20779 1.20779 R
+2301.52 381.771 1.20779 1.20779 RF
+2301.52 323.797 1.20779 1.20779 R
+2301.52 323.797 1.20779 1.20779 RF
+2451.29 555.693 1.20779 1.20779 R
+2451.29 555.693 1.20779 1.20779 RF
+2451.29 497.719 1.20779 1.20779 R
+2451.29 497.719 1.20779 1.20779 RF
+2446.46 439.745 1.20779 1.20779 R
+2446.46 439.745 1.20779 1.20779 RF
+2451.29 381.771 1.20779 1.20779 R
+2451.29 381.771 1.20779 1.20779 RF
+2446.46 323.797 1.20779 1.20779 R
+2446.46 323.797 1.20779 1.20779 RF
+2576.9 555.693 1.20779 1.20779 R
+2576.9 555.693 1.20779 1.20779 RF
+2576.9 497.719 1.20779 1.20779 R
+2576.9 497.719 1.20779 1.20779 RF
+2576.9 439.745 1.20779 1.20779 R
+2576.9 439.745 1.20779 1.20779 RF
+2576.9 381.771 1.20779 1.20779 R
+2576.9 381.771 1.20779 1.20779 RF
+2576.9 323.797 1.20779 1.20779 R
+2576.9 323.797 1.20779 1.20779 RF
+2200.07 666.81 1.20779 1.20779 R
+2200.07 666.81 1.20779 1.20779 RF
+2200.07 724.784 1.20779 1.20779 R
+2200.07 724.784 1.20779 1.20779 RF
+2200.07 782.758 1.20779 1.20779 R
+2200.07 782.758 1.20779 1.20779 RF
+2200.07 840.731 1.20779 1.20779 R
+2200.07 840.731 1.20779 1.20779 RF
+2200.07 898.705 1.20779 1.20779 R
+2200.07 898.705 1.20779 1.20779 RF
+2320.85 666.81 1.20779 1.20779 R
+2320.85 666.81 1.20779 1.20779 RF
+2320.85 724.784 1.20779 1.20779 R
+2320.85 724.784 1.20779 1.20779 RF
+2320.85 782.758 1.20779 1.20779 R
+2320.85 782.758 1.20779 1.20779 RF
+2320.85 840.731 1.20779 1.20779 R
+2320.85 840.731 1.20779 1.20779 RF
+2320.85 898.705 1.20779 1.20779 R
+2320.85 898.705 1.20779 1.20779 RF
+2456.12 666.81 1.20779 1.20779 R
+2456.12 666.81 1.20779 1.20779 RF
+2456.12 724.784 1.20779 1.20779 R
+2456.12 724.784 1.20779 1.20779 RF
+2456.12 782.758 1.20779 1.20779 R
+2456.12 782.758 1.20779 1.20779 RF
+2456.12 840.731 1.20779 1.20779 R
+2456.12 840.731 1.20779 1.20779 RF
+2456.12 898.705 1.20779 1.20779 R
+2456.12 898.705 1.20779 1.20779 RF
+2581.73 666.81 1.20779 1.20779 R
+2581.73 666.81 1.20779 1.20779 RF
+2581.73 724.784 1.20779 1.20779 R
+2581.73 724.784 1.20779 1.20779 RF
+2581.73 782.758 1.20779 1.20779 R
+2581.73 782.758 1.20779 1.20779 RF
+2581.73 840.731 1.20779 1.20779 R
+2581.73 840.731 1.20779 1.20779 RF
+2581.73 898.705 1.20779 1.20779 R
+2581.73 898.705 1.20779 1.20779 RF
+0 0.796875 0.929688 RGB
+0.996094 0 0 RGB
+0.53125 0.53125 0 RGB
+0 0.664062 0.664062 RGB
+0.53125 0 0.53125 RGB
+0 0.996094 0 RGB
+0 0 0.796875 RGB
+0.398438 0.398438 0 RGB
+0.332031 0.464844 0.332031 RGB
+0.664062 0.132812 0.132812 RGB
+0.484375 0.796875 0.25 RGB
+0 0.996094 0.796875 RGB
+0.804688 0 0.589844 RGB
+0.820312 0.828125 0.417969 RGB
+0.933594 0.378906 0.34375 RGB
+0.988281 0.695312 0 RGB
+0 0.265625 0.929688 RGB
+1181.3 648.089 1181.3 590.115 L
+1258.59 648.089 1258.59 590.115 L
+1287.58 638.427 1258.59 638.427 L
+1287.58 662.582 1287.58 638.427 L
+1152.31 662.582 1152.31 638.427 L
+1181.3 638.427 1152.31 638.427 L
+1219.94 329.232 1142.65 329.232 L
+1219.94 338.895 1219.94 329.232 L
+1161.97 575.622 1142.65 575.622 L
+1297.24 575.622 1277.92 575.622 L
+1258.59 696.401 1258.59 686.738 L
+1181.3 696.401 1181.3 686.738 L
+1335.89 329.232 1219.94 329.232 L
+1142.65 329.232 1104 329.232 L
+1219.94 329.232 1219.94 319.57 L
+1219.94 706.063 1219.94 696.401 L
+1190.96 672.245 1181.3 672.245 L
+1190.96 696.401 1190.96 672.245 L
+1258.59 672.245 1248.93 672.245 L
+1248.93 696.401 1248.93 672.245 L
+1258.59 575.622 1248.93 575.622 L
+1248.93 575.622 1181.3 575.622 L
+1229.61 353.388 1219.94 353.388 L
+1229.61 353.388 1229.61 329.232 L
+1219.94 541.803 1219.94 454.843 L
+1345.55 672.245 1277.92 672.245 L
+1413.19 696.401 1413.19 686.738 L
+1413.19 648.089 1413.19 628.764 L
+1422.85 672.245 1413.19 672.245 L
+1422.85 614.271 1413.19 614.271 L
+1422.85 638.427 1413.19 638.427 L
+1161.97 672.245 1094.33 672.245 L
+1007.37 696.401 1007.37 686.738 L
+1374.54 696.401 1075.01 696.401 L
+1007.37 648.089 1007.37 628.764 L
+1007.37 614.271 997.711 614.271 L
+1007.37 638.427 997.711 638.427 L
+1345.55 614.271 1094.33 614.271 L
+1181.3 561.128 1181.3 551.466 L
+1258.59 551.466 1181.3 551.466 L
+1258.59 561.128 1258.59 551.466 L
+1219.94 551.466 1219.94 541.803 L
+1413.19 599.777 1413.19 551.466 L
+1007.37 599.777 1007.37 551.466 L
+1345.55 536.972 1094.33 536.972 L
+1036.36 561.128 1007.37 561.128 L
+1036.36 561.128 1036.36 488.661 L
+1036.36 329.232 1007.37 329.232 L
+1413.19 329.232 1384.2 329.232 L
+930.075 387.206 930.075 367.882 L
+930.075 338.895 930.075 329.232 L
+1007.37 329.232 930.075 329.232 L
+930.075 353.388 920.412 353.388 L
+920.412 353.388 920.412 329.232 L
+930.075 329.232 920.412 329.232 L
+959.062 377.544 930.075 377.544 L
+959.062 377.544 959.062 353.388 L
+959.062 353.388 949.399 353.388 L
+1432.52 575.622 1413.19 575.622 L
+1422.85 536.972 1413.19 536.972 L
+1007.37 536.972 997.711 536.972 L
+1171.63 536.972 1171.63 522.479 L
+1200.62 353.388 1171.63 353.388 L
+1219.94 377.544 1219.94 367.882 L
+1219.94 454.843 1219.94 377.544 L
+1007.37 416.193 1007.37 329.232 L
+1413.19 416.193 1413.19 329.232 L
+1152.31 614.271 1152.31 599.777 L
+1104 329.232 1036.36 329.232 L
+1384.2 329.232 1335.89 329.232 L
+1094.33 536.972 1026.7 536.972 L
+1393.87 536.972 1345.55 536.972 L
+1393.87 614.271 1345.55 614.271 L
+1393.87 672.245 1345.55 672.245 L
+1094.33 672.245 1026.7 672.245 L
+1094.33 614.271 1026.7 614.271 L
+1084.67 575.622 1065.35 575.622 L
+1104 561.128 1104 551.466 L
+1104 594.946 1104 590.115 L
+1181.3 594.946 1104 594.946 L
+1181.3 551.466 1104 551.466 L
+1113.66 575.622 1104 575.622 L
+1360.05 551.466 1258.59 551.466 L
+1360.05 561.128 1360.05 551.466 L
+1360.05 575.622 1345.55 575.622 L
+1360.05 594.946 1360.05 590.115 L
+1360.05 594.946 1258.59 594.946 L
+1389.04 575.622 1379.37 575.622 L
+1422.85 440.349 1413.19 440.349 L
+1422.85 416.193 1413.19 416.193 L
+1693.4 440.349 1678.9 440.349 L
+1480.83 425.856 1480.83 416.193 L
+1548.46 425.856 1548.46 416.193 L
+1616.1 425.856 1616.1 416.193 L
+1678.9 425.856 1678.9 416.193 L
+1630.59 440.349 1616.1 440.349 L
+1562.96 440.349 1548.46 440.349 L
+1495.32 440.349 1480.83 440.349 L
+1461.5 440.349 1442.18 440.349 L
+1529.14 440.349 1509.81 440.349 L
+1596.78 440.349 1577.45 440.349 L
+1659.58 440.349 1640.26 440.349 L
+1678.9 459.674 1413.19 459.674 L
+1678.9 459.674 1678.9 454.843 L
+1616.1 459.674 1616.1 454.843 L
+1548.46 459.674 1548.46 454.843 L
+1480.83 459.674 1480.83 454.843 L
+1007.37 440.349 997.711 440.349 L
+1007.37 416.193 997.711 416.193 L
+1007.37 425.856 1007.37 416.193 L
+973.555 440.349 963.893 440.349 L
+944.568 440.349 934.906 440.349 L
+944.568 416.193 934.906 416.193 L
+944.568 425.856 944.568 416.193 L
+915.581 440.349 905.919 440.349 L
+886.594 440.349 876.932 440.349 L
+886.594 416.193 876.932 416.193 L
+886.594 425.856 886.594 416.193 L
+857.607 440.349 847.945 440.349 L
+828.62 440.349 818.958 440.349 L
+828.62 416.193 818.958 416.193 L
+828.62 425.856 828.62 416.193 L
+799.633 440.349 789.971 440.349 L
+770.646 440.349 760.984 440.349 L
+770.646 425.856 770.646 416.193 L
+1007.37 459.674 770.646 459.674 L
+770.646 459.674 770.646 454.843 L
+828.62 459.674 828.62 454.843 L
+886.594 459.674 886.594 454.843 L
+944.568 459.674 944.568 454.843 L
+1413.19 459.674 1413.19 454.843 L
+1132.98 353.388 1123.32 353.388 L
+1104 353.388 1075.01 353.388 L
+1123.32 377.544 1123.32 367.882 L
+1219.94 377.544 1123.32 377.544 L
+1123.32 338.895 1123.32 329.232 L
+1157.14 353.388 1132.98 353.388 L
+1157.14 353.388 1157.14 329.232 L
+1480.83 556.297 1480.83 551.466 L
+1480.83 556.297 1413.19 556.297 L
+1480.83 522.479 1480.83 512.816 L
+1524.31 536.972 1480.83 536.972 L
+1461.5 536.972 1442.18 536.972 L
+1007.37 561.128 944.568 561.128 L
+905.919 536.972 872.101 536.972 L
+997.711 638.427 944.568 638.427 L
+905.919 638.427 905.919 628.764 L
+905.919 599.777 905.919 590.115 L
+1007.37 590.115 944.568 590.115 L
+905.919 614.271 872.101 614.271 L
+934.906 614.271 925.244 614.271 L
+1480.83 638.427 1422.85 638.427 L
+1480.83 638.427 1480.83 628.764 L
+1461.5 614.271 1447.01 614.271 L
+1447.01 614.271 1447.01 604.608 L
+1480.83 599.777 1480.83 590.115 L
+1480.83 590.115 1413.19 590.115 L
+1519.48 614.271 1480.83 614.271 L
+1075.01 696.401 1007.37 696.401 L
+1007.37 672.245 973.555 672.245 L
+973.555 696.401 973.555 672.245 L
+1007.37 696.401 973.555 696.401 L
+1258.59 657.751 1258.59 648.089 L
+1287.58 672.245 1287.58 662.582 L
+1413.19 657.751 1413.19 648.089 L
+1152.31 672.245 1152.31 662.582 L
+1181.3 657.751 1181.3 648.089 L
+1007.37 657.751 1007.37 648.089 L
+1128.15 749.543 1128.15 725.388 L
+1128.15 739.881 1094.33 739.881 L
+1094.33 764.037 1094.33 739.881 L
+1108.83 764.037 1094.33 764.037 L
+1108.83 764.037 1094.33 764.037 L
+1094.33 764.037 1070.18 764.037 L
+1128.15 797.855 1128.15 778.53 L
+1181.3 797.855 1181.3 764.037 L
+1181.3 797.855 1128.15 797.855 L
+1384.2 764.037 1350.39 764.037 L
+1331.06 749.543 1331.06 730.219 L
+1331.06 764.037 1302.07 764.037 L
+1128.15 836.504 1128.15 812.348 L
+1128.15 826.842 1094.33 826.842 L
+1094.33 850.998 1094.33 826.842 L
+1108.83 850.998 1094.33 850.998 L
+1108.83 850.998 1094.33 850.998 L
+1094.33 850.998 1070.18 850.998 L
+1128.15 884.816 1128.15 865.491 L
+1181.3 850.998 1128.15 850.998 L
+1181.3 884.816 1181.3 850.998 L
+1181.3 884.816 1128.15 884.816 L
+1128.15 933.127 1128.15 908.972 L
+1128.15 923.465 1094.33 923.465 L
+1094.33 947.621 1094.33 923.465 L
+1108.83 947.621 1094.33 947.621 L
+1108.83 947.621 1094.33 947.621 L
+1094.33 947.621 1070.18 947.621 L
+1128.15 981.439 1128.15 962.114 L
+1181.3 947.621 1128.15 947.621 L
+1181.3 981.439 1181.3 947.621 L
+1181.3 981.439 1128.15 981.439 L
+1828.67 348.557 1828.67 338.895 L
+1828.67 309.908 1828.67 300.245 L
+1867.32 300.245 1828.67 300.245 L
+1867.32 348.557 1867.32 300.245 L
+1867.32 348.557 1828.67 348.557 L
+1809.35 324.401 1775.53 324.401 L
+1828.67 406.531 1828.67 396.869 L
+1828.67 367.882 1828.67 358.219 L
+1867.32 358.219 1828.67 358.219 L
+1867.32 406.531 1867.32 358.219 L
+1867.32 406.531 1828.67 406.531 L
+1809.35 382.375 1775.53 382.375 L
+1939.79 348.557 1939.79 338.895 L
+1939.79 309.908 1939.79 300.245 L
+1978.44 300.245 1939.79 300.245 L
+1978.44 348.557 1978.44 300.245 L
+1978.44 348.557 1939.79 348.557 L
+1920.46 324.401 1886.64 324.401 L
+1939.79 406.531 1939.79 396.869 L
+1939.79 367.882 1939.79 358.219 L
+1978.44 358.219 1939.79 358.219 L
+1978.44 406.531 1978.44 358.219 L
+1978.44 406.531 1939.79 406.531 L
+1920.46 382.375 1886.64 382.375 L
+1939.79 464.505 1939.79 454.843 L
+1939.79 425.856 1939.79 416.193 L
+1978.44 416.193 1939.79 416.193 L
+1978.44 464.505 1978.44 416.193 L
+1978.44 464.505 1939.79 464.505 L
+1920.46 440.349 1886.64 440.349 L
+1939.79 522.479 1939.79 512.816 L
+1939.79 483.829 1939.79 474.167 L
+1978.44 474.167 1939.79 474.167 L
+1978.44 522.479 1978.44 474.167 L
+1978.44 522.479 1939.79 522.479 L
+1920.46 498.323 1886.64 498.323 L
+1939.79 580.453 1939.79 570.79 L
+1939.79 541.803 1939.79 532.141 L
+1978.44 532.141 1939.79 532.141 L
+1978.44 580.453 1978.44 532.141 L
+1978.44 580.453 1939.79 580.453 L
+1920.46 556.297 1886.64 556.297 L
+2050.9 348.557 2050.9 338.895 L
+2050.9 309.908 2050.9 300.245 L
+2089.55 300.245 2050.9 300.245 L
+2089.55 348.557 2089.55 300.245 L
+2089.55 348.557 2050.9 348.557 L
+2031.58 324.401 1997.76 324.401 L
+2050.9 406.531 2050.9 396.869 L
+2050.9 367.882 2050.9 358.219 L
+2089.55 358.219 2050.9 358.219 L
+2089.55 406.531 2089.55 358.219 L
+2089.55 406.531 2050.9 406.531 L
+2031.58 382.375 1997.76 382.375 L
+2050.9 464.505 2050.9 454.843 L
+2050.9 425.856 2050.9 416.193 L
+2089.55 416.193 2050.9 416.193 L
+2089.55 464.505 2089.55 416.193 L
+2089.55 464.505 2050.9 464.505 L
+2031.58 440.349 1997.76 440.349 L
+2050.9 522.479 2050.9 512.816 L
+2050.9 483.829 2050.9 474.167 L
+2089.55 474.167 2050.9 474.167 L
+2089.55 522.479 2089.55 474.167 L
+2089.55 522.479 2050.9 522.479 L
+2031.58 498.323 1997.76 498.323 L
+2050.9 580.453 2050.9 570.79 L
+2050.9 541.803 2050.9 532.141 L
+2089.55 532.141 2050.9 532.141 L
+2089.55 580.453 2089.55 532.141 L
+2089.55 580.453 2050.9 580.453 L
+2031.58 556.297 1997.76 556.297 L
+2147.53 324.401 2113.71 324.401 L
+2166.85 309.908 2166.85 300.245 L
+2205.5 300.245 2166.85 300.245 L
+2205.5 343.726 2205.5 300.245 L
+2205.5 348.557 2205.5 343.726 L
+2205.5 348.557 2166.85 348.557 L
+2166.85 348.557 2166.85 338.895 L
+2147.53 382.375 2113.71 382.375 L
+2166.85 367.882 2166.85 358.219 L
+2205.5 358.219 2166.85 358.219 L
+2205.5 401.7 2205.5 358.219 L
+2205.5 406.531 2205.5 401.7 L
+2205.5 406.531 2166.85 406.531 L
+2166.85 406.531 2166.85 396.869 L
+2147.53 440.349 2113.71 440.349 L
+2166.85 425.856 2166.85 416.193 L
+2205.5 416.193 2166.85 416.193 L
+2205.5 459.674 2205.5 416.193 L
+2205.5 464.505 2205.5 459.674 L
+2205.5 464.505 2166.85 464.505 L
+2166.85 464.505 2166.85 454.843 L
+2147.53 498.323 2113.71 498.323 L
+2166.85 483.829 2166.85 474.167 L
+2205.5 474.167 2166.85 474.167 L
+2205.5 517.648 2205.5 474.167 L
+2205.5 522.479 2205.5 517.648 L
+2205.5 522.479 2166.85 522.479 L
+2166.85 522.479 2166.85 512.816 L
+2147.53 556.297 2113.71 556.297 L
+2166.85 541.803 2166.85 532.141 L
+2205.5 532.141 2166.85 532.141 L
+2205.5 575.622 2205.5 532.141 L
+2205.5 580.453 2205.5 575.622 L
+2205.5 580.453 2166.85 580.453 L
+2166.85 580.453 2166.85 570.79 L
+2253.81 324.401 2219.99 324.401 L
+2273.14 309.908 2273.14 300.245 L
+2311.79 300.245 2273.14 300.245 L
+2311.79 343.726 2311.79 300.245 L
+2311.79 348.557 2311.79 343.726 L
+2311.79 348.557 2273.14 348.557 L
+2273.14 348.557 2273.14 338.895 L
+2253.81 382.375 2219.99 382.375 L
+2273.14 367.882 2273.14 358.219 L
+2311.79 358.219 2273.14 358.219 L
+2311.79 401.7 2311.79 358.219 L
+2311.79 406.531 2311.79 401.7 L
+2311.79 406.531 2273.14 406.531 L
+2273.14 406.531 2273.14 396.869 L
+2253.81 440.349 2219.99 440.349 L
+2273.14 425.856 2273.14 416.193 L
+2311.79 416.193 2273.14 416.193 L
+2311.79 459.674 2311.79 416.193 L
+2311.79 464.505 2311.79 459.674 L
+2311.79 464.505 2273.14 464.505 L
+2273.14 464.505 2273.14 454.843 L
+2253.81 498.323 2219.99 498.323 L
+2273.14 483.829 2273.14 474.167 L
+2311.79 474.167 2273.14 474.167 L
+2311.79 517.648 2311.79 474.167 L
+2311.79 522.479 2311.79 517.648 L
+2311.79 522.479 2273.14 522.479 L
+2273.14 522.479 2273.14 512.816 L
+2253.81 556.297 2219.99 556.297 L
+2273.14 541.803 2273.14 532.141 L
+2311.79 532.141 2273.14 532.141 L
+2311.79 575.622 2311.79 532.141 L
+2311.79 580.453 2311.79 575.622 L
+2311.79 580.453 2273.14 580.453 L
+2273.14 580.453 2273.14 570.79 L
+2403.58 324.401 2369.76 324.401 L
+2422.9 309.908 2422.9 300.245 L
+2461.55 300.245 2422.9 300.245 L
+2461.55 343.726 2461.55 300.245 L
+2461.55 348.557 2461.55 343.726 L
+2461.55 348.557 2422.9 348.557 L
+2422.9 348.557 2422.9 338.895 L
+2403.58 382.375 2369.76 382.375 L
+2422.9 367.882 2422.9 358.219 L
+2461.55 358.219 2422.9 358.219 L
+2461.55 401.7 2461.55 358.219 L
+2461.55 406.531 2461.55 401.7 L
+2461.55 406.531 2422.9 406.531 L
+2422.9 406.531 2422.9 396.869 L
+2403.58 440.349 2369.76 440.349 L
+2422.9 425.856 2422.9 416.193 L
+2461.55 416.193 2422.9 416.193 L
+2461.55 459.674 2461.55 416.193 L
+2461.55 464.505 2461.55 459.674 L
+2461.55 464.505 2422.9 464.505 L
+2422.9 464.505 2422.9 454.843 L
+2403.58 498.323 2369.76 498.323 L
+2422.9 483.829 2422.9 474.167 L
+2461.55 474.167 2422.9 474.167 L
+2461.55 517.648 2461.55 474.167 L
+2461.55 522.479 2461.55 517.648 L
+2461.55 522.479 2422.9 522.479 L
+2422.9 522.479 2422.9 512.816 L
+2403.58 556.297 2369.76 556.297 L
+2422.9 541.803 2422.9 532.141 L
+2461.55 532.141 2422.9 532.141 L
+2461.55 575.622 2461.55 532.141 L
+2461.55 580.453 2461.55 575.622 L
+2461.55 580.453 2422.9 580.453 L
+2422.9 580.453 2422.9 570.79 L
+2529.19 324.401 2495.37 324.401 L
+2548.51 309.908 2548.51 300.245 L
+2587.16 300.245 2548.51 300.245 L
+2587.16 343.726 2587.16 300.245 L
+2587.16 348.557 2587.16 343.726 L
+2587.16 348.557 2548.51 348.557 L
+2548.51 348.557 2548.51 338.895 L
+2529.19 382.375 2495.37 382.375 L
+2548.51 367.882 2548.51 358.219 L
+2587.16 358.219 2548.51 358.219 L
+2587.16 401.7 2587.16 358.219 L
+2587.16 406.531 2587.16 401.7 L
+2587.16 406.531 2548.51 406.531 L
+2548.51 406.531 2548.51 396.869 L
+2529.19 440.349 2495.37 440.349 L
+2548.51 425.856 2548.51 416.193 L
+2587.16 416.193 2548.51 416.193 L
+2587.16 459.674 2587.16 416.193 L
+2587.16 464.505 2587.16 459.674 L
+2587.16 464.505 2548.51 464.505 L
+2548.51 464.505 2548.51 454.843 L
+2529.19 498.323 2495.37 498.323 L
+2548.51 483.829 2548.51 474.167 L
+2587.16 474.167 2548.51 474.167 L
+2587.16 517.648 2587.16 474.167 L
+2587.16 522.479 2587.16 517.648 L
+2587.16 522.479 2548.51 522.479 L
+2548.51 522.479 2548.51 512.816 L
+2529.19 556.297 2495.37 556.297 L
+2548.51 541.803 2548.51 532.141 L
+2587.16 532.141 2548.51 532.141 L
+2587.16 575.622 2587.16 532.141 L
+2587.16 580.453 2587.16 575.622 L
+2587.16 580.453 2548.51 580.453 L
+2548.51 580.453 2548.51 570.79 L
+2152.36 667.414 2118.54 667.414 L
+2171.68 652.92 2171.68 643.258 L
+2210.33 643.258 2171.68 643.258 L
+2210.33 686.738 2210.33 643.258 L
+2210.33 691.569 2210.33 686.738 L
+2210.33 691.569 2171.68 691.569 L
+2171.68 691.569 2171.68 681.907 L
+2152.36 725.388 2118.54 725.388 L
+2171.68 710.894 2171.68 701.232 L
+2210.33 701.232 2171.68 701.232 L
+2210.33 744.712 2210.33 701.232 L
+2210.33 749.543 2210.33 744.712 L
+2210.33 749.543 2171.68 749.543 L
+2171.68 749.543 2171.68 739.881 L
+2152.36 783.361 2118.54 783.361 L
+2171.68 768.868 2171.68 759.206 L
+2210.33 759.206 2171.68 759.206 L
+2210.33 802.686 2210.33 759.206 L
+2210.33 807.517 2210.33 802.686 L
+2210.33 807.517 2171.68 807.517 L
+2171.68 807.517 2171.68 797.855 L
+2152.36 841.335 2118.54 841.335 L
+2171.68 826.842 2171.68 817.18 L
+2210.33 817.18 2171.68 817.18 L
+2210.33 860.66 2210.33 817.18 L
+2210.33 865.491 2210.33 860.66 L
+2210.33 865.491 2171.68 865.491 L
+2171.68 865.491 2171.68 855.829 L
+2152.36 899.309 2118.54 899.309 L
+2171.68 884.816 2171.68 875.154 L
+2210.33 875.154 2171.68 875.154 L
+2210.33 918.634 2210.33 875.154 L
+2210.33 923.465 2210.33 918.634 L
+2210.33 923.465 2171.68 923.465 L
+2171.68 923.465 2171.68 913.803 L
+2273.14 667.414 2239.32 667.414 L
+2292.46 652.92 2292.46 643.258 L
+2331.11 643.258 2292.46 643.258 L
+2331.11 686.738 2331.11 643.258 L
+2331.11 691.569 2331.11 686.738 L
+2331.11 691.569 2292.46 691.569 L
+2292.46 691.569 2292.46 681.907 L
+2273.14 725.388 2239.32 725.388 L
+2292.46 710.894 2292.46 701.232 L
+2331.11 701.232 2292.46 701.232 L
+2331.11 744.712 2331.11 701.232 L
+2331.11 749.543 2331.11 744.712 L
+2331.11 749.543 2292.46 749.543 L
+2292.46 749.543 2292.46 739.881 L
+2273.14 783.361 2239.32 783.361 L
+2292.46 768.868 2292.46 759.206 L
+2331.11 759.206 2292.46 759.206 L
+2331.11 802.686 2331.11 759.206 L
+2331.11 807.517 2331.11 802.686 L
+2331.11 807.517 2292.46 807.517 L
+2292.46 807.517 2292.46 797.855 L
+2273.14 841.335 2239.32 841.335 L
+2292.46 826.842 2292.46 817.18 L
+2331.11 817.18 2292.46 817.18 L
+2331.11 860.66 2331.11 817.18 L
+2331.11 865.491 2331.11 860.66 L
+2331.11 865.491 2292.46 865.491 L
+2292.46 865.491 2292.46 855.829 L
+2273.14 899.309 2239.32 899.309 L
+2292.46 884.816 2292.46 875.154 L
+2331.11 875.154 2292.46 875.154 L
+2331.11 918.634 2331.11 875.154 L
+2331.11 923.465 2331.11 918.634 L
+2331.11 923.465 2292.46 923.465 L
+2292.46 923.465 2292.46 913.803 L
+1384.2 850.998 1350.39 850.998 L
+1331.06 850.998 1302.07 850.998 L
+1331.06 884.816 1302.07 884.816 L
+1384.2 947.621 1350.39 947.621 L
+1331.06 933.127 1331.06 913.803 L
+1331.06 947.621 1302.07 947.621 L
+862.439 387.206 862.439 367.882 L
+862.439 338.895 862.439 329.232 L
+862.439 353.388 852.776 353.388 L
+852.776 353.388 852.776 329.232 L
+862.439 329.232 852.776 329.232 L
+891.426 377.544 862.439 377.544 L
+891.426 377.544 891.426 353.388 L
+891.426 353.388 881.763 353.388 L
+920.412 329.232 862.439 329.232 L
+2427.73 652.92 2427.73 643.258 L
+2466.38 643.258 2427.73 643.258 L
+2466.38 686.738 2466.38 643.258 L
+2466.38 691.569 2466.38 686.738 L
+2466.38 691.569 2427.73 691.569 L
+2427.73 691.569 2427.73 681.907 L
+2427.73 710.894 2427.73 701.232 L
+2466.38 701.232 2427.73 701.232 L
+2466.38 744.712 2466.38 701.232 L
+2466.38 749.543 2466.38 744.712 L
+2466.38 749.543 2427.73 749.543 L
+2427.73 749.543 2427.73 739.881 L
+2408.41 783.361 2374.59 783.361 L
+2427.73 768.868 2427.73 759.206 L
+2466.38 759.206 2427.73 759.206 L
+2466.38 802.686 2466.38 759.206 L
+2466.38 807.517 2466.38 802.686 L
+2466.38 807.517 2427.73 807.517 L
+2427.73 807.517 2427.73 797.855 L
+2408.41 841.335 2374.59 841.335 L
+2427.73 826.842 2427.73 817.18 L
+2466.38 817.18 2427.73 817.18 L
+2466.38 860.66 2466.38 817.18 L
+2466.38 865.491 2466.38 860.66 L
+2466.38 865.491 2427.73 865.491 L
+2427.73 865.491 2427.73 855.829 L
+2408.41 899.309 2374.59 899.309 L
+2427.73 884.816 2427.73 875.154 L
+2466.38 875.154 2427.73 875.154 L
+2466.38 918.634 2466.38 875.154 L
+2466.38 923.465 2466.38 918.634 L
+2466.38 923.465 2427.73 923.465 L
+2427.73 923.465 2427.73 913.803 L
+2534.02 667.414 2500.2 667.414 L
+2553.34 652.92 2553.34 643.258 L
+2591.99 643.258 2553.34 643.258 L
+2591.99 686.738 2591.99 643.258 L
+2591.99 691.569 2591.99 686.738 L
+2591.99 691.569 2553.34 691.569 L
+2553.34 691.569 2553.34 681.907 L
+2534.02 725.388 2500.2 725.388 L
+2553.34 710.894 2553.34 701.232 L
+2591.99 701.232 2553.34 701.232 L
+2591.99 744.712 2591.99 701.232 L
+2591.99 749.543 2591.99 744.712 L
+2591.99 749.543 2553.34 749.543 L
+2553.34 749.543 2553.34 739.881 L
+2534.02 783.361 2500.2 783.361 L
+2553.34 768.868 2553.34 759.206 L
+2591.99 759.206 2553.34 759.206 L
+2591.99 802.686 2591.99 759.206 L
+2591.99 807.517 2591.99 802.686 L
+2591.99 807.517 2553.34 807.517 L
+2553.34 807.517 2553.34 797.855 L
+2534.02 841.335 2500.2 841.335 L
+2553.34 826.842 2553.34 817.18 L
+2591.99 817.18 2553.34 817.18 L
+2591.99 860.66 2591.99 817.18 L
+2591.99 865.491 2591.99 860.66 L
+2591.99 865.491 2553.34 865.491 L
+2553.34 865.491 2553.34 855.829 L
+2534.02 899.309 2500.2 899.309 L
+2553.34 884.816 2553.34 875.154 L
+2591.99 875.154 2553.34 875.154 L
+2591.99 918.634 2591.99 875.154 L
+2591.99 923.465 2591.99 918.634 L
+2591.99 923.465 2553.34 923.465 L
+2553.34 923.465 2553.34 913.803 L
+2408.41 667.414 2364.93 667.414 L
+2408.41 725.388 2374.59 725.388 L
+1949.45 691.569 1949.45 681.907 L
+1949.45 652.92 1949.45 643.258 L
+1988.1 643.258 1949.45 643.258 L
+1988.1 691.569 1988.1 643.258 L
+1988.1 691.569 1949.45 691.569 L
+1930.13 667.414 1896.31 667.414 L
+1949.45 749.543 1949.45 739.881 L
+1949.45 710.894 1949.45 701.232 L
+1988.1 701.232 1949.45 701.232 L
+1988.1 749.543 1988.1 701.232 L
+1988.1 749.543 1949.45 749.543 L
+1930.13 725.388 1896.31 725.388 L
+1949.45 807.517 1949.45 797.855 L
+1949.45 768.868 1949.45 759.206 L
+1988.1 759.206 1949.45 759.206 L
+1988.1 807.517 1988.1 759.206 L
+1988.1 807.517 1949.45 807.517 L
+1930.13 783.361 1896.31 783.361 L
+1949.45 865.491 1949.45 855.829 L
+1949.45 826.842 1949.45 817.18 L
+1988.1 817.18 1949.45 817.18 L
+1988.1 865.491 1988.1 817.18 L
+1988.1 865.491 1949.45 865.491 L
+1930.13 841.335 1896.31 841.335 L
+1949.45 923.465 1949.45 913.803 L
+1949.45 884.816 1949.45 875.154 L
+1988.1 875.154 1949.45 875.154 L
+1988.1 923.465 1988.1 875.154 L
+1988.1 923.465 1949.45 923.465 L
+1930.13 899.309 1896.31 899.309 L
+2050.9 691.569 2050.9 681.907 L
+2050.9 652.92 2050.9 643.258 L
+2089.55 643.258 2050.9 643.258 L
+2089.55 691.569 2089.55 643.258 L
+2089.55 691.569 2050.9 691.569 L
+2031.58 667.414 1997.76 667.414 L
+2050.9 749.543 2050.9 739.881 L
+2050.9 710.894 2050.9 701.232 L
+2089.55 701.232 2050.9 701.232 L
+2089.55 749.543 2089.55 701.232 L
+2089.55 749.543 2050.9 749.543 L
+2031.58 725.388 1997.76 725.388 L
+2050.9 807.517 2050.9 797.855 L
+2050.9 768.868 2050.9 759.206 L
+2089.55 759.206 2050.9 759.206 L
+2089.55 807.517 2089.55 759.206 L
+2089.55 807.517 2050.9 807.517 L
+2031.58 783.361 1997.76 783.361 L
+2050.9 865.491 2050.9 855.829 L
+2050.9 826.842 2050.9 817.18 L
+2089.55 817.18 2050.9 817.18 L
+2089.55 865.491 2089.55 817.18 L
+2089.55 865.491 2050.9 865.491 L
+2031.58 841.335 1997.76 841.335 L
+2050.9 923.465 2050.9 913.803 L
+2050.9 884.816 2050.9 875.154 L
+2089.55 875.154 2050.9 875.154 L
+2089.55 923.465 2089.55 875.154 L
+2089.55 923.465 2050.9 923.465 L
+2031.58 899.309 1997.76 899.309 L
+1867.32 406.531 1867.32 300.245 L
+1978.44 580.453 1978.44 300.245 L
+2089.55 580.453 2089.55 300.245 L
+1988.1 923.465 1988.1 643.258 L
+2089.55 923.465 2089.55 643.258 L
+2205.5 580.453 2205.5 300.245 L
+2311.79 580.453 2311.79 300.245 L
+2461.55 580.453 2461.55 300.245 L
+2587.16 580.453 2587.16 300.245 L
+2591.99 923.465 2591.99 643.258 L
+2466.38 923.465 2466.38 643.258 L
+2331.11 923.465 2331.11 643.258 L
+2210.33 923.465 2210.33 643.258 L
+1413.19 696.401 1374.54 696.401 L
+1451.84 672.245 1422.85 672.245 L
+1451.84 691.569 1451.84 672.245 L
+1451.84 696.401 1451.84 691.569 L
+1451.84 696.401 1413.19 696.401 L
+959.062 614.271 934.906 614.271 L
+944.568 638.427 905.919 638.427 L
+944.568 590.115 905.919 590.115 L
+1007.37 522.479 1007.37 454.843 L
+1007.37 512.816 944.568 512.816 L
+1393.87 440.349 1026.7 440.349 L
+1036.36 488.661 1036.36 440.349 L
+1413.19 425.856 1413.19 416.193 L
+1413.19 522.479 1413.19 459.674 L
+1678.9 416.193 1422.85 416.193 L
+954.231 536.972 920.412 536.972 L
+901.088 522.479 901.088 512.816 L
+944.568 512.816 901.088 512.816 L
+901.088 561.128 901.088 551.466 L
+944.568 561.128 901.088 561.128 L
+1480.83 512.816 1413.19 512.816 L
+1277.92 884.816 1277.92 850.998 L
+1331.06 884.816 1331.06 865.491 L
+1949.45 556.297 1939.79 556.297 L
+1968.77 556.297 1949.45 556.297 L
+1949.45 498.323 1939.79 498.323 L
+1968.77 498.323 1949.45 498.323 L
+1949.45 440.349 1939.79 440.349 L
+1968.77 440.349 1949.45 440.349 L
+1949.45 382.375 1939.79 382.375 L
+1968.77 382.375 1949.45 382.375 L
+1838.33 382.375 1828.67 382.375 L
+1857.66 382.375 1838.33 382.375 L
+1838.33 324.401 1828.67 324.401 L
+1857.66 324.401 1838.33 324.401 L
+1949.45 324.401 1939.79 324.401 L
+1968.77 324.401 1949.45 324.401 L
+2060.57 324.401 2050.9 324.401 L
+2079.89 324.401 2060.57 324.401 L
+2060.57 382.375 2050.9 382.375 L
+2079.89 382.375 2060.57 382.375 L
+2060.57 440.349 2050.9 440.349 L
+2079.89 440.349 2060.57 440.349 L
+2060.57 498.323 2050.9 498.323 L
+2079.89 498.323 2060.57 498.323 L
+2060.57 556.297 2050.9 556.297 L
+2079.89 556.297 2060.57 556.297 L
+1959.11 899.309 1949.45 899.309 L
+1978.44 899.309 1959.11 899.309 L
+1959.11 841.335 1949.45 841.335 L
+1978.44 841.335 1959.11 841.335 L
+1959.11 783.361 1949.45 783.361 L
+1978.44 783.361 1959.11 783.361 L
+1959.11 725.388 1949.45 725.388 L
+1978.44 725.388 1959.11 725.388 L
+1959.11 667.414 1949.45 667.414 L
+1978.44 667.414 1959.11 667.414 L
+2060.57 667.414 2050.9 667.414 L
+2079.89 667.414 2060.57 667.414 L
+2060.57 725.388 2050.9 725.388 L
+2079.89 725.388 2060.57 725.388 L
+2060.57 783.361 2050.9 783.361 L
+2079.89 783.361 2060.57 783.361 L
+2060.57 841.335 2050.9 841.335 L
+2079.89 841.335 2060.57 841.335 L
+2060.57 899.309 2050.9 899.309 L
+2079.89 899.309 2060.57 899.309 L
+2176.51 556.297 2166.85 556.297 L
+2195.84 556.297 2176.51 556.297 L
+2176.51 498.323 2166.85 498.323 L
+2195.84 498.323 2176.51 498.323 L
+2176.51 440.349 2166.85 440.349 L
+2195.84 440.349 2176.51 440.349 L
+2176.51 382.375 2166.85 382.375 L
+2195.84 382.375 2176.51 382.375 L
+2176.51 324.401 2166.85 324.401 L
+2195.84 324.401 2176.51 324.401 L
+2282.8 556.297 2273.14 556.297 L
+2302.12 556.297 2282.8 556.297 L
+2282.8 498.323 2273.14 498.323 L
+2302.12 498.323 2282.8 498.323 L
+2282.8 440.349 2273.14 440.349 L
+2302.12 440.349 2282.8 440.349 L
+2282.8 382.375 2273.14 382.375 L
+2302.12 382.375 2282.8 382.375 L
+2282.8 324.401 2273.14 324.401 L
+2302.12 324.401 2282.8 324.401 L
+2432.57 556.297 2422.9 556.297 L
+2451.89 556.297 2432.57 556.297 L
+2432.57 498.323 2422.9 498.323 L
+2451.89 498.323 2432.57 498.323 L
+2432.57 440.349 2422.9 440.349 L
+2451.89 440.349 2432.57 440.349 L
+2432.57 382.375 2422.9 382.375 L
+2451.89 382.375 2432.57 382.375 L
+2432.57 324.401 2422.9 324.401 L
+2451.89 324.401 2432.57 324.401 L
+2558.18 556.297 2548.51 556.297 L
+2577.5 556.297 2558.18 556.297 L
+2558.18 498.323 2548.51 498.323 L
+2577.5 498.323 2558.18 498.323 L
+2558.18 440.349 2548.51 440.349 L
+2577.5 440.349 2558.18 440.349 L
+2558.18 382.375 2548.51 382.375 L
+2577.5 382.375 2558.18 382.375 L
+2558.18 324.401 2548.51 324.401 L
+2577.5 324.401 2558.18 324.401 L
+2181.35 899.309 2171.68 899.309 L
+2200.67 899.309 2181.35 899.309 L
+2181.35 841.335 2171.68 841.335 L
+2200.67 841.335 2181.35 841.335 L
+2181.35 783.361 2171.68 783.361 L
+2200.67 783.361 2181.35 783.361 L
+2181.35 725.388 2171.68 725.388 L
+2200.67 725.388 2181.35 725.388 L
+2181.35 667.414 2171.68 667.414 L
+2200.67 667.414 2181.35 667.414 L
+2302.12 899.309 2292.46 899.309 L
+2321.45 899.309 2302.12 899.309 L
+2302.12 841.335 2292.46 841.335 L
+2321.45 841.335 2302.12 841.335 L
+2302.12 783.361 2292.46 783.361 L
+2321.45 783.361 2302.12 783.361 L
+2302.12 725.388 2292.46 725.388 L
+2321.45 725.388 2302.12 725.388 L
+2302.12 667.414 2292.46 667.414 L
+2321.45 667.414 2302.12 667.414 L
+2437.4 899.309 2427.73 899.309 L
+2456.72 899.309 2437.4 899.309 L
+2437.4 841.335 2427.73 841.335 L
+2456.72 841.335 2437.4 841.335 L
+2437.4 783.361 2427.73 783.361 L
+2456.72 783.361 2437.4 783.361 L
+2437.4 725.388 2427.73 725.388 L
+2456.72 725.388 2437.4 725.388 L
+2437.4 667.414 2427.73 667.414 L
+2456.72 667.414 2437.4 667.414 L
+2563.01 899.309 2553.34 899.309 L
+2582.33 899.309 2563.01 899.309 L
+2563.01 841.335 2553.34 841.335 L
+2582.33 841.335 2563.01 841.335 L
+2563.01 783.361 2553.34 783.361 L
+2582.33 783.361 2563.01 783.361 L
+2563.01 725.388 2553.34 725.388 L
+2582.33 725.388 2563.01 725.388 L
+2563.01 667.414 2553.34 667.414 L
+2582.33 667.414 2563.01 667.414 L
+997.711 416.193 770.646 416.193 L
+1302.07 947.621 1277.92 947.621 L
+1302.07 884.816 1277.92 884.816 L
+1302.07 850.998 1277.92 850.998 L
+1302.07 764.037 1277.92 764.037 L
+1181.3 764.037 1128.15 764.037 L
+1331.06 836.504 1331.06 812.348 L
+1364.88 850.998 1364.88 826.842 L
+1360.05 826.842 1331.06 826.842 L
+1364.88 826.842 1360.05 826.842 L
+1364.88 923.465 1331.06 923.465 L
+1364.88 947.621 1364.88 923.465 L
+1331.06 730.219 1331.06 725.388 L
+1364.88 739.881 1331.06 739.881 L
+1364.88 764.037 1364.88 739.881 L
+1331.06 981.439 1277.92 981.439 L
+1331.06 981.439 1331.06 962.114 L
+1277.92 981.439 1277.92 947.621 L
+1331.06 797.855 1277.92 797.855 L
+1277.92 797.855 1277.92 764.037 L
+1331.06 797.855 1331.06 778.53 L
+862.439 329.232 1.93246 -0 -360 A 862.439 329.232 LT C F S
+920.412 329.232 1.93246 -0 -360 A 920.412 329.232 LT C F S
+862.439 377.544 1.93246 -0 -360 A 862.439 377.544 LT C F S
+862.439 329.232 1.93246 -0 -360 A 862.439 329.232 LT C F S
+862.439 329.232 1.93246 -0 -360 A 862.439 329.232 LT C F S
+920.412 329.232 1.93246 -0 -360 A 920.412 329.232 LT C F S
+930.075 329.232 1.93246 -0 -360 A 930.075 329.232 LT C F S
+920.412 329.232 1.93246 -0 -360 A 920.412 329.232 LT C F S
+886.594 459.674 1.93246 -0 -360 A 886.594 459.674 LT C F S
+828.62 459.674 1.93246 -0 -360 A 828.62 459.674 LT C F S
+1007.37 459.674 1.93246 -0 -360 A 1007.37 459.674 LT C F S
+828.62 416.193 1.93246 -0 -360 A 828.62 416.193 LT C F S
+818.958 416.193 1.93246 -0 -360 A 818.958 416.193 LT C F S
+828.62 416.193 1.93246 -0 -360 A 828.62 416.193 LT C F S
+886.594 416.193 1.93246 -0 -360 A 886.594 416.193 LT C F S
+876.932 416.193 1.93246 -0 -360 A 876.932 416.193 LT C F S
+886.594 416.193 1.93246 -0 -360 A 886.594 416.193 LT C F S
+1007.37 329.232 1.93246 -0 -360 A 1007.37 329.232 LT C F S
+1007.37 416.193 1.93246 -0 -360 A 1007.37 416.193 LT C F S
+930.075 377.544 1.93246 -0 -360 A 930.075 377.544 LT C F S
+930.075 329.232 1.93246 -0 -360 A 930.075 329.232 LT C F S
+1007.37 329.232 1.93246 -0 -360 A 1007.37 329.232 LT C F S
+930.075 329.232 1.93246 -0 -360 A 930.075 329.232 LT C F S
+1007.37 329.232 1.93246 -0 -360 A 1007.37 329.232 LT C F S
+1036.36 440.349 1.93246 -0 -360 A 1036.36 440.349 LT C F S
+1007.37 512.816 1.93246 -0 -360 A 1007.37 512.816 LT C F S
+1007.37 561.128 1.93246 -0 -360 A 1007.37 561.128 LT C F S
+944.568 459.674 1.93246 -0 -360 A 944.568 459.674 LT C F S
+944.568 416.193 1.93246 -0 -360 A 944.568 416.193 LT C F S
+934.906 416.193 1.93246 -0 -360 A 934.906 416.193 LT C F S
+944.568 416.193 1.93246 -0 -360 A 944.568 416.193 LT C F S
+1007.37 416.193 1.93246 -0 -360 A 1007.37 416.193 LT C F S
+1007.37 416.193 1.93246 -0 -360 A 1007.37 416.193 LT C F S
+1181.3 551.466 1.93246 -0 -360 A 1181.3 551.466 LT C F S
+1007.37 561.128 1.93246 -0 -360 A 1007.37 561.128 LT C F S
+1094.33 764.037 1.93246 -0 -360 A 1094.33 764.037 LT C F S
+1094.33 764.037 1.93246 -0 -360 A 1094.33 764.037 LT C F S
+1094.33 764.037 1.93246 -0 -360 A 1094.33 764.037 LT C F S
+1094.33 764.037 1.93246 -0 -360 A 1094.33 764.037 LT C F S
+1128.15 739.881 1.93246 -0 -360 A 1128.15 739.881 LT C F S
+1007.37 696.401 1.93246 -0 -360 A 1007.37 696.401 LT C F S
+1007.37 696.401 1.93246 -0 -360 A 1007.37 696.401 LT C F S
+1007.37 590.115 1.93246 -0 -360 A 1007.37 590.115 LT C F S
+1181.3 594.946 1.93246 -0 -360 A 1181.3 594.946 LT C F S
+1007.37 638.427 1.93246 -0 -360 A 1007.37 638.427 LT C F S
+1007.37 696.401 1.93246 -0 -360 A 1007.37 696.401 LT C F S
+1094.33 947.621 1.93246 -0 -360 A 1094.33 947.621 LT C F S
+1094.33 947.621 1.93246 -0 -360 A 1094.33 947.621 LT C F S
+1094.33 947.621 1.93246 -0 -360 A 1094.33 947.621 LT C F S
+1094.33 947.621 1.93246 -0 -360 A 1094.33 947.621 LT C F S
+1128.15 923.465 1.93246 -0 -360 A 1128.15 923.465 LT C F S
+1094.33 850.998 1.93246 -0 -360 A 1094.33 850.998 LT C F S
+1094.33 850.998 1.93246 -0 -360 A 1094.33 850.998 LT C F S
+1094.33 850.998 1.93246 -0 -360 A 1094.33 850.998 LT C F S
+1094.33 850.998 1.93246 -0 -360 A 1094.33 850.998 LT C F S
+1128.15 826.842 1.93246 -0 -360 A 1128.15 826.842 LT C F S
+1157.14 329.232 1.93246 -0 -360 A 1157.14 329.232 LT C F S
+1123.32 329.232 1.93246 -0 -360 A 1123.32 329.232 LT C F S
+1219.94 377.544 1.93246 -0 -360 A 1219.94 377.544 LT C F S
+1219.94 377.544 1.93246 -0 -360 A 1219.94 377.544 LT C F S
+1219.94 377.544 1.93246 -0 -360 A 1219.94 377.544 LT C F S
+1229.61 329.232 1.93246 -0 -360 A 1229.61 329.232 LT C F S
+1219.94 329.232 1.93246 -0 -360 A 1219.94 329.232 LT C F S
+1219.94 329.232 1.93246 -0 -360 A 1219.94 329.232 LT C F S
+1219.94 329.232 1.93246 -0 -360 A 1219.94 329.232 LT C F S
+1219.94 329.232 1.93246 -0 -360 A 1219.94 329.232 LT C F S
+1258.59 551.466 1.93246 -0 -360 A 1258.59 551.466 LT C F S
+1171.63 536.972 1.93246 -0 -360 A 1171.63 536.972 LT C F S
+1219.94 551.466 1.93246 -0 -360 A 1219.94 551.466 LT C F S
+1258.59 551.466 1.93246 -0 -360 A 1258.59 551.466 LT C F S
+1181.3 551.466 1.93246 -0 -360 A 1181.3 551.466 LT C F S
+1258.59 551.466 1.93246 -0 -360 A 1258.59 551.466 LT C F S
+1181.3 551.466 1.93246 -0 -360 A 1181.3 551.466 LT C F S
+1152.31 672.245 1.93246 -0 -360 A 1152.31 672.245 LT C F S
+1287.58 672.245 1.93246 -0 -360 A 1287.58 672.245 LT C F S
+1258.59 594.946 1.93246 -0 -360 A 1258.59 594.946 LT C F S
+1152.31 614.271 1.93246 -0 -360 A 1152.31 614.271 LT C F S
+1248.93 696.401 1.93246 -0 -360 A 1248.93 696.401 LT C F S
+1190.96 696.401 1.93246 -0 -360 A 1190.96 696.401 LT C F S
+1219.94 696.401 1.93246 -0 -360 A 1219.94 696.401 LT C F S
+1181.3 696.401 1.93246 -0 -360 A 1181.3 696.401 LT C F S
+1258.59 696.401 1.93246 -0 -360 A 1258.59 696.401 LT C F S
+1181.3 638.427 1.93246 -0 -360 A 1181.3 638.427 LT C F S
+1258.59 638.427 1.93246 -0 -360 A 1258.59 638.427 LT C F S
+1413.19 416.193 1.93246 -0 -360 A 1413.19 416.193 LT C F S
+1413.19 512.816 1.93246 -0 -360 A 1413.19 512.816 LT C F S
+1413.19 459.674 1.93246 -0 -360 A 1413.19 459.674 LT C F S
+1413.19 416.193 1.93246 -0 -360 A 1413.19 416.193 LT C F S
+1413.19 556.297 1.93246 -0 -360 A 1413.19 556.297 LT C F S
+1413.19 459.674 1.93246 -0 -360 A 1413.19 459.674 LT C F S
+1480.83 459.674 1.93246 -0 -360 A 1480.83 459.674 LT C F S
+1413.19 459.674 1.93246 -0 -360 A 1413.19 459.674 LT C F S
+1480.83 416.193 1.93246 -0 -360 A 1480.83 416.193 LT C F S
+1413.19 416.193 1.93246 -0 -360 A 1413.19 416.193 LT C F S
+1413.19 575.622 1.93246 -0 -360 A 1413.19 575.622 LT C F S
+1364.88 764.037 1.93246 -0 -360 A 1364.88 764.037 LT C F S
+1331.06 739.881 1.93246 -0 -360 A 1331.06 739.881 LT C F S
+1413.19 696.401 1.93246 -0 -360 A 1413.19 696.401 LT C F S
+1413.19 696.401 1.93246 -0 -360 A 1413.19 696.401 LT C F S
+1413.19 590.115 1.93246 -0 -360 A 1413.19 590.115 LT C F S
+1413.19 638.427 1.93246 -0 -360 A 1413.19 638.427 LT C F S
+1413.19 696.401 1.93246 -0 -360 A 1413.19 696.401 LT C F S
+1364.88 947.621 1.93246 -0 -360 A 1364.88 947.621 LT C F S
+1331.06 923.465 1.93246 -0 -360 A 1331.06 923.465 LT C F S
+1331.06 826.842 1.93246 -0 -360 A 1331.06 826.842 LT C F S
+1364.88 850.998 1.93246 -0 -360 A 1364.88 850.998 LT C F S
+1548.46 459.674 1.93246 -0 -360 A 1548.46 459.674 LT C F S
+1616.1 459.674 1.93246 -0 -360 A 1616.1 459.674 LT C F S
+1616.1 416.193 1.93246 -0 -360 A 1616.1 416.193 LT C F S
+1548.46 416.193 1.93246 -0 -360 A 1548.46 416.193 LT C F S
+1867.32 300.245 1.93246 -0 -360 A 1867.32 300.245 LT C F S
+1867.32 406.531 1.93246 -0 -360 A 1867.32 406.531 LT C F S
+1867.32 358.219 1.93246 -0 -360 A 1867.32 358.219 LT C F S
+1867.32 406.531 1.93246 -0 -360 A 1867.32 406.531 LT C F S
+1867.32 358.219 1.93246 -0 -360 A 1867.32 358.219 LT C F S
+1867.32 348.557 1.93246 -0 -360 A 1867.32 348.557 LT C F S
+1867.32 300.245 1.93246 -0 -360 A 1867.32 300.245 LT C F S
+1867.32 348.557 1.93246 -0 -360 A 1867.32 348.557 LT C F S
+1867.32 300.245 1.93246 -0 -360 A 1867.32 300.245 LT C F S
+1867.32 406.531 1.93246 -0 -360 A 1867.32 406.531 LT C F S
+1978.44 300.245 1.93246 -0 -360 A 1978.44 300.245 LT C F S
+1978.44 580.453 1.93246 -0 -360 A 1978.44 580.453 LT C F S
+2089.55 358.219 1.93246 -0 -360 A 2089.55 358.219 LT C F S
+2089.55 348.557 1.93246 -0 -360 A 2089.55 348.557 LT C F S
+2089.55 300.245 1.93246 -0 -360 A 2089.55 300.245 LT C F S
+1978.44 358.219 1.93246 -0 -360 A 1978.44 358.219 LT C F S
+1978.44 406.531 1.93246 -0 -360 A 1978.44 406.531 LT C F S
+1978.44 358.219 1.93246 -0 -360 A 1978.44 358.219 LT C F S
+1978.44 348.557 1.93246 -0 -360 A 1978.44 348.557 LT C F S
+1978.44 300.245 1.93246 -0 -360 A 1978.44 300.245 LT C F S
+1978.44 348.557 1.93246 -0 -360 A 1978.44 348.557 LT C F S
+1978.44 300.245 1.93246 -0 -360 A 1978.44 300.245 LT C F S
+2089.55 532.141 1.93246 -0 -360 A 2089.55 532.141 LT C F S
+2089.55 522.479 1.93246 -0 -360 A 2089.55 522.479 LT C F S
+2089.55 474.167 1.93246 -0 -360 A 2089.55 474.167 LT C F S
+2089.55 464.505 1.93246 -0 -360 A 2089.55 464.505 LT C F S
+2089.55 416.193 1.93246 -0 -360 A 2089.55 416.193 LT C F S
+2089.55 406.531 1.93246 -0 -360 A 2089.55 406.531 LT C F S
+1978.44 532.141 1.93246 -0 -360 A 1978.44 532.141 LT C F S
+1978.44 580.453 1.93246 -0 -360 A 1978.44 580.453 LT C F S
+1978.44 532.141 1.93246 -0 -360 A 1978.44 532.141 LT C F S
+1978.44 522.479 1.93246 -0 -360 A 1978.44 522.479 LT C F S
+1978.44 474.167 1.93246 -0 -360 A 1978.44 474.167 LT C F S
+1978.44 522.479 1.93246 -0 -360 A 1978.44 522.479 LT C F S
+1978.44 474.167 1.93246 -0 -360 A 1978.44 474.167 LT C F S
+1978.44 464.505 1.93246 -0 -360 A 1978.44 464.505 LT C F S
+1978.44 416.193 1.93246 -0 -360 A 1978.44 416.193 LT C F S
+1978.44 464.505 1.93246 -0 -360 A 1978.44 464.505 LT C F S
+1978.44 416.193 1.93246 -0 -360 A 1978.44 416.193 LT C F S
+1978.44 406.531 1.93246 -0 -360 A 1978.44 406.531 LT C F S
+1988.1 643.258 1.93246 -0 -360 A 1988.1 643.258 LT C F S
+1988.1 923.465 1.93246 -0 -360 A 1988.1 923.465 LT C F S
+2089.55 759.206 1.93246 -0 -360 A 2089.55 759.206 LT C F S
+2089.55 749.543 1.93246 -0 -360 A 2089.55 749.543 LT C F S
+2089.55 701.232 1.93246 -0 -360 A 2089.55 701.232 LT C F S
+2089.55 691.569 1.93246 -0 -360 A 2089.55 691.569 LT C F S
+2089.55 643.258 1.93246 -0 -360 A 2089.55 643.258 LT C F S
+1988.1 759.206 1.93246 -0 -360 A 1988.1 759.206 LT C F S
+1988.1 807.517 1.93246 -0 -360 A 1988.1 807.517 LT C F S
+1988.1 759.206 1.93246 -0 -360 A 1988.1 759.206 LT C F S
+1988.1 749.543 1.93246 -0 -360 A 1988.1 749.543 LT C F S
+1988.1 701.232 1.93246 -0 -360 A 1988.1 701.232 LT C F S
+1988.1 749.543 1.93246 -0 -360 A 1988.1 749.543 LT C F S
+1988.1 701.232 1.93246 -0 -360 A 1988.1 701.232 LT C F S
+1988.1 691.569 1.93246 -0 -360 A 1988.1 691.569 LT C F S
+1988.1 643.258 1.93246 -0 -360 A 1988.1 643.258 LT C F S
+1988.1 691.569 1.93246 -0 -360 A 1988.1 691.569 LT C F S
+1988.1 643.258 1.93246 -0 -360 A 1988.1 643.258 LT C F S
+2089.55 580.453 1.93246 -0 -360 A 2089.55 580.453 LT C F S
+1978.44 580.453 1.93246 -0 -360 A 1978.44 580.453 LT C F S
+2089.55 923.465 1.93246 -0 -360 A 2089.55 923.465 LT C F S
+2089.55 875.154 1.93246 -0 -360 A 2089.55 875.154 LT C F S
+2089.55 865.491 1.93246 -0 -360 A 2089.55 865.491 LT C F S
+2089.55 817.18 1.93246 -0 -360 A 2089.55 817.18 LT C F S
+2089.55 807.517 1.93246 -0 -360 A 2089.55 807.517 LT C F S
+1988.1 923.465 1.93246 -0 -360 A 1988.1 923.465 LT C F S
+1988.1 875.154 1.93246 -0 -360 A 1988.1 875.154 LT C F S
+1988.1 923.465 1.93246 -0 -360 A 1988.1 923.465 LT C F S
+1988.1 875.154 1.93246 -0 -360 A 1988.1 875.154 LT C F S
+1988.1 865.491 1.93246 -0 -360 A 1988.1 865.491 LT C F S
+1988.1 817.18 1.93246 -0 -360 A 1988.1 817.18 LT C F S
+1988.1 865.491 1.93246 -0 -360 A 1988.1 865.491 LT C F S
+1988.1 817.18 1.93246 -0 -360 A 1988.1 817.18 LT C F S
+1988.1 807.517 1.93246 -0 -360 A 1988.1 807.517 LT C F S
+2205.5 300.245 1.93246 -0 -360 A 2205.5 300.245 LT C F S
+2205.5 580.453 1.93246 -0 -360 A 2205.5 580.453 LT C F S
+2089.55 300.245 1.93246 -0 -360 A 2089.55 300.245 LT C F S
+2089.55 580.453 1.93246 -0 -360 A 2089.55 580.453 LT C F S
+2311.79 358.219 1.93246 -0 -360 A 2311.79 358.219 LT C F S
+2311.79 348.557 1.93246 -0 -360 A 2311.79 348.557 LT C F S
+2311.79 300.245 1.93246 -0 -360 A 2311.79 300.245 LT C F S
+2205.5 358.219 1.93246 -0 -360 A 2205.5 358.219 LT C F S
+2205.5 401.7 1.93246 -0 -360 A 2205.5 401.7 LT C F S
+2205.5 358.219 1.93246 -0 -360 A 2205.5 358.219 LT C F S
+2205.5 348.557 1.93246 -0 -360 A 2205.5 348.557 LT C F S
+2205.5 343.726 1.93246 -0 -360 A 2205.5 343.726 LT C F S
+2205.5 348.557 1.93246 -0 -360 A 2205.5 348.557 LT C F S
+2205.5 300.245 1.93246 -0 -360 A 2205.5 300.245 LT C F S
+2205.5 343.726 1.93246 -0 -360 A 2205.5 343.726 LT C F S
+2205.5 300.245 1.93246 -0 -360 A 2205.5 300.245 LT C F S
+2089.55 358.219 1.93246 -0 -360 A 2089.55 358.219 LT C F S
+2089.55 406.531 1.93246 -0 -360 A 2089.55 406.531 LT C F S
+2089.55 300.245 1.93246 -0 -360 A 2089.55 300.245 LT C F S
+2089.55 348.557 1.93246 -0 -360 A 2089.55 348.557 LT C F S
+2311.79 532.141 1.93246 -0 -360 A 2311.79 532.141 LT C F S
+2311.79 522.479 1.93246 -0 -360 A 2311.79 522.479 LT C F S
+2311.79 474.167 1.93246 -0 -360 A 2311.79 474.167 LT C F S
+2311.79 464.505 1.93246 -0 -360 A 2311.79 464.505 LT C F S
+2311.79 416.193 1.93246 -0 -360 A 2311.79 416.193 LT C F S
+2311.79 406.531 1.93246 -0 -360 A 2311.79 406.531 LT C F S
+2205.5 575.622 1.93246 -0 -360 A 2205.5 575.622 LT C F S
+2205.5 580.453 1.93246 -0 -360 A 2205.5 580.453 LT C F S
+2205.5 532.141 1.93246 -0 -360 A 2205.5 532.141 LT C F S
+2205.5 575.622 1.93246 -0 -360 A 2205.5 575.622 LT C F S
+2205.5 532.141 1.93246 -0 -360 A 2205.5 532.141 LT C F S
+2205.5 522.479 1.93246 -0 -360 A 2205.5 522.479 LT C F S
+2205.5 517.648 1.93246 -0 -360 A 2205.5 517.648 LT C F S
+2205.5 522.479 1.93246 -0 -360 A 2205.5 522.479 LT C F S
+2205.5 474.167 1.93246 -0 -360 A 2205.5 474.167 LT C F S
+2205.5 517.648 1.93246 -0 -360 A 2205.5 517.648 LT C F S
+2205.5 474.167 1.93246 -0 -360 A 2205.5 474.167 LT C F S
+2205.5 464.505 1.93246 -0 -360 A 2205.5 464.505 LT C F S
+2205.5 459.674 1.93246 -0 -360 A 2205.5 459.674 LT C F S
+2205.5 464.505 1.93246 -0 -360 A 2205.5 464.505 LT C F S
+2205.5 416.193 1.93246 -0 -360 A 2205.5 416.193 LT C F S
+2205.5 459.674 1.93246 -0 -360 A 2205.5 459.674 LT C F S
+2205.5 416.193 1.93246 -0 -360 A 2205.5 416.193 LT C F S
+2205.5 406.531 1.93246 -0 -360 A 2205.5 406.531 LT C F S
+2205.5 401.7 1.93246 -0 -360 A 2205.5 401.7 LT C F S
+2205.5 406.531 1.93246 -0 -360 A 2205.5 406.531 LT C F S
+2089.55 532.141 1.93246 -0 -360 A 2089.55 532.141 LT C F S
+2089.55 580.453 1.93246 -0 -360 A 2089.55 580.453 LT C F S
+2089.55 474.167 1.93246 -0 -360 A 2089.55 474.167 LT C F S
+2089.55 522.479 1.93246 -0 -360 A 2089.55 522.479 LT C F S
+2089.55 416.193 1.93246 -0 -360 A 2089.55 416.193 LT C F S
+2089.55 464.505 1.93246 -0 -360 A 2089.55 464.505 LT C F S
+2210.33 643.258 1.93246 -0 -360 A 2210.33 643.258 LT C F S
+2210.33 923.465 1.93246 -0 -360 A 2210.33 923.465 LT C F S
+2089.55 643.258 1.93246 -0 -360 A 2089.55 643.258 LT C F S
+2089.55 923.465 1.93246 -0 -360 A 2089.55 923.465 LT C F S
+2089.55 759.206 1.93246 -0 -360 A 2089.55 759.206 LT C F S
+2089.55 807.517 1.93246 -0 -360 A 2089.55 807.517 LT C F S
+2089.55 701.232 1.93246 -0 -360 A 2089.55 701.232 LT C F S
+2089.55 749.543 1.93246 -0 -360 A 2089.55 749.543 LT C F S
+2089.55 643.258 1.93246 -0 -360 A 2089.55 643.258 LT C F S
+2089.55 691.569 1.93246 -0 -360 A 2089.55 691.569 LT C F S
+2210.33 759.206 1.93246 -0 -360 A 2210.33 759.206 LT C F S
+2210.33 802.686 1.93246 -0 -360 A 2210.33 802.686 LT C F S
+2210.33 759.206 1.93246 -0 -360 A 2210.33 759.206 LT C F S
+2210.33 749.543 1.93246 -0 -360 A 2210.33 749.543 LT C F S
+2210.33 744.712 1.93246 -0 -360 A 2210.33 744.712 LT C F S
+2210.33 749.543 1.93246 -0 -360 A 2210.33 749.543 LT C F S
+2210.33 701.232 1.93246 -0 -360 A 2210.33 701.232 LT C F S
+2210.33 744.712 1.93246 -0 -360 A 2210.33 744.712 LT C F S
+2210.33 701.232 1.93246 -0 -360 A 2210.33 701.232 LT C F S
+2210.33 691.569 1.93246 -0 -360 A 2210.33 691.569 LT C F S
+2210.33 686.738 1.93246 -0 -360 A 2210.33 686.738 LT C F S
+2210.33 691.569 1.93246 -0 -360 A 2210.33 691.569 LT C F S
+2210.33 643.258 1.93246 -0 -360 A 2210.33 643.258 LT C F S
+2210.33 686.738 1.93246 -0 -360 A 2210.33 686.738 LT C F S
+2210.33 643.258 1.93246 -0 -360 A 2210.33 643.258 LT C F S
+2311.79 580.453 1.93246 -0 -360 A 2311.79 580.453 LT C F S
+2205.5 580.453 1.93246 -0 -360 A 2205.5 580.453 LT C F S
+2089.55 875.154 1.93246 -0 -360 A 2089.55 875.154 LT C F S
+2089.55 923.465 1.93246 -0 -360 A 2089.55 923.465 LT C F S
+2089.55 817.18 1.93246 -0 -360 A 2089.55 817.18 LT C F S
+2089.55 865.491 1.93246 -0 -360 A 2089.55 865.491 LT C F S
+2210.33 923.465 1.93246 -0 -360 A 2210.33 923.465 LT C F S
+2210.33 918.634 1.93246 -0 -360 A 2210.33 918.634 LT C F S
+2210.33 923.465 1.93246 -0 -360 A 2210.33 923.465 LT C F S
+2210.33 875.154 1.93246 -0 -360 A 2210.33 875.154 LT C F S
+2210.33 918.634 1.93246 -0 -360 A 2210.33 918.634 LT C F S
+2210.33 875.154 1.93246 -0 -360 A 2210.33 875.154 LT C F S
+2210.33 865.491 1.93246 -0 -360 A 2210.33 865.491 LT C F S
+2210.33 860.66 1.93246 -0 -360 A 2210.33 860.66 LT C F S
+2210.33 865.491 1.93246 -0 -360 A 2210.33 865.491 LT C F S
+2210.33 817.18 1.93246 -0 -360 A 2210.33 817.18 LT C F S
+2210.33 860.66 1.93246 -0 -360 A 2210.33 860.66 LT C F S
+2210.33 817.18 1.93246 -0 -360 A 2210.33 817.18 LT C F S
+2210.33 807.517 1.93246 -0 -360 A 2210.33 807.517 LT C F S
+2210.33 802.686 1.93246 -0 -360 A 2210.33 802.686 LT C F S
+2210.33 807.517 1.93246 -0 -360 A 2210.33 807.517 LT C F S
+2461.55 300.245 1.93246 -0 -360 A 2461.55 300.245 LT C F S
+2461.55 580.453 1.93246 -0 -360 A 2461.55 580.453 LT C F S
+2311.79 300.245 1.93246 -0 -360 A 2311.79 300.245 LT C F S
+2311.79 580.453 1.93246 -0 -360 A 2311.79 580.453 LT C F S
+2461.55 358.219 1.93246 -0 -360 A 2461.55 358.219 LT C F S
+2461.55 401.7 1.93246 -0 -360 A 2461.55 401.7 LT C F S
+2461.55 358.219 1.93246 -0 -360 A 2461.55 358.219 LT C F S
+2461.55 348.557 1.93246 -0 -360 A 2461.55 348.557 LT C F S
+2461.55 343.726 1.93246 -0 -360 A 2461.55 343.726 LT C F S
+2461.55 348.557 1.93246 -0 -360 A 2461.55 348.557 LT C F S
+2461.55 300.245 1.93246 -0 -360 A 2461.55 300.245 LT C F S
+2461.55 343.726 1.93246 -0 -360 A 2461.55 343.726 LT C F S
+2461.55 300.245 1.93246 -0 -360 A 2461.55 300.245 LT C F S
+2311.79 358.219 1.93246 -0 -360 A 2311.79 358.219 LT C F S
+2311.79 401.7 1.93246 -0 -360 A 2311.79 401.7 LT C F S
+2311.79 343.726 1.93246 -0 -360 A 2311.79 343.726 LT C F S
+2311.79 348.557 1.93246 -0 -360 A 2311.79 348.557 LT C F S
+2311.79 300.245 1.93246 -0 -360 A 2311.79 300.245 LT C F S
+2311.79 343.726 1.93246 -0 -360 A 2311.79 343.726 LT C F S
+2461.55 575.622 1.93246 -0 -360 A 2461.55 575.622 LT C F S
+2461.55 580.453 1.93246 -0 -360 A 2461.55 580.453 LT C F S
+2461.55 532.141 1.93246 -0 -360 A 2461.55 532.141 LT C F S
+2461.55 575.622 1.93246 -0 -360 A 2461.55 575.622 LT C F S
+2461.55 532.141 1.93246 -0 -360 A 2461.55 532.141 LT C F S
+2461.55 522.479 1.93246 -0 -360 A 2461.55 522.479 LT C F S
+2461.55 517.648 1.93246 -0 -360 A 2461.55 517.648 LT C F S
+2461.55 522.479 1.93246 -0 -360 A 2461.55 522.479 LT C F S
+2461.55 474.167 1.93246 -0 -360 A 2461.55 474.167 LT C F S
+2461.55 517.648 1.93246 -0 -360 A 2461.55 517.648 LT C F S
+2461.55 474.167 1.93246 -0 -360 A 2461.55 474.167 LT C F S
+2461.55 464.505 1.93246 -0 -360 A 2461.55 464.505 LT C F S
+2461.55 459.674 1.93246 -0 -360 A 2461.55 459.674 LT C F S
+2461.55 464.505 1.93246 -0 -360 A 2461.55 464.505 LT C F S
+2461.55 416.193 1.93246 -0 -360 A 2461.55 416.193 LT C F S
+2461.55 459.674 1.93246 -0 -360 A 2461.55 459.674 LT C F S
+2461.55 416.193 1.93246 -0 -360 A 2461.55 416.193 LT C F S
+2461.55 406.531 1.93246 -0 -360 A 2461.55 406.531 LT C F S
+2461.55 401.7 1.93246 -0 -360 A 2461.55 401.7 LT C F S
+2461.55 406.531 1.93246 -0 -360 A 2461.55 406.531 LT C F S
+2311.79 575.622 1.93246 -0 -360 A 2311.79 575.622 LT C F S
+2311.79 580.453 1.93246 -0 -360 A 2311.79 580.453 LT C F S
+2311.79 532.141 1.93246 -0 -360 A 2311.79 532.141 LT C F S
+2311.79 575.622 1.93246 -0 -360 A 2311.79 575.622 LT C F S
+2311.79 517.648 1.93246 -0 -360 A 2311.79 517.648 LT C F S
+2311.79 522.479 1.93246 -0 -360 A 2311.79 522.479 LT C F S
+2311.79 474.167 1.93246 -0 -360 A 2311.79 474.167 LT C F S
+2311.79 517.648 1.93246 -0 -360 A 2311.79 517.648 LT C F S
+2311.79 459.674 1.93246 -0 -360 A 2311.79 459.674 LT C F S
+2311.79 464.505 1.93246 -0 -360 A 2311.79 464.505 LT C F S
+2311.79 416.193 1.93246 -0 -360 A 2311.79 416.193 LT C F S
+2311.79 459.674 1.93246 -0 -360 A 2311.79 459.674 LT C F S
+2311.79 401.7 1.93246 -0 -360 A 2311.79 401.7 LT C F S
+2311.79 406.531 1.93246 -0 -360 A 2311.79 406.531 LT C F S
+2331.11 643.258 1.93246 -0 -360 A 2331.11 643.258 LT C F S
+2331.11 923.465 1.93246 -0 -360 A 2331.11 923.465 LT C F S
+2466.38 643.258 1.93246 -0 -360 A 2466.38 643.258 LT C F S
+2466.38 923.465 1.93246 -0 -360 A 2466.38 923.465 LT C F S
+2466.38 759.206 1.93246 -0 -360 A 2466.38 759.206 LT C F S
+2466.38 802.686 1.93246 -0 -360 A 2466.38 802.686 LT C F S
+2466.38 759.206 1.93246 -0 -360 A 2466.38 759.206 LT C F S
+2466.38 749.543 1.93246 -0 -360 A 2466.38 749.543 LT C F S
+2466.38 744.712 1.93246 -0 -360 A 2466.38 744.712 LT C F S
+2466.38 749.543 1.93246 -0 -360 A 2466.38 749.543 LT C F S
+2466.38 701.232 1.93246 -0 -360 A 2466.38 701.232 LT C F S
+2466.38 744.712 1.93246 -0 -360 A 2466.38 744.712 LT C F S
+2466.38 701.232 1.93246 -0 -360 A 2466.38 701.232 LT C F S
+2466.38 691.569 1.93246 -0 -360 A 2466.38 691.569 LT C F S
+2466.38 686.738 1.93246 -0 -360 A 2466.38 686.738 LT C F S
+2466.38 691.569 1.93246 -0 -360 A 2466.38 691.569 LT C F S
+2466.38 643.258 1.93246 -0 -360 A 2466.38 643.258 LT C F S
+2466.38 686.738 1.93246 -0 -360 A 2466.38 686.738 LT C F S
+2466.38 643.258 1.93246 -0 -360 A 2466.38 643.258 LT C F S
+2331.11 759.206 1.93246 -0 -360 A 2331.11 759.206 LT C F S
+2331.11 802.686 1.93246 -0 -360 A 2331.11 802.686 LT C F S
+2331.11 759.206 1.93246 -0 -360 A 2331.11 759.206 LT C F S
+2331.11 749.543 1.93246 -0 -360 A 2331.11 749.543 LT C F S
+2331.11 744.712 1.93246 -0 -360 A 2331.11 744.712 LT C F S
+2331.11 749.543 1.93246 -0 -360 A 2331.11 749.543 LT C F S
+2331.11 701.232 1.93246 -0 -360 A 2331.11 701.232 LT C F S
+2331.11 744.712 1.93246 -0 -360 A 2331.11 744.712 LT C F S
+2331.11 701.232 1.93246 -0 -360 A 2331.11 701.232 LT C F S
+2331.11 691.569 1.93246 -0 -360 A 2331.11 691.569 LT C F S
+2331.11 686.738 1.93246 -0 -360 A 2331.11 686.738 LT C F S
+2331.11 691.569 1.93246 -0 -360 A 2331.11 691.569 LT C F S
+2331.11 643.258 1.93246 -0 -360 A 2331.11 643.258 LT C F S
+2331.11 686.738 1.93246 -0 -360 A 2331.11 686.738 LT C F S
+2331.11 643.258 1.93246 -0 -360 A 2331.11 643.258 LT C F S
+2461.55 580.453 1.93246 -0 -360 A 2461.55 580.453 LT C F S
+2466.38 923.465 1.93246 -0 -360 A 2466.38 923.465 LT C F S
+2466.38 918.634 1.93246 -0 -360 A 2466.38 918.634 LT C F S
+2466.38 923.465 1.93246 -0 -360 A 2466.38 923.465 LT C F S
+2466.38 875.154 1.93246 -0 -360 A 2466.38 875.154 LT C F S
+2466.38 918.634 1.93246 -0 -360 A 2466.38 918.634 LT C F S
+2466.38 875.154 1.93246 -0 -360 A 2466.38 875.154 LT C F S
+2466.38 865.491 1.93246 -0 -360 A 2466.38 865.491 LT C F S
+2466.38 860.66 1.93246 -0 -360 A 2466.38 860.66 LT C F S
+2466.38 865.491 1.93246 -0 -360 A 2466.38 865.491 LT C F S
+2466.38 817.18 1.93246 -0 -360 A 2466.38 817.18 LT C F S
+2466.38 860.66 1.93246 -0 -360 A 2466.38 860.66 LT C F S
+2466.38 817.18 1.93246 -0 -360 A 2466.38 817.18 LT C F S
+2466.38 807.517 1.93246 -0 -360 A 2466.38 807.517 LT C F S
+2466.38 802.686 1.93246 -0 -360 A 2466.38 802.686 LT C F S
+2466.38 807.517 1.93246 -0 -360 A 2466.38 807.517 LT C F S
+2331.11 923.465 1.93246 -0 -360 A 2331.11 923.465 LT C F S
+2331.11 918.634 1.93246 -0 -360 A 2331.11 918.634 LT C F S
+2331.11 923.465 1.93246 -0 -360 A 2331.11 923.465 LT C F S
+2331.11 875.154 1.93246 -0 -360 A 2331.11 875.154 LT C F S
+2331.11 918.634 1.93246 -0 -360 A 2331.11 918.634 LT C F S
+2331.11 875.154 1.93246 -0 -360 A 2331.11 875.154 LT C F S
+2331.11 865.491 1.93246 -0 -360 A 2331.11 865.491 LT C F S
+2331.11 860.66 1.93246 -0 -360 A 2331.11 860.66 LT C F S
+2331.11 865.491 1.93246 -0 -360 A 2331.11 865.491 LT C F S
+2331.11 817.18 1.93246 -0 -360 A 2331.11 817.18 LT C F S
+2331.11 860.66 1.93246 -0 -360 A 2331.11 860.66 LT C F S
+2331.11 817.18 1.93246 -0 -360 A 2331.11 817.18 LT C F S
+2331.11 807.517 1.93246 -0 -360 A 2331.11 807.517 LT C F S
+2331.11 802.686 1.93246 -0 -360 A 2331.11 802.686 LT C F S
+2331.11 807.517 1.93246 -0 -360 A 2331.11 807.517 LT C F S
+2587.16 300.245 1.93246 -0 -360 A 2587.16 300.245 LT C F S
+2587.16 580.453 1.93246 -0 -360 A 2587.16 580.453 LT C F S
+2587.16 358.219 1.93246 -0 -360 A 2587.16 358.219 LT C F S
+2587.16 401.7 1.93246 -0 -360 A 2587.16 401.7 LT C F S
+2587.16 358.219 1.93246 -0 -360 A 2587.16 358.219 LT C F S
+2587.16 348.557 1.93246 -0 -360 A 2587.16 348.557 LT C F S
+2587.16 343.726 1.93246 -0 -360 A 2587.16 343.726 LT C F S
+2587.16 348.557 1.93246 -0 -360 A 2587.16 348.557 LT C F S
+2587.16 300.245 1.93246 -0 -360 A 2587.16 300.245 LT C F S
+2587.16 343.726 1.93246 -0 -360 A 2587.16 343.726 LT C F S
+2587.16 300.245 1.93246 -0 -360 A 2587.16 300.245 LT C F S
+2587.16 575.622 1.93246 -0 -360 A 2587.16 575.622 LT C F S
+2587.16 580.453 1.93246 -0 -360 A 2587.16 580.453 LT C F S
+2587.16 532.141 1.93246 -0 -360 A 2587.16 532.141 LT C F S
+2587.16 575.622 1.93246 -0 -360 A 2587.16 575.622 LT C F S
+2587.16 532.141 1.93246 -0 -360 A 2587.16 532.141 LT C F S
+2587.16 522.479 1.93246 -0 -360 A 2587.16 522.479 LT C F S
+2587.16 517.648 1.93246 -0 -360 A 2587.16 517.648 LT C F S
+2587.16 522.479 1.93246 -0 -360 A 2587.16 522.479 LT C F S
+2587.16 474.167 1.93246 -0 -360 A 2587.16 474.167 LT C F S
+2587.16 517.648 1.93246 -0 -360 A 2587.16 517.648 LT C F S
+2587.16 474.167 1.93246 -0 -360 A 2587.16 474.167 LT C F S
+2587.16 464.505 1.93246 -0 -360 A 2587.16 464.505 LT C F S
+2587.16 459.674 1.93246 -0 -360 A 2587.16 459.674 LT C F S
+2587.16 464.505 1.93246 -0 -360 A 2587.16 464.505 LT C F S
+2587.16 416.193 1.93246 -0 -360 A 2587.16 416.193 LT C F S
+2587.16 459.674 1.93246 -0 -360 A 2587.16 459.674 LT C F S
+2587.16 416.193 1.93246 -0 -360 A 2587.16 416.193 LT C F S
+2587.16 406.531 1.93246 -0 -360 A 2587.16 406.531 LT C F S
+2587.16 401.7 1.93246 -0 -360 A 2587.16 401.7 LT C F S
+2587.16 406.531 1.93246 -0 -360 A 2587.16 406.531 LT C F S
+2591.99 643.258 1.93246 -0 -360 A 2591.99 643.258 LT C F S
+2591.99 923.465 1.93246 -0 -360 A 2591.99 923.465 LT C F S
+2591.99 759.206 1.93246 -0 -360 A 2591.99 759.206 LT C F S
+2591.99 802.686 1.93246 -0 -360 A 2591.99 802.686 LT C F S
+2591.99 759.206 1.93246 -0 -360 A 2591.99 759.206 LT C F S
+2591.99 749.543 1.93246 -0 -360 A 2591.99 749.543 LT C F S
+2591.99 744.712 1.93246 -0 -360 A 2591.99 744.712 LT C F S
+2591.99 749.543 1.93246 -0 -360 A 2591.99 749.543 LT C F S
+2591.99 701.232 1.93246 -0 -360 A 2591.99 701.232 LT C F S
+2591.99 744.712 1.93246 -0 -360 A 2591.99 744.712 LT C F S
+2591.99 701.232 1.93246 -0 -360 A 2591.99 701.232 LT C F S
+2591.99 691.569 1.93246 -0 -360 A 2591.99 691.569 LT C F S
+2591.99 686.738 1.93246 -0 -360 A 2591.99 686.738 LT C F S
+2591.99 691.569 1.93246 -0 -360 A 2591.99 691.569 LT C F S
+2591.99 643.258 1.93246 -0 -360 A 2591.99 643.258 LT C F S
+2591.99 686.738 1.93246 -0 -360 A 2591.99 686.738 LT C F S
+2591.99 643.258 1.93246 -0 -360 A 2591.99 643.258 LT C F S
+2587.16 580.453 1.93246 -0 -360 A 2587.16 580.453 LT C F S
+2591.99 923.465 1.93246 -0 -360 A 2591.99 923.465 LT C F S
+2591.99 918.634 1.93246 -0 -360 A 2591.99 918.634 LT C F S
+2591.99 923.465 1.93246 -0 -360 A 2591.99 923.465 LT C F S
+2591.99 875.154 1.93246 -0 -360 A 2591.99 875.154 LT C F S
+2591.99 918.634 1.93246 -0 -360 A 2591.99 918.634 LT C F S
+2591.99 875.154 1.93246 -0 -360 A 2591.99 875.154 LT C F S
+2591.99 865.491 1.93246 -0 -360 A 2591.99 865.491 LT C F S
+2591.99 860.66 1.93246 -0 -360 A 2591.99 860.66 LT C F S
+2591.99 865.491 1.93246 -0 -360 A 2591.99 865.491 LT C F S
+2591.99 817.18 1.93246 -0 -360 A 2591.99 817.18 LT C F S
+2591.99 860.66 1.93246 -0 -360 A 2591.99 860.66 LT C F S
+2591.99 817.18 1.93246 -0 -360 A 2591.99 817.18 LT C F S
+2591.99 807.517 1.93246 -0 -360 A 2591.99 807.517 LT C F S
+2591.99 802.686 1.93246 -0 -360 A 2591.99 802.686 LT C F S
+2591.99 807.517 1.93246 -0 -360 A 2591.99 807.517 LT C F S
+showpage
+
+%%trailer
+%%Pages: 1
+%%EOF
