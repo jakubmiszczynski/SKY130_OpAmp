@@ -10,57 +10,57 @@
   stroke-opacity: 0;
 }
 .l1{
- fill: #00ccee;
-  stroke: #00ccee;
+ fill: #ffffff;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l2{
   fill: none;
-  stroke: #3f3f3f;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l3{
- fill: #cccccc; fill-opacity: 0.5;
-  stroke: #cccccc;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l4{
- fill: #88dd00;
-  stroke: #88dd00;
+ fill: #ffffff;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l5{
- fill: #bb2200;
-  stroke: #bb2200;
+ fill: #ffffff;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l6{
- fill: #00ccee; fill-opacity: 0.5;
-  stroke: #00ccee;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l7{
- fill: #ff0000; fill-opacity: 0.5;
-  stroke: #ff0000;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l8{
- fill: #ffff00; fill-opacity: 0.5;
-  stroke: #ffff00;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
@@ -73,85 +73,85 @@
   stroke-width: 0.95863;
 }
 .l10{
- fill: #ff00ff;
-  stroke: #ff00ff;
+ fill: #ffffff;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l11{
- fill: #00ff00; fill-opacity: 0.5;
-  stroke: #00ff00;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l12{
- fill: #0044dd; fill-opacity: 0.5;
-  stroke: #0044dd;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l13{
- fill: #aaaa00; fill-opacity: 0.5;
-  stroke: #aaaa00;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l14{
   fill: none;
-  stroke: #aaccaa;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l15{
- fill: #ff7777; fill-opacity: 0.5;
-  stroke: #ff7777;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l16{
- fill: #bfff81; fill-opacity: 0.5;
-  stroke: #bfff81;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l17{
   fill: none;
-  stroke: #00ffcc;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l18{
- fill: #ce0097; fill-opacity: 0.5;
-  stroke: #ce0097;
+ fill: #ffffff; fill-opacity: 0.5;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l19{
   fill: none;
-  stroke: #d2d46b;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l20{
   fill: none;
-  stroke: #ef6158;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
 }
 .l21{
   fill: none;
-  stroke: #fdb200;
+  stroke: #ffffff;
   stroke-linecap:round;
   stroke-linejoin:round;
   stroke-width: 0.95863;
@@ -159,58 +159,58 @@
 text {font-family: Sans-Serif;}
 </style>
 <rect class="l0" x="0" y="0" width="982" height="525"/>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(535.019, 372.034)" >out</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="9.23125" transform="translate(162.219, 502.503)" >GND</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="9.23125" transform="translate(410.752, 502.503)" >GND</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="9.23125" transform="translate(517.267, 502.503)" >GND</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(410.714, 269.997) rotate(270)" >VCC</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(321.951, 305.501) rotate(270)" >Vp</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(321.951, 376.511) rotate(270)" >Vn</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="9.23125" transform="translate(126.714, 218.464)" >GND</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(126.675, 110.225) rotate(270)" >Vdiff</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(375.209, 269.997) rotate(270)" >VB_A</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(392.961, 269.997) rotate(270)" >VB_B</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(372.162, 500.835) rotate(270)" >IBIAS</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="9.23125" transform="translate(215.476, 218.464)" >GND</text>
-<text fill="#00ccee"  xml:space="preserve" font-size="15.2316" transform="translate(215.437, 110.225) rotate(270)" >IBIAS</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" transform="translate(630.438, 235.97)" >sim</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 274.042)" >Vsupply VCC GND 1.8</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 289.925)" >VbiasA VB_A GND 0.2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 305.807)" >VbiasB VB_B GND 1.1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 321.69)" >.control</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 337.572)" >  save all</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 353.454)" >  dc Vdiff -0.01 0.01 0.000001</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 369.337)" >  let dVout = deriv(v(out))</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 385.219)" >  plot dVout vs Vdiff retraceplot</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 401.101)" >  meas dc maxGain max dVout</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 416.984)" >  set hcopydevtype = svg</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 432.866)" >  hardcopy dc_max_gain.svg dVout vs Vdiff</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 448.748)" >.endc</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(173.314, 437.041)" >Vcm</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(173.314, 459.231)" >0.9</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="9.23125" transform="translate(500.172, 412.631)" >1</text>
-<text fill="#aaaa00"  xml:space="preserve" font-size="9.23125" transform="translate(500.172, 450.355)" >2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(523.924, 419.288)" >C1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(523.924, 430.384)" >1p</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(523.924, 441.479)" >m=1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(137.809, 153.002)" >Vdiff</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(137.809, 175.193)" >0</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(226.571, 160.769)" >Ib</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(226.571, 171.357)" >45u</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" transform="translate(621.562, 80.636)" >Corner: tt_mm</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(197.736, 394.663) rotate(270)" >v=v(Vdiff)</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(213.27, 359.663) rotate(270)" >B1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(261.582, 383.168) rotate(270)" >v=v(Vdiff)</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(246.048, 383.168) rotate(270)" >B2</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="13.8469" transform="translate(420.516, 337.158)" >opamp_cascode</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(421.848, 318.765)" >x1</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(406.327, 353.237) rotate(270)" >VCC</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(406.327, 397.618) rotate(270)" >VSS</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(370.822, 341.484) rotate(270)" >VB_A</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(388.575, 349.361) rotate(270)" >VB_B</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(337.524, 330.304)" >+</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(337.524, 405.752)" >-</text>
-<text fill="#cccccc"  xml:space="preserve" font-size="9.23125" transform="translate(370.822, 415.123) rotate(270)" >IB</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(535.019, 372.034)" >out</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(162.219, 502.503)" >GND</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(410.752, 502.503)" >GND</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(517.267, 502.503)" >GND</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(410.714, 269.997) rotate(270)" >VCC</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(321.951, 305.501) rotate(270)" >Vp</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(321.951, 376.511) rotate(270)" >Vn</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(126.714, 218.464)" >GND</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(126.675, 110.225) rotate(270)" >Vdiff</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(375.209, 269.997) rotate(270)" >VB_A</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(392.961, 269.997) rotate(270)" >VB_B</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(372.162, 500.835) rotate(270)" >IBIAS</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(215.476, 218.464)" >GND</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="15.2316" transform="translate(215.437, 110.225) rotate(270)" >IBIAS</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" transform="translate(630.438, 235.97)" >sim</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 274.042)" >Vsupply VCC GND 1.8</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 289.925)" >VbiasA VB_A GND 0.2</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 305.807)" >VbiasB VB_B GND 1.1</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 321.69)" >.control</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 337.572)" >  save all</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 353.454)" >  dc Vdiff -0.01 0.01 0.000001</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 369.337)" >  let dVout = deriv(v(out))</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 385.219)" >  plot dVout vs Vdiff retraceplot</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 401.101)" >  meas dc maxGain max dVout</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 416.984)" >  set hcopydevtype = svg</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 432.866)" >  hardcopy dc_max_gain.svg dVout vs Vdiff</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" style="font-family:Monospace;" transform="translate(639.315, 448.748)" >.endc</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(173.314, 437.041)" >Vcm</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(173.314, 459.231)" >0.9</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(500.172, 412.631)" >1</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(500.172, 450.355)" >2</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(523.924, 419.288)" >C1</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(523.924, 430.384)" >1p</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(523.924, 441.479)" >m=1</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(137.809, 153.002)" >Vdiff</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(137.809, 175.193)" >0</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(226.571, 160.769)" >Ib</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(226.571, 171.357)" >45u</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" transform="translate(621.562, 80.636)" >Corner: tt_mm</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(197.736, 394.663) rotate(270)" >v=v(Vdiff)</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(213.27, 359.663) rotate(270)" >B1</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(261.582, 383.168) rotate(270)" >v=v(Vdiff)</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(246.048, 383.168) rotate(270)" >B2</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="13.8469" transform="translate(420.516, 337.158)" >opamp_cascode</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(421.848, 318.765)" >x1</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(406.327, 353.237) rotate(270)" >VCC</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(406.327, 397.618) rotate(270)" >VSS</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(370.822, 341.484) rotate(270)" >VB_A</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(388.575, 349.361) rotate(270)" >VB_B</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(337.524, 330.304)" >+</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(337.524, 405.752)" >-</text>
+<text fill="#ffffff"  xml:space="preserve" font-size="9.23125" transform="translate(370.822, 415.123) rotate(270)" >IB</text>
 <path class="l4" d="M626 241.149L688.134 241.149"/>
 <path class="l4" d="M626 241.149L626 258.901"/>
 <path class="l4" d="M155.561 489.683L155.561 500.778"/>
