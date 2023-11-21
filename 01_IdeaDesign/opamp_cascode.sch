@@ -1,4 +1,4 @@
-v {xschem version=3.4.1 file_version=1.2
+v {xschem version=3.1.0 file_version=1.2
 }
 G {}
 K {}
@@ -139,14 +139,6 @@ N -40 -190 460 -190 {
 lab=#net6}
 N -120 -90 -100 -90 {
 lab=VCC}
-N -200 -40 -200 -20 {
-lab=#net6}
-N -200 -40 -100 -40 {
-lab=#net6}
-N -200 40 -200 220 {
-lab=VSS}
-N -200 220 -120 220 {
-lab=VSS}
 N 100 -120 100 -90 {
 lab=VB_A}
 N 60 40 60 70 {
@@ -167,14 +159,22 @@ N 500 70 520 70 {
 lab=VSS}
 N 520 70 520 170 {
 lab=VSS}
-N -120 -190 -120 -90 {}
-N -120 -340 -120 -240 {}
-N 520 -340 520 -240 {}
-N 500 -340 520 -340 {}
-N 500 -90 520 -90 {}
-N 520 -190 520 -90 {}
-N -120 70 -100 70 {}
-N -120 70 -120 170 {}
+N -120 -190 -120 -90 {
+lab=VCC}
+N -120 -340 -120 -240 {
+lab=VCC}
+N 520 -340 520 -240 {
+lab=VCC}
+N 500 -340 520 -340 {
+lab=VCC}
+N 500 -90 520 -90 {
+lab=VCC}
+N 520 -190 520 -90 {
+lab=VCC}
+N -120 70 -100 70 {
+lab=VSS}
+N -120 70 -120 170 {
+lab=VSS}
 C {pfet_01v8.sym} 480 -190 0 0 {name=M9
 L=15
 W=5
@@ -383,11 +383,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/capa.sym} -200 10 0 0 {name=C1
-m=1
-value=400f
-footprint=1206
-device="ceramic capacitor"}
 C {devices/lab_pin.sym} -260 -220 3 0 {name=p14 sig_type=std_logic lab=IB}
 C {devices/ipin.sym} -350 -100 0 0 {name=p15 lab=VB_A}
 C {devices/ipin.sym} -350 -80 0 0 {name=p16 lab=VB_B}

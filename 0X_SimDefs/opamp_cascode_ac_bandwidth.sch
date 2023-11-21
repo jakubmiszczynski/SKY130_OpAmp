@@ -1,4 +1,4 @@
-v {xschem version=3.4.1 file_version=1.2
+v {xschem version=3.1.0 file_version=1.2
 }
 G {}
 K {}
@@ -40,12 +40,12 @@ VbiasA VB_A GND 0.2
 VbiasB VB_B GND 1.1
 Vpos Vp GND 0
 .control
-  alter Vpos AC = 1
+  alter Vpos AC = 0.001
   alter Vpos DC = 0.9
   save all
   ac dec 10 1 1G
   plot v(out)
-  meas ac freq when v(out)=0.707 fall=1
+  meas ac freq when v(out)=0.000707 fall=1
   echo bandwidth = $&freq Hz
 .endc
 "}
@@ -61,8 +61,8 @@ device="ceramic capacitor"}
 C {devices/lab_pin.sym} -160 -180 3 1 {name=p7 lab=VB_A}
 C {devices/lab_pin.sym} -140 -180 3 1 {name=p8 lab=VB_B}
 C {devices/lab_pin.sym} -160 20 1 1 {name=p9 lab=IBIAS}
-C {../design/opamp_cascode.sym} -120 -80 0 0 {name=x1}
 C {corner.sym} 100 -290 0 0 {name=CORNER only_toplevel=true corner=tt_mm}
 C {devices/gnd.sym} -280 -200 0 0 {name=l1 lab=GND}
 C {devices/isource.sym} -280 -230 0 0 {name=I0 value=45u}
 C {devices/lab_pin.sym} -280 -260 3 1 {name=p3 lab=IBIAS}
+C {/home/kuba/project/SKY130_OpAmp/01_IdeaDesign/opamp_cascode.sym} -120 -80 0 0 {name=x1}

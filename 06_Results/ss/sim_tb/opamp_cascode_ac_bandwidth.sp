@@ -1,0 +1,790 @@
+%!PS-Adobe-3.0
+%%DocumentMedia: a4 842 595 80 () ()
+%%PageOrientation: Landscape
+%%Title: xschem plot
+%%Creator: xschem
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+
+/recodedict 24 dict def
+/recode {recodedict begin /nco&na exch def
+/nfnam exch def /basefontname exch def /basefontdict basefontname findfont def
+/newfont basefontdict maxlength dict def basefontdict {exch dup /FID ne
+{dup /Encoding eq {exch dup length array copy newfont 3 1 roll put} {exch
+newfont 3 1 roll put} ifelse} {pop pop} ifelse } forall newfont
+/FontName nfnam put nco&na aload pop nco&na length 2 idiv {newfont
+/Encoding get 3 1 roll put} repeat nfnam newfont definefont pop end } def
+/chararr [
+ 161 /exclamdown
+ 162 /cent
+ 163 /sterling
+ 164 /currency
+ 165 /yen
+ 166 /bar
+ 167 /section
+ 168 /dieresis
+ 169 /copyright
+ 170 /ordfeminine
+ 171 /guillemotleft
+ 172 /logicalnot
+ 173 /emdash
+ 174 /registered
+ 175 /macron
+ 176 /degree
+ 177 /plusminus
+ 178 /twosuperior
+ 179 /threesuperior
+ 180 /acute
+ 181 /mu
+ 182 /paragraph
+ 183 /periodcentered
+ 184 /cedilla
+ 185 /onesuperior
+ 186 /ordmasculine
+ 187 /guillemotright
+ 188 /onequarter
+ 189 /onehalf
+ 190 /threequarters
+ 191 /questiondown
+ 192 /Agrave
+ 193 /Aacute
+ 194 /Acircumflex
+ 195 /Atilde
+ 196 /Adieresis
+ 197 /Aring
+ 198 /AE
+ 199 /Ccedilla
+ 200 /Egrave
+ 201 /Eacute
+ 202 /Ecircumflex
+ 203 /Edieresis
+ 204 /Igrave
+ 205 /Iacute
+ 206 /Icircumflex
+ 207 /Idieresis
+ 208 /Eth
+ 209 /Ntilde
+ 210 /Ograve
+ 211 /Oacute
+ 212 /Ocircumflex
+ 213 /Otilde
+ 214 /Odieresis
+ 215 /multiply
+ 216 /Oslash
+ 217 /Ugrave
+ 218 /Uacute
+ 219 /Ucircumflex
+ 220 /Udieresis
+ 221 /Yacute
+ 222 /Thorn
+ 223 /germandbls
+ 224 /agrave
+ 225 /aacute
+ 226 /acircumflex
+ 227 /atilde
+ 228 /adieresis
+ 229 /aring
+ 230 /ae
+ 231 /ccedilla
+ 232 /egrave
+ 233 /eacute
+ 234 /ecircumflex
+ 235 /edieresis
+ 236 /igrave
+ 237 /iacute
+ 238 /icircumflex
+ 239 /idieresis
+ 240 /eth
+ 241 /ntilde
+ 242 /ograve
+ 243 /oacute
+ 244 /ocircumflex
+ 245 /otilde
+ 246 /odieresis
+ 247 /divide
+ 248 /oslash
+ 249 /ugrave
+ 250 /uacute
+ 251 /ucircumflex
+ 252 /udieresis
+ 253 /yacute
+ 254 /thorn
+ 255 /ydieresis
+ ] def
+/Times /Times chararr recode
+/Times-Bold /Times-Bold chararr recode
+/Times-Oblique /Times-Oblique chararr recode
+/Times-BoldOblique /Times-BoldOblique chararr recode
+/Helvetica /Helvetica chararr recode
+/Helvetica-Bold /Helvetica-Bold chararr recode
+/Helvetica-Oblique /Helvetica-Oblique chararr recode
+/Helvetica-BoldOblique /Helvetica-BoldOblique chararr recode
+/Courier /Courier chararr recode
+/Courier-Bold /Courier-Bold chararr recode
+/Courier-Oblique /Courier-Oblique chararr recode
+/Courier-BoldOblique /Courier-BoldOblique chararr recode
+/cm {28.346457 mul} bind def
+/LT {lineto} bind def
+/MT {moveto} bind def
+/RMT {rmoveto} bind def
+/L {moveto lineto stroke} bind def
+/RGB {setrgbcolor} bind def
+/FF {findfont} bind def
+/SF {setfont} bind def
+/SCF {scalefont} bind def
+/SW {stringwidth} bind def
+/GS {gsave} bind def
+/GR {grestore} bind def
+/NP {newpath} bind def
+/A {arcn} bind def
+/R {rectstroke} bind def
+/S {stroke} bind def
+/C {closepath} bind def
+/F {fill} bind def
+/RF {rectfill} bind def
+%%EndProlog
+%%BeginSetup
+<< /PageSize [842 595] /Orientation 0 >> setpagedevice
+%%Page: 1 1
+
+%%BeginPageSetup
+%%EndPageSetup
+/Helvetica FF 10 SCF SF NP 20 575 MT (/home/kuba/project/SKY130_OpAmp/02_IdeaSim/tests/opamp_cascode_ac_bandwidth.sch) show
+[ /Dest /opamp_cascode_ac_bandwidth.sch /DEST pdfmark
+10.9734 328.531 translate
+0.243339 -0.243339 scale
+1 setlinejoin 1 setlinecap
+1.74824 setlinewidth
+0.996094 0.996094 0.996094 RGB
+0 0.265625 0.929688 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+1075.37 687.513 MT
+1 -1 scale
+(out)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+749.03 1031.47 MT
+1 -1 scale
+(GND)
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+1028.75 1031.47 MT
+1 -1 scale
+(GND)
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+745.55 422.93 MT
+270 rotate
+1 -1 scale
+(VCC)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+480.967 585.39 MT
+1 -1 scale
+(Vp)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+652.31 422.93 MT
+270 rotate
+1 -1 scale
+(VB_A)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+698.93 422.93 MT
+270 rotate
+1 -1 scale
+(VB_B)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+643.427 924.093 MT
+270 rotate
+1 -1 scale
+(IBIAS)
+dup SW pop neg 0 RMT
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+376.072 425.412 MT
+1 -1 scale
+(GND)
+show
+GR
+0 0.265625 0.929688 RGB
+GS
+/Helvetica FF
+40.769 SCF
+SF
+NP
+372.592 236.451 MT
+270 rotate
+1 -1 scale
+(IBIAS)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0.664062 0.664062 0.664062 RGB
+0.132812 0.132812 0.132812 RGB
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+37.0627 SCF
+SF
+NP
+1279.33 516.979 MT
+1 -1 scale
+(sim)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 617.765 MT
+1 -1 scale
+(Vsupply VCC GND 1.8)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 660.276 MT
+1 -1 scale
+(VbiasA VB_A GND 0.2)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 702.786 MT
+1 -1 scale
+(VbiasB VB_B GND 1.1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 745.297 MT
+1 -1 scale
+(Vpos Vp GND 0)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 787.808 MT
+1 -1 scale
+(.control)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 830.319 MT
+1 -1 scale
+(  alter Vpos AC = 0.001)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 872.83 MT
+1 -1 scale
+(  alter Vpos DC = 0.9)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 915.341 MT
+1 -1 scale
+(  save all)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 957.852 MT
+1 -1 scale
+(  ac dec 10 1 1G)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 1000.36 MT
+1 -1 scale
+(  plot v\(out\))
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 1042.87 MT
+1 -1 scale
+(  meas ac freq when v\(out\)=0.000707 fall=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 1085.38 MT
+1 -1 scale
+(  echo bandwidth = $&freq Hz)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Monospace FF
+37.0627 SCF
+SF
+NP
+1302.64 1127.9 MT
+1 -1 scale
+(.endc)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+999.612 795.457 MT
+1 -1 scale
+(1)
+dup SW pop neg 0 RMT
+show
+GR
+0.398438 0.398438 0 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+999.612 894.524 MT
+1 -1 scale
+(2)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+1046.23 812.939 MT
+1 -1 scale
+(C1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+1046.23 842.076 MT
+1 -1 scale
+(1p)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0.664062 0.132812 0.132812 RGB
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+1046.23 871.214 MT
+1 -1 scale
+(m=1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+37.0627 SCF
+SF
+NP
+774.671 596.233 MT
+1 -1 scale
+(opamp_cascode)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+778.168 548.955 MT
+1 -1 scale
+(x1)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+734.827 594.258 MT
+270 rotate
+1 -1 scale
+(VCC)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+734.827 710.807 MT
+270 rotate
+1 -1 scale
+(VSS)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+641.587 547.638 MT
+270 rotate
+1 -1 scale
+(VB_A)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+688.207 570.948 MT
+270 rotate
+1 -1 scale
+(VB_B)
+dup SW pop neg 0 RMT
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+556.724 579.257 MT
+1 -1 scale
+(+)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+556.724 777.391 MT
+1 -1 scale
+(-)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+641.587 804.047 MT
+270 rotate
+1 -1 scale
+(IB)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+37.0627 SCF
+SF
+NP
+1256.02 155.676 MT
+1 -1 scale
+(Corner: tt_mm)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+405.21 320.518 MT
+1 -1 scale
+(I0)
+show
+GR
+0.132812 0.132812 0.132812 RGB
+GS
+/Helvetica FF
+24.7085 SCF
+SF
+NP
+405.21 348.858 MT
+1 -1 scale
+(45u)
+show
+GR
+0.664062 0.132812 0.132812 RGB
+0.664062 0.132812 0.132812 RGB
+0.132812 0.597656 0 RGB
+1430.84 533.652 1267.68 533.652 L
+1267.68 580.272 1267.68 533.652 L
+731.548 1028.99 731.548 999.85 L
+743.203 1028.99 719.893 1028.99 L
+743.203 1028.99 731.548 1040.64 L
+731.548 1040.64 719.893 1028.99 L
+1011.27 1028.99 1011.27 999.85 L
+1022.92 1028.99 999.612 1028.99 L
+1022.92 1028.99 1011.27 1040.64 L
+1011.27 1040.64 999.612 1028.99 L
+1011.27 906.61 1011.27 848.335 L
+1011.27 825.026 1011.27 766.751 L
+1034.58 825.026 987.957 825.026 L
+1034.58 848.335 987.957 848.335 L
+1028.75 784.233 1017.09 784.233 L
+1022.92 790.061 1022.92 778.406 L
+545.069 673.511 545.069 487.032 L
+918.027 673.511 545.069 487.032 L
+545.069 859.99 545.069 673.511 L
+918.027 673.511 545.069 859.99 L
+731.548 859.99 731.548 766.751 L
+638.308 859.99 638.308 813.371 L
+638.308 533.652 638.308 487.032 L
+684.928 556.962 684.928 487.032 L
+731.548 580.272 731.548 487.032 L
+1384.22 253.934 1290.99 253.934 L
+1337.6 277.243 1290.99 277.243 L
+1384.22 300.553 1290.99 300.553 L
+1360.91 323.863 1290.99 323.863 L
+1360.91 347.173 1290.99 347.173 L
+1454.15 370.483 1290.99 370.483 L
+1337.6 393.793 1290.99 393.793 L
+1407.53 230.624 1290.99 230.624 L
+1337.6 207.314 1290.99 207.314 L
+1500.77 207.314 1477.46 207.314 L
+1500.77 440.413 1500.77 207.314 L
+1500.77 440.413 1290.99 440.413 L
+1290.99 440.413 1290.99 417.103 L
+1477.46 417.103 1477.46 184.004 L
+1477.46 417.103 1267.68 417.103 L
+1267.68 417.103 1267.68 184.004 L
+1477.46 184.004 1267.68 184.004 L
+358.59 422.93 358.59 393.793 L
+370.245 422.93 346.935 422.93 L
+370.245 422.93 358.59 434.585 L
+358.59 434.585 346.935 422.93 L
+358.59 288.898 358.59 253.934 L
+358.59 393.793 358.59 358.828 L
+376.072 271.416 364.417 271.416 L
+370.245 277.243 370.245 265.588 L
+NP
+358.59 306.381 MT
+358.59 329.691 LT
+364.417 329.691 LT
+358.59 347.173 LT
+352.762 329.691 LT
+358.59 329.691 LT
+358.59 306.381 LT
+C F S
+358.59 323.863 34.9648 -270 -630 A S
+0.730469 0.132812 0 RGB
+1054.97 670.598 5.82747 5.82747 R
+1054.97 670.598 5.82747 5.82747 RF
+725.72 994.022 11.6549 11.6549 R
+725.72 994.022 11.6549 11.6549 RF
+1005.44 994.022 11.6549 11.6549 R
+1005.44 994.022 11.6549 11.6549 RF
+728.634 437.499 5.82747 5.82747 R
+728.634 437.499 5.82747 5.82747 RF
+495.535 577.358 5.82747 5.82747 R
+495.535 577.358 5.82747 5.82747 RF
+1005.44 760.923 11.6549 11.6549 R
+1005.44 760.923 11.6549 11.6549 RF
+1005.44 900.783 11.6549 11.6549 R
+1005.44 900.783 11.6549 11.6549 RF
+635.395 437.499 5.82747 5.82747 R
+635.395 437.499 5.82747 5.82747 RF
+682.014 437.499 5.82747 5.82747 R
+682.014 437.499 5.82747 5.82747 RF
+635.395 903.696 5.82747 5.82747 R
+635.395 903.696 5.82747 5.82747 RF
+725.72 481.205 11.6549 11.6549 R
+725.72 481.205 11.6549 11.6549 RF
+725.72 854.163 11.6549 11.6549 R
+725.72 854.163 11.6549 11.6549 RF
+679.101 481.205 11.6549 11.6549 R
+679.101 481.205 11.6549 11.6549 RF
+539.241 574.444 11.6549 11.6549 R
+539.241 574.444 11.6549 11.6549 RF
+539.241 760.923 11.6549 11.6549 R
+539.241 760.923 11.6549 11.6549 RF
+912.199 667.684 11.6549 11.6549 R
+912.199 667.684 11.6549 11.6549 RF
+632.481 854.163 11.6549 11.6549 R
+632.481 854.163 11.6549 11.6549 RF
+632.481 481.205 11.6549 11.6549 R
+632.481 481.205 11.6549 11.6549 RF
+352.762 387.965 11.6549 11.6549 R
+352.762 387.965 11.6549 11.6549 RF
+352.762 248.106 11.6549 11.6549 R
+352.762 248.106 11.6549 11.6549 RF
+352.762 387.965 11.6549 11.6549 R
+352.762 387.965 11.6549 11.6549 RF
+355.676 251.02 5.82747 5.82747 R
+355.676 251.02 5.82747 5.82747 RF
+0 0.796875 0.929688 RGB
+0.996094 0 0 RGB
+0.53125 0.53125 0 RGB
+0 0.664062 0.664062 RGB
+0.53125 0 0.53125 RGB
+0 0.996094 0 RGB
+0 0 0.796875 RGB
+0.398438 0.398438 0 RGB
+0.332031 0.464844 0.332031 RGB
+0.664062 0.132812 0.132812 RGB
+0.484375 0.796875 0.25 RGB
+0 0.996094 0.796875 RGB
+0.804688 0 0.589844 RGB
+0.820312 0.828125 0.417969 RGB
+0.933594 0.378906 0.34375 RGB
+0.988281 0.695312 0 RGB
+0 0.265625 0.929688 RGB
+1057.89 673.511 1011.27 673.511 L
+1011.27 999.85 1011.27 906.61 L
+1011.27 766.751 1011.27 673.511 L
+731.548 999.85 731.548 859.99 L
+638.308 906.61 638.308 859.99 L
+1011.27 673.511 918.027 673.511 L
+638.308 487.032 638.308 440.413 L
+684.928 487.032 684.928 440.413 L
+731.548 487.032 731.548 440.413 L
+964.647 1093.09 498.449 1093.09 L
+964.647 1093.09 964.647 673.511 L
+498.449 1093.09 498.449 766.751 L
+545.069 766.751 498.449 766.751 L
+545.069 580.272 498.449 580.272 L
+964.647 673.511 9.32395 -0 -360 A 964.647 673.511 LT C F S
+1011.27 673.511 9.32395 -0 -360 A 1011.27 673.511 LT C F S
+1011.27 673.511 9.32395 -0 -360 A 1011.27 673.511 LT C F S
+1011.27 673.511 9.32395 -0 -360 A 1011.27 673.511 LT C F S
+showpage
+
+%%trailer
+%%Pages: 1
+%%EOF
